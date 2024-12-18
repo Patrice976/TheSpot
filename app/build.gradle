@@ -1,0 +1,32 @@
+// build.gradle (niveau module, dans le dossier app)
+plugins {
+    id 'com.android.application'    // Plugin pour une application Android
+    id 'kotlin-android'             // Si tu utilises Kotlin (supprimer si tu utilises Java)
+}
+
+android {
+    namespace 'com.example.projetSurf'
+    compileSdkVersion 34  // Assure-toi que cette version est correcte pour ton projet
+
+    defaultConfig {
+        applicationId "com.example.projetSurf"  // Change le nom de ton application
+        minSdkVersion 21                      // Version minimale supportée
+        targetSdkVersion 34                   // Version de destination recommandée
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // Dépendances nécessaires pour ton projet
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.10"  // Si tu utilises Kotlin
+    implementation 'androidx.appcompat:appcompat:1.5.1'        // Exemple de dépendance Android
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3' // Exemple de dépendance pour la mise en page
+}
