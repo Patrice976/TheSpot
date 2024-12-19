@@ -95,7 +95,7 @@ fun HomeView2(modifier: Modifier = Modifier) {
         )
         Text(
             "Coucou les petites bananes 2",
-            modifier = Modifier.padding(top = (-8).dp) // Réduit l'espace entre l'image et le texte
+            modifier = Modifier.padding(top = 8.dp) // Réduit l'espace entre l'image et le texte
         )
     }
 }
