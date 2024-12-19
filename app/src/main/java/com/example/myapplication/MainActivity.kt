@@ -57,20 +57,6 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun HomeScreen(modifier: Modifier = Modifier) {
-    // Utilisation d'une Column pour afficher les items l'un après l'autre
-    Column(
-        modifier = modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Top, // Centre les éléments verticalement
-        horizontalAlignment = Alignment.CenterHorizontally // Centre les éléments horizontalement
-    ) {
-        //HomeView()  // Premier item
-        //Spacer(modifier = Modifier.height(16.dp)) // Espacement entre les deux items
-        //HomeView2() // Deuxième item
-    }
-}
-
-@Composable
 fun HomeView(modifier: Modifier = Modifier) {
     //Premier item
     Column(
