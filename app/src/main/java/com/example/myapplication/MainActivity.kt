@@ -5,8 +5,14 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
@@ -14,6 +20,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -26,29 +33,88 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    HomeView(modifier = Modifier.padding(innerPadding))
+                    Box(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(innerPadding)
+                    ) {
+                        Column(
+                            modifier = Modifier
+                                .fillMaxSize(),
+                            verticalArrangement = Arrangement.spacedBy(16.dp),
+                            horizontalAlignment = Alignment.CenterHorizontally
+                        ) {
+                            Spacer(modifier = Modifier.height(50.dp))
+                            HomeView()
+                            HomeView2()
+                        }
+                    }
+
                 }
             }
         }
     }
 }
+
+@Composable
+fun HomeScreen(modifier: Modifier = Modifier) {
+    // Utilisation d'une Column pour afficher les items l'un après l'autre
+    Column(
+        modifier = modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Top, // Centre les éléments verticalement
+        horizontalAlignment = Alignment.CenterHorizontally // Centre les éléments horizontalement
+    ) {
+        //HomeView()  // Premier item
+        //Spacer(modifier = Modifier.height(16.dp)) // Espacement entre les deux items
+        //HomeView2() // Deuxième item
+    }
+}
+
 @Composable
 fun HomeView(modifier: Modifier = Modifier) {
-    Box(
-        modifier = modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center
+    //Premier item
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(5.dp)
+            .background(Color.Cyan),
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
         // Affichage de l'image
         Image(
             painter = painterResource(id = R.drawable.banane), // Remplace par ton image
             contentDescription = "Image de banane",
             modifier = Modifier
-                .size(1000.dp) // Taille de l'image
-                .align(Alignment.Center) // Alignement de l'image
+                .size(300.dp) // Taille de l'image
         )
-        Text("Coucou les petites bananes")
+        Text(
+            "Coucou les petites bananes 1"
+        )
     }
 }
+
+@Composable
+fun HomeView2(modifier: Modifier = Modifier) {
+    //Deuxième item
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(5.dp)
+            .background(Color.Yellow),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Image(
+            painter = painterResource(id = R.drawable.banane),
+            contentDescription = "Image de banane",
+            modifier = Modifier.size(300.dp)
+        )
+        Text(
+            "Coucou les petites bananes 2",
+            modifier = Modifier.padding(top = (-8).dp) // Réduit l'espace entre l'image et le texte
+        )
+    }
+}
+
 
 
 
