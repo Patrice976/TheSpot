@@ -31,6 +31,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.myapplication.ui.theme.MyApplicationTheme
@@ -51,6 +52,7 @@ class MainActivity : ComponentActivity() {
                             .fillMaxSize()
                             .padding(innerPadding)
                     ) {
+                        Screen()
                         Column(
                             modifier = Modifier
                                 .fillMaxSize(),
@@ -60,6 +62,8 @@ class MainActivity : ComponentActivity() {
                             Spacer(modifier = Modifier.height(50.dp))
                             HomeView()
                             HomeView2()
+
+
                         }
                     }
                 }
@@ -69,47 +73,68 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun HomeView(modifier: Modifier = Modifier) {
-    //Premier item
-    Column(
-        modifier = modifier
-            .fillMaxWidth()
-            .padding(5.dp)
-            .background(Color.Cyan),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        // Affichage de l'image
+fun Screen() {
         Image(
-            painter = painterResource(id = R.drawable.banane), // Remplace par ton image
-            contentDescription = "Image de banane",
-            modifier = Modifier
-                .size(300.dp) // Taille de l'image
-        )
-        Text(
-            "Coucou les petites bananes 1"
+            painter = painterResource(id= R.drawable.main_background),
+            contentDescription = "Une planche planté dans du sable ",
+            contentScale = ContentScale.FillBounds,
+            modifier = Modifier.fillMaxSize()
         )
     }
-}
 
 @Composable
-fun HomeView2(modifier: Modifier = Modifier) {
-    //Deuxième item
-    Column(
+fun HomeView(modifier: Modifier = Modifier) {
+    //div qui contiendra l'image et le texte
+    Box(
         modifier = modifier
             .fillMaxWidth()
-            .padding(5.dp)
-            .background(Color.Yellow),
-        horizontalAlignment = Alignment.CenterHorizontally
+            .padding(16.dp)
+            .background(Color.White.copy(alpha = 0.8f))
     ) {
-        Image(
-            painter = painterResource(id = R.drawable.banane),
-            contentDescription = "Image de banane",
-            modifier = Modifier.size(300.dp)
-        )
-        Text(
-            "Coucou les petites bananes 2",
-            modifier = Modifier.padding(top = 8.dp) // Réduit l'espace entre l'image et le texte
-        )
+        //Premier item
+        Column(
+            modifier = modifier
+                .fillMaxWidth()
+                .padding(1.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            // Affichage de l'image
+            Image(
+                painter = painterResource(id = R.drawable.spot_idea), // Remplace par ton image
+                contentDescription = "Image de spot ",
+                modifier = Modifier
+                    .size(300.dp) // Taille de l'image
+            )
+            Text(
+                "Spot des antibes"
+            )
+        }
+    }
+}
+@Composable
+fun HomeView2(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(16.dp)
+            .background(Color.White.copy(alpha = 0.8f))
+    ) {
+        //Deuxième item
+        Column(
+            modifier = modifier
+                .fillMaxWidth()
+                .padding(1.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Image(
+                painter = painterResource(id = R.drawable.spot_idea2),
+                contentDescription = "Image de spot mon pote",
+                modifier = Modifier.size(300.dp)
+            )
+            Text(
+                "Spot des la klanka padinga",
+            )
+        }
     }
 }
 
