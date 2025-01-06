@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.benchmark.perfetto.Row
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -18,12 +17,13 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -36,63 +36,42 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
+// Element principal c'est ce qui va s'afficher sur notre mobile
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContent {
+        setContent { //contenu à afficher
             MyApplicationTheme {
-                // Utilisation du Scaffold pour une gestion correcte de la barre de navigation
+                // Scaffold est reponssable de la structure et de la mise en page
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     bottomBar = { NavigationBarWithButtons() } // Ajout de la barre de navigation en bas
                 ) { innerPadding ->
-                    Box(
+                    Box( //permet de superposer les éléments
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(innerPadding)
                     ) {
-                        Screen()
-                        Column(
-                            modifier = Modifier
-                                .fillMaxSize(),
-                            verticalArrangement = Arrangement.spacedBy(16.dp),
-                            horizontalAlignment = Alignment.CenterHorizontally
-                        ) {
-                            Spacer(modifier = Modifier.height(50.dp))
-                            HomeView()
-                            HomeView2()
-
-
-                        }
-                    }
+                        Screen() // affichage principale du contenu contient les différentes vu et le scrolling
+                     }
                 }
             }
         }
     }
 }
 
+//Composant permetant d'affichier un spot de surf il contient 3 variable img nom et lieu
 @Composable
-fun Screen() {
-        Image(
-            painter = painterResource(id= R.drawable.main_background),
-            contentDescription = "Une planche planté dans du sable ",
-            contentScale = ContentScale.FillBounds,
-            modifier = Modifier.fillMaxSize()
-        )
-    }
+fun SpotView(modifier: Modifier = Modifier, img: Int = R.drawable.spot_idea, nom: String = "Un spot de Surf par défaut", lieu: String = "Quelque part pas loin de la mer") {
 
-@Composable
-fun HomeView(modifier: Modifier = Modifier) {
-    //div qui contiendra l'image et le texte
-    Box(
+    Box(//div qui contiendra l'image et le texte
         modifier = modifier
             .fillMaxWidth()
             .padding(16.dp)
-            .background(Color.White.copy(alpha = 0.8f))
+            .background(Color.White.copy(alpha = 0.8f)) //Applique un fond blanc avec une opacité de 80 % (0.8f)
     ) {
-        //Premier item
-        Column(
+        Column( // Permet d'emplier les éléments les uns en dessous des autres
             modifier = modifier
                 .fillMaxWidth()
                 .padding(1.dp),
@@ -100,45 +79,25 @@ fun HomeView(modifier: Modifier = Modifier) {
         ) {
             // Affichage de l'image
             Image(
-                painter = painterResource(id = R.drawable.spot_idea), // Remplace par ton image
-                contentDescription = "Image de spot ",
+                painter = painterResource(id = img),
+                contentDescription = nom,
                 modifier = Modifier
                     .size(300.dp) // Taille de l'image
             )
+            //texte propre au nom du spot
             Text(
-                "Spot des antibes"
+                text=nom
             )
-        }
-    }
-}
-@Composable
-fun HomeView2(modifier: Modifier = Modifier) {
-    Box(
-        modifier = modifier
-            .fillMaxWidth()
-            .padding(16.dp)
-            .background(Color.White.copy(alpha = 0.8f))
-    ) {
-        //Deuxième item
-        Column(
-            modifier = modifier
-                .fillMaxWidth()
-                .padding(1.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            Image(
-                painter = painterResource(id = R.drawable.spot_idea2),
-                contentDescription = "Image de spot mon pote",
-                modifier = Modifier.size(300.dp)
-            )
+            //texte propre au lieu du spot
             Text(
-                "Spot des la klanka padinga",
+                text = lieu
             )
         }
     }
 }
 
 
+//composant responssable de la création de la bar de navigation et de ses bouttons
 @Composable
 fun NavigationBarWithButtons() {
     NavigationBar {
@@ -163,3 +122,22 @@ fun NavigationBarWithButtons() {
         }
     }
 }
+
+//composent parent qui contient le fond et la logique de scroll c'est à l'intérreieur
+//de celle ci qu'on appellera nos autre composants 
+@Composable
+fun Screen() {
+    Image(
+        painter = painterResource(id= R.drawable.main_background),
+        contentDescription = "Une planche plantée dans du sable ",
+        contentScale = ContentScale.FillBounds,
+        modifier = Modifier.fillMaxSize()
+    )
+    Column(
+        modifier = Modifier.verticalScroll(rememberScrollState())
+    ) {
+        repeat(20) {
+            SpotView()
+        }
+    }}
+
