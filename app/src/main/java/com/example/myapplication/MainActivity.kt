@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.health.connect.ReadRecordsResponse
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -41,24 +42,25 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Header
+import retrofit2.http.Headers
 
 
 //LISTE DES INTERFACES
 
-//Etablis la structure nécessaire pour récupérer les spots
+/*Etablis la structure nécessaire pour récupérer les spots
 interface ApiService {
     @GET("v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/") //URL de l'API
     suspend fun getSpots(
         @Header("Authorization") token: String //le token passé seras envoyé dans l'en tête de la requête
-    ): List<Spot>  // Retourne une liste d'objet spots
-}
+    ): List<Spot>  // Retourne une liste d'objet spots */
 
-
-//LISTE DES VARIABLES
+/*LISTE DES VARIABLES
 val token = " Bearer patpzSBgSr3dnevwc.a4de7204ffccf9cb98878db35d702f98de1136cb75016c8943e7691e9cc8dc53 "
 
 val BASE_URL = "https://api.airtable.com/v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/"
@@ -70,29 +72,29 @@ val retrofit = Retrofit.Builder()
     .build()
 
 //creation d'une instance de ApiService (interface définis plus haut)
-val apiService = retrofit.create(ApiService::class.java)
+val apiService = retrofit.create(ApiService::class.java) */
 
-//LISTE DES FONCTIONS
+/*LISTE DES FONCTIONS
 //fonction asynchrone pour récupérer les spots issus de l'API
 suspend fun fetchSpots() {
     try {
         val spots = apiService.getSpots(token) //Récupère la liste des spots
-        Log.d("tst_log", "Spots récupérés : $spots"
+        Log.d("perso_log", "Spots récupérés : $spots")
     } catch (e: Exception) {
         //gestion des erreurs
         e.printStackTrace()
     }
-}
+} */
 
 //LISTE DES CLASSES
 // Element principal c'est ce qui va s'afficher sur notre mobile
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //Appel fetchSpots() dans un CoroutineScope
+        /*Appel fetchSpots() dans un CoroutineScope
         CoroutineScope(Dispatchers.IO).launch {
             fetchSpots()
-        }
+        }*/
         enableEdgeToEdge()
         setContent { //contenu à afficher
             MyApplicationTheme {
@@ -107,18 +109,32 @@ class MainActivity : ComponentActivity() {
                             .padding(innerPadding)
                     ) {
                         Screen() // affichage principale du contenu contient les différentes vu et le scrolling
+                        // Manque du code non ? voir Tiph
                      }
                 }
             }
         }
     }
+
+
+RetrofitClient.apiService.getSurfSpot().enqueue(object : Callback<SurfSpotResponse> {
+    override fun onResponse(call: Call<SurfSpotResponse>, response: Response<SurfSpotResponse>) {
+        if (response.isSuccessful) {
+            val records = response.body()?.records
+            records?.forEach {
+                val fields = it.fields
+                println("Destination: $fields.destination}")
+            }
+        }
+    }
+
 }
 
-data class Spot(
+/* data class Spot(
     val imageUrl: String,   //URL de l'image
     val name: String,   //Nom du spot
     val location: String //Lieu du spot
-)
+) */
 
 
 
@@ -195,7 +211,7 @@ fun NavigationBarWithButtons() {
 @Composable
 fun Screen() {
     Image(
-        painter = painterResource(id= R.drawable.main_background),
+        painter = painterResource(id = R.drawable.main_background),
         contentDescription = "Une planche plantée dans du sable ",
         contentScale = ContentScale.FillBounds,
         modifier = Modifier.fillMaxSize()
@@ -206,7 +222,47 @@ fun Screen() {
         repeat(20) {
             SpotView()
         }
-    }}
+    }
+}
+}
+
+data class SurfSpotRecord(
+    val id: String,
+    val fields: SurfSpotFields
+)
+
+data class SurfSpotFields(
+    val destination: String,
+    val difficulty: String,
+    val surfBreak: String,
+    val photos: String,
+    val peakBegins: String,
+    val peakEnds: String,
+    val magicSeaweedLink: String,
+    val influencers: List<String>,
+    val travellers: List<String>,
+    val geocode: String
+)
+
+data class SurfSpotResponse(
+    val records: List<SurfSpotRecord>
+)
+
+    interface AirTableApi {
+        //endpoint ici pour recuperer les données
+        @GET("v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/")
+        @Headers("Authorization : Bearer patpzSBgSr3dnevwc.a4de7204ffccf9cb98878db35d702f98de1136cb75016c8943e7691e9cc8dc53")
+        fun getSurfSpots(): Call<SurfSpotResponse>
+    }
+    object RetrofitClient {
+      val apiService: AirTableApi by lazy {
+          Retrofit.Builder()
+              .baseUrl("https://api.airtable.com/")
+              .addConverterFactory(GsonConverterFactory.create())
+              .build()
+              .create(AirTableApi::class.java)
+      }
+  }
 
 // url de l'API : https://api.airtable.com/v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/
 // token : patpzSBgSr3dnevwc.a4de7204ffccf9cb98878db35d702f98de1136cb75016c8943e7691e9cc8dc53
