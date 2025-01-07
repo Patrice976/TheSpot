@@ -36,6 +36,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
+//LISTE DES CLASSES
 // Element principal c'est ce qui va s'afficher sur notre mobile
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -61,9 +62,23 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+data class Spot(
+    val imageUrl: String,   //URL de l'image
+    val name: String,   //Nom du spot
+    val location: String //Lieu du spot
+)
+
+
+
+//LISTE DES COMPOSANTS
 //Composant permetant d'affichier un spot de surf il contient 3 variable img nom et lieu
 @Composable
-fun SpotView(modifier: Modifier = Modifier, img: Int = R.drawable.spot_idea, nom: String = "Un spot de Surf par défaut", lieu: String = "Quelque part pas loin de la mer") {
+fun SpotView(modifier: Modifier = Modifier, spot : Spot = Spot (
+    imageUrl = "R.drawable.spot_idea",
+    name = "Un spot de Surf par défaut",
+    location = "Quelque part pas loin de la mer"
+)
+){
 
     Box(//div qui contiendra l'image et le texte
         modifier = modifier
@@ -79,18 +94,18 @@ fun SpotView(modifier: Modifier = Modifier, img: Int = R.drawable.spot_idea, nom
         ) {
             // Affichage de l'image
             Image(
-                painter = painterResource(id = img),
-                contentDescription = nom,
+                painter = rememberAsyncImagePainter(spot.imageUrl),
+                contentDescription = spot.name,
                 modifier = Modifier
                     .size(300.dp) // Taille de l'image
             )
             //texte propre au nom du spot
             Text(
-                text=nom
+                text=spot.name
             )
             //texte propre au lieu du spot
             Text(
-                text = lieu
+                text = spot.location
             )
         }
     }
@@ -124,7 +139,7 @@ fun NavigationBarWithButtons() {
 }
 
 //composent parent qui contient le fond et la logique de scroll c'est à l'intérreieur
-//de celle ci qu'on appellera nos autre composants 
+//de celle ci qu'on appellera nos autre composants
 @Composable
 fun Screen() {
     Image(
@@ -141,3 +156,5 @@ fun Screen() {
         }
     }}
 
+// url de l'API : https://api.airtable.com/v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/
+// token : patpzSBgSr3dnevwc.a4de7204ffccf9cb98878db35d702f98de1136cb75016c8943e7691e9cc8dc53
