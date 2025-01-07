@@ -43,7 +43,8 @@ dependencies {
 
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
-    implementation(libs.retrofit)
+    implementation (libs.retrofit)  // Retrofit
+    implementation(libs.okhttp)
     implementation(libs.converter.gson)
     implementation(libs.logging.interceptor)
     implementation(libs.androidx.core.ktx)

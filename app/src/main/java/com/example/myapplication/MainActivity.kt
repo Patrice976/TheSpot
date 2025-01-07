@@ -36,7 +36,32 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.myapplication.ui.theme.MyApplicationTheme
 import coil3.compose.rememberAsyncImagePainter
+import retrofit2.Call
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.http.GET
+import retrofit2.http.Header
 
+
+//LISTE DES INTERFACES
+
+interface ApiService {
+    @GET("https://api.airtable.com/v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/")
+    @Header("Authorization") token: String
+    suspend fun getSpots(): List<Spot>  // méthode QUI renvoie la liste des Spots
+}
+
+//LISTE DES VARIABLES
+val token = " Bearer patpzSBgSr3dnevwc.a4de7204ffccf9cb98878db35d702f98de1136cb75016c8943e7691e9cc8dc53 "
+
+val BASE_URL = "https://api.airtable.com/v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/"
+
+val retrofit = Retrofit.Builder()
+    .baseUrl(BASE_URL)
+    .addConverterFactory(GsonConverterFactory.create())
+    .build()
+
+val dataspot = ApiService.getSpots(token)
 
 //LISTE DES CLASSES
 // Element principal c'est ce qui va s'afficher sur notre mobile
@@ -76,7 +101,7 @@ data class Spot(
 //Composant permetant d'affichier un spot de surf il contient 3 variable img nom et lieu
 @Composable
 fun SpotView(modifier: Modifier = Modifier, spot : Spot = Spot (
-    imageUrl = "R.drawable.spot_idea",
+    imageUrl = "https://dr4f7gkjfgtsc.cloudfront.net/images/contents/travel-around-australia-for-the-best-beaches-in-the-world-1565717370.jpg",
     name = "Un spot de Surf par défaut",
     location = "Quelque part pas loin de la mer"
 )
