@@ -4,7 +4,7 @@
             "outputFile": "com.example.myapplication.app-mergeDebugResources-60:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\b10e7a80871bbf9ca12b889b7bcf267f\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\24b68b8660757b5937e5b04c1d5c12e5\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

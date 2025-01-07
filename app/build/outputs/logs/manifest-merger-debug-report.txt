@@ -4,94 +4,94 @@ ADDED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest
 INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:2:1-33:12
-MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\076366e06197cfef9c3f17541721ddd4\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\01616aea672f5ecd9b331ec6033fbee1\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8863d6c86bff973da1d38b9ff8a5971b\transformed\fragment-1.5.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0459cf54ecdb529bf6e70d1d26bdf6a4\transformed\material3-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\96968543066b9d1528a31f3e38516f71\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a41363e2d80e74293506195a8d75e369\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0be4835d55782d4548e6d71e79b70ed7\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b10b1ea830975641f8298de96a009c7f\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a99ba0933ce9614266a38e80896abea0\transformed\animation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a097ec7c04b01d5157cefcb1109347d4\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\67393bf9ef08cd6ece487148869e6345\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0a903410b01436dd79b0aa77f4433db6\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c5593caa582bd654617dface2de27479\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a2cc1f72c309058ae08aada0b57103da\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8ec6b93b2e8678f5a425da546ee4a68b\transformed\material-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\53edeaf4ca226e3bd3bcd23b4c7455ce\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\743e75d1060f64971ce847e4199b348e\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e964abaa3d03a207533783c836215302\transformed\coil-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9da1d862b573564c5f80118acb03405b\transformed\coil-compose-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3a8763bd59320f0351a2937098753667\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\19c8e6949e4a08c60947e6b309a376c2\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.36.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0973d506b2a832d9ef5e25031b89fce3\transformed\accompanist-drawablepainter-0.36.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fb44f88e4faac38a4911b31445821354\transformed\ui-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6b1e183f1b51c9a331b58b287526b840\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a158d986b37c9ce9815a4c136394d37e\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4f30b09d46004a749539a22504b423d4\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7d4f5903d87c6c4951d1d404b67a8717\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e53ffbd276b483e92973012ec84e2397\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9529b0e1160782a825929c1f5b2426ec\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2458520e1e334ddf5b18c982cef8129a\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\44058eb6c3d4ca64a7cb01f7aa011300\transformed\coil-release\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\096a537cf24d8544862e79559f07f551\transformed\coil-network-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\df72d63d816615f9483ac683d0fb6d58\transformed\coil-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:17:1-39:12
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:17:1-44:12
-MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\683fca8bad7ad09ede51deff1354370b\transformed\junit-1.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:17:1-53:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\263cfd423ce761a3a2e1c3718bf53f7b\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ccc1e94553e8186283d973c34c0806ab\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\384ed06dad7e917312d334d007a505d1\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b10e7a80871bbf9ca12b889b7bcf267f\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b2295b7a7e2cce9cd61abe77802a8ad9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\357faf22dc3a99d4f3370184095e244c\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4e92a28a5ab3da7ff97f70c271c06878\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\5a4a55736860c5810f1473aaeda09c23\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a281c1f143a57bc1845cf1b35dfbf1b4\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ca37835923ae70d7731e7cdae283a62f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0a1acd48bb4aeed73b3d5666f5c2ea90\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3902ed090392032b269e5baa5c1bdd75\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b34cd755b579c526df38300a3f94dff2\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\60c6c80cd3f813f3c160a2a8bc6802eb\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\662a8befa4b1ff80615741821104f80e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a6a1d4366c2abb879a170b08ac4ccdc5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4ce52eec605b3c3c428788bd5f53071c\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c47412e30dc6f2e92f71eed28b9559bf\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f85fb1080fd96a6dbbdb46a92ac9c934\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\946ea291b0bf868a5160f064805ec724\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\517f2862ba1e7bf35558041f785a8b55\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c05cd7f535692e26587f2bd8347e623f\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d1b24fdbf4046a8f383c788e13e7b450\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\34035b595e7be2b2ad17f53edd7552fb\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\eaa121e7b605039abfba6b709c0240b0\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\20cc5f55ef0bd0af62613ec8175e824e\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e6701d40f69518a08a3ca3f2e8322d0b\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b8d6270a5a3ecd92c4a36da46855269c\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\69fe5faa3fbc4ce54a31ec7808c0b132\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a6fac8b1ecae65d1177185f5db0b0ee6\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:17:1-58:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6bbb27cf72125cdd2285ab19d3081b1c\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e048c93ad502a1ad3955ff7068f56926\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dd3abeaa92ead5c1e91a3a96a73af4f8\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.test.services:storage:1.5.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8674f52f27bdc00a4b18131cb12c22e8\transformed\storage-1.5.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.test:monitor:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\517810c33f0ff8c83ce0d3b0411f9438\transformed\monitor-1.7.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c5349aea98247491861bb8cb4a1eb70c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\db14853ffba87e6395d8445819c29bd7\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d78f3facdf5bad80c49ddd6338b8e180\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b6584a4e87935c84f17e4314bf24e645\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6a52728054cb141a4381fb0e75a97032\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b95d623a32d26e358a27746f38e0d098\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b4d8488d5a0527ae26b3045e246473ab\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f5b3327eba0d66e6a516c4d8d1695327\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8ab17a71b00b1a5f70591a07b8d1c3c8\transformed\tracing-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\272d928509cb9c727636ae94c0cf1cb9\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\79b844f42efc1aacede6482754da5f77\transformed\uiautomator-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3245cf2b607d7e823443967b0d77f064\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e1697a5df2a6aeb33fba35e7564e2ea1\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8a323c6421bc2d40b741029651975be7\transformed\fragment-1.5.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\bfd84a7250dea1bd77b063e2ee3412c8\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b53089762abbf8f480e14ed383c7c2e8\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7d18349d934ae69f932d4fc55c06b4a6\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\69eef9277dd67fdc19f32f26c63afde6\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f0a0ed531b2699b8cc6dfc771803a115\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\77687f73b994f839e0a2d875176aec26\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1383c4a662328b3e1ba1646cd04d5df1\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\14965b3d28efa42febc1ade20ad2bce4\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ba2c7a65b18ac8b5caeb283c295279a7\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\268740070b9309688fd950215e53252d\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0caca0d4e752fd29bece9aceb403c90c\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b26020a1e64dee28d15d0f4d3919c70e\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\32dd1e56302fb92acd1d4f8c5d5f6440\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\edddd7bc2da412c0dffef285f46115b4\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8533032bb206c9af48a1b435b84b0295\transformed\coil-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7911c8da12a4d6ad6af0f1aaf112e03a\transformed\coil-compose-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d366f0ab2a9300af69c2298056471acb\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\44665ef7ddb83e2c3368b8ad51fe0d31\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.36.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a15ed100c634bbf32d91c92cb6ab3784\transformed\accompanist-drawablepainter-0.36.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b4f7198c5d5c71665eec1995d15785fd\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a290fb5edac05ae9b61c40b525ba2fd3\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3dfa89b78dcc0d378f036b50c0814721\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\36e239e83568a8a725d1a743e437d221\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\134cb76a4cb7fa7ad49532d5bc804bf5\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dfffab03af9a3a17e184fc9dff08d3e0\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c629eaafd67ed9a7d6eea0aae77ba9e9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9864ee9c6f97b8726a634d42cd15a005\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\45afa1c032ef6618966da8c7597eaa2e\transformed\coil-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57ca86774a1302c98e61585b68747fb9\transformed\coil-network-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\25114bc1af199f5fd8e21aa92edc2e1d\transformed\coil-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:17:1-39:12
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\985fed79a70e398c5955c7645e61ba1d\transformed\junit-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:17:1-53:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a0edcb2fa70141472a9891a42e936fe9\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4bd8cc0f6a263af3eb623950e52cc63d\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\926967d4841507fe1cd4b97bf3840440\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\24b68b8660757b5937e5b04c1d5c12e5\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b875e379983e077fdf1c2a8ff274d4eb\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\311f98e7b3b6cc00a48e1626a6d0a1e5\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\332a01f94883460160388b8580885afa\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fda86cd508d6d5019849ed579385d534\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e12b7f6191c928437c4b3760cfbcfd83\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8a23b18a1f6f391fb7ca456c1afd04ed\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c3490e7764dccb97cc99103dd9999450\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a314fba22970ecbc5023459d0faee22d\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57ebb9ff7035a5c32ed1e37d68635c8f\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\eebbc991cb50add2f1834e13fa2206a6\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\5a7d6633e03f0fe4f0e7b6615e985441\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\857adaeafae690deb15475f9f73694a0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7a608654eb352284b1fcc6a7a8a1a722\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\401e7e75b44bfa747ba5fd144c7359ac\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0830f2ad2571e569d713744af0afbdd8\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\31fb8f0c997d97a43f54998d5d95abc1\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a6d39651f5de021e5c684103c6a6c5ae\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f1112aacfbcccf8c058f3f56efb5f91f\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\af266bbcfb56d1971268ddd23fc36321\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\be555b8a59268bcd86b3d7f2bb41b171\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\336956ae69b3657f52dc487ada58fe16\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2de3909c5786100d87d55be1c718d86c\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e6a95a01ccad9039af6e2f9b8e2ad1db\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\17e67a01433ce85fb61c321dbd7bd9cd\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8ab8b638dc89305ba4b81607b11305c5\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9a5417633b6233e673da9847d877d510\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:17:1-58:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e497a70c2b31e9dcb43ed017ed7a934e\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a3a020d688da6338af23f43b5325c306\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8a3e2766641ab0c9fd96e1b14f246629\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\03c54be0c3f9734bfb9203a7a20b718a\transformed\storage-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dc83d91084c832fc8b810ecefc017c53\transformed\monitor-1.7.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9b425167648a2f84f6a9dcd62b84978f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6936b007eee960965ece51b42c92da49\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0d32490afb4ed7c785a5d60193efb0b7\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9d519a20ea3ba52d32771d75efd6542e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c7c0cefd4194512089c6962abbb72601\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\13e627a7ffbf6c0263f23c6e2a9d120a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0f3e03d8bae7b7acb467218a56bc8377\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0305b4f9b47423f227eeda334ab2d9d7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\baca275bcd9c6edf4c87725b4d8028fd\transformed\tracing-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3b061e7f3b1ff9cc2126f5861bf88516\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\573719264a2684366517e32c415652b6\transformed\uiautomator-2.2.0\AndroidManifest.xml:17:1-24:12
 	package
 		INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -105,36 +105,36 @@ MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech Scho
 application
 ADDED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:5:5-31:19
 INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:5:5-31:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a2cc1f72c309058ae08aada0b57103da\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a2cc1f72c309058ae08aada0b57103da\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6b1e183f1b51c9a331b58b287526b840\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6b1e183f1b51c9a331b58b287526b840\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:29:5-37:19
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:29:5-37:19
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:5-81
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:5-81
-MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
-MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:23:5-56:19
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:23:5-56:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c5349aea98247491861bb8cb4a1eb70c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c5349aea98247491861bb8cb4a1eb70c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f5b3327eba0d66e6a516c4d8d1695327\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f5b3327eba0d66e6a516c4d8d1695327\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\79b844f42efc1aacede6482754da5f77\transformed\uiautomator-2.2.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\79b844f42efc1aacede6482754da5f77\transformed\uiautomator-2.2.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0caca0d4e752fd29bece9aceb403c90c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0caca0d4e752fd29bece9aceb403c90c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a290fb5edac05ae9b61c40b525ba2fd3\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a290fb5edac05ae9b61c40b525ba2fd3\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:29:5-37:19
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:29:5-37:19
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:5-81
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:5-81
+MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:23:5-56:19
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:23:5-56:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9b425167648a2f84f6a9dcd62b84978f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9b425167648a2f84f6a9dcd62b84978f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0305b4f9b47423f227eeda334ab2d9d7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0305b4f9b47423f227eeda334ab2d9d7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\573719264a2684366517e32c415652b6\transformed\uiautomator-2.2.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\573719264a2684366517e32c415652b6\transformed\uiautomator-2.2.0\AndroidManifest.xml:22:5-20
 	android:extractNativeLibs
 		INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
@@ -150,7 +150,7 @@ MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech Scho
 	android:allowBackup
 		ADDED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:6:9-35
 	android:networkSecurityConfig
-		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:18-78
+		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:18-78
 	android:theme
 		ADDED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:13:9-51
 	android:dataExtractionRules
@@ -189,387 +189,387 @@ uses-sdk
 INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml
-MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\076366e06197cfef9c3f17541721ddd4\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\076366e06197cfef9c3f17541721ddd4\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\01616aea672f5ecd9b331ec6033fbee1\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\01616aea672f5ecd9b331ec6033fbee1\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8863d6c86bff973da1d38b9ff8a5971b\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8863d6c86bff973da1d38b9ff8a5971b\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0459cf54ecdb529bf6e70d1d26bdf6a4\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0459cf54ecdb529bf6e70d1d26bdf6a4\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\96968543066b9d1528a31f3e38516f71\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\96968543066b9d1528a31f3e38516f71\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a41363e2d80e74293506195a8d75e369\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a41363e2d80e74293506195a8d75e369\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0be4835d55782d4548e6d71e79b70ed7\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0be4835d55782d4548e6d71e79b70ed7\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b10b1ea830975641f8298de96a009c7f\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b10b1ea830975641f8298de96a009c7f\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a99ba0933ce9614266a38e80896abea0\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a99ba0933ce9614266a38e80896abea0\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a097ec7c04b01d5157cefcb1109347d4\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a097ec7c04b01d5157cefcb1109347d4\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\67393bf9ef08cd6ece487148869e6345\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\67393bf9ef08cd6ece487148869e6345\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0a903410b01436dd79b0aa77f4433db6\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0a903410b01436dd79b0aa77f4433db6\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c5593caa582bd654617dface2de27479\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c5593caa582bd654617dface2de27479\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a2cc1f72c309058ae08aada0b57103da\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a2cc1f72c309058ae08aada0b57103da\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8ec6b93b2e8678f5a425da546ee4a68b\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8ec6b93b2e8678f5a425da546ee4a68b\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\53edeaf4ca226e3bd3bcd23b4c7455ce\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\53edeaf4ca226e3bd3bcd23b4c7455ce\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\743e75d1060f64971ce847e4199b348e\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\743e75d1060f64971ce847e4199b348e\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e964abaa3d03a207533783c836215302\transformed\coil-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e964abaa3d03a207533783c836215302\transformed\coil-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9da1d862b573564c5f80118acb03405b\transformed\coil-compose-core-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9da1d862b573564c5f80118acb03405b\transformed\coil-compose-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3a8763bd59320f0351a2937098753667\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3a8763bd59320f0351a2937098753667\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\19c8e6949e4a08c60947e6b309a376c2\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\19c8e6949e4a08c60947e6b309a376c2\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.36.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0973d506b2a832d9ef5e25031b89fce3\transformed\accompanist-drawablepainter-0.36.0\AndroidManifest.xml:21:5-44
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.36.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0973d506b2a832d9ef5e25031b89fce3\transformed\accompanist-drawablepainter-0.36.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fb44f88e4faac38a4911b31445821354\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fb44f88e4faac38a4911b31445821354\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6b1e183f1b51c9a331b58b287526b840\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6b1e183f1b51c9a331b58b287526b840\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a158d986b37c9ce9815a4c136394d37e\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a158d986b37c9ce9815a4c136394d37e\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4f30b09d46004a749539a22504b423d4\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4f30b09d46004a749539a22504b423d4\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7d4f5903d87c6c4951d1d404b67a8717\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7d4f5903d87c6c4951d1d404b67a8717\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e53ffbd276b483e92973012ec84e2397\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e53ffbd276b483e92973012ec84e2397\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9529b0e1160782a825929c1f5b2426ec\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9529b0e1160782a825929c1f5b2426ec\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2458520e1e334ddf5b18c982cef8129a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2458520e1e334ddf5b18c982cef8129a\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\44058eb6c3d4ca64a7cb01f7aa011300\transformed\coil-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\44058eb6c3d4ca64a7cb01f7aa011300\transformed\coil-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\096a537cf24d8544862e79559f07f551\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\096a537cf24d8544862e79559f07f551\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\df72d63d816615f9483ac683d0fb6d58\transformed\coil-core-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\df72d63d816615f9483ac683d0fb6d58\transformed\coil-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:21:5-44
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:21:5-44
-MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\683fca8bad7ad09ede51deff1354370b\transformed\junit-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\683fca8bad7ad09ede51deff1354370b\transformed\junit-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\263cfd423ce761a3a2e1c3718bf53f7b\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\263cfd423ce761a3a2e1c3718bf53f7b\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ccc1e94553e8186283d973c34c0806ab\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ccc1e94553e8186283d973c34c0806ab\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\384ed06dad7e917312d334d007a505d1\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\384ed06dad7e917312d334d007a505d1\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b10e7a80871bbf9ca12b889b7bcf267f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b10e7a80871bbf9ca12b889b7bcf267f\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b2295b7a7e2cce9cd61abe77802a8ad9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b2295b7a7e2cce9cd61abe77802a8ad9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\357faf22dc3a99d4f3370184095e244c\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\357faf22dc3a99d4f3370184095e244c\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4e92a28a5ab3da7ff97f70c271c06878\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4e92a28a5ab3da7ff97f70c271c06878\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\5a4a55736860c5810f1473aaeda09c23\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\5a4a55736860c5810f1473aaeda09c23\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a281c1f143a57bc1845cf1b35dfbf1b4\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a281c1f143a57bc1845cf1b35dfbf1b4\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ca37835923ae70d7731e7cdae283a62f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ca37835923ae70d7731e7cdae283a62f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0a1acd48bb4aeed73b3d5666f5c2ea90\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0a1acd48bb4aeed73b3d5666f5c2ea90\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3902ed090392032b269e5baa5c1bdd75\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3902ed090392032b269e5baa5c1bdd75\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b34cd755b579c526df38300a3f94dff2\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b34cd755b579c526df38300a3f94dff2\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\60c6c80cd3f813f3c160a2a8bc6802eb\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\60c6c80cd3f813f3c160a2a8bc6802eb\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\662a8befa4b1ff80615741821104f80e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\662a8befa4b1ff80615741821104f80e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a6a1d4366c2abb879a170b08ac4ccdc5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a6a1d4366c2abb879a170b08ac4ccdc5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4ce52eec605b3c3c428788bd5f53071c\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4ce52eec605b3c3c428788bd5f53071c\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c47412e30dc6f2e92f71eed28b9559bf\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c47412e30dc6f2e92f71eed28b9559bf\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f85fb1080fd96a6dbbdb46a92ac9c934\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f85fb1080fd96a6dbbdb46a92ac9c934\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\946ea291b0bf868a5160f064805ec724\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\946ea291b0bf868a5160f064805ec724\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\517f2862ba1e7bf35558041f785a8b55\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\517f2862ba1e7bf35558041f785a8b55\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c05cd7f535692e26587f2bd8347e623f\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c05cd7f535692e26587f2bd8347e623f\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d1b24fdbf4046a8f383c788e13e7b450\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d1b24fdbf4046a8f383c788e13e7b450\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\34035b595e7be2b2ad17f53edd7552fb\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\34035b595e7be2b2ad17f53edd7552fb\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\eaa121e7b605039abfba6b709c0240b0\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\eaa121e7b605039abfba6b709c0240b0\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\20cc5f55ef0bd0af62613ec8175e824e\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\20cc5f55ef0bd0af62613ec8175e824e\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e6701d40f69518a08a3ca3f2e8322d0b\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e6701d40f69518a08a3ca3f2e8322d0b\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b8d6270a5a3ecd92c4a36da46855269c\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b8d6270a5a3ecd92c4a36da46855269c\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\69fe5faa3fbc4ce54a31ec7808c0b132\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\69fe5faa3fbc4ce54a31ec7808c0b132\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a6fac8b1ecae65d1177185f5db0b0ee6\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a6fac8b1ecae65d1177185f5db0b0ee6\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6bbb27cf72125cdd2285ab19d3081b1c\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6bbb27cf72125cdd2285ab19d3081b1c\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e048c93ad502a1ad3955ff7068f56926\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e048c93ad502a1ad3955ff7068f56926\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dd3abeaa92ead5c1e91a3a96a73af4f8\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dd3abeaa92ead5c1e91a3a96a73af4f8\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.test.services:storage:1.5.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8674f52f27bdc00a4b18131cb12c22e8\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test.services:storage:1.5.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8674f52f27bdc00a4b18131cb12c22e8\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:monitor:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\517810c33f0ff8c83ce0d3b0411f9438\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:monitor:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\517810c33f0ff8c83ce0d3b0411f9438\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c5349aea98247491861bb8cb4a1eb70c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c5349aea98247491861bb8cb4a1eb70c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\db14853ffba87e6395d8445819c29bd7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\db14853ffba87e6395d8445819c29bd7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d78f3facdf5bad80c49ddd6338b8e180\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d78f3facdf5bad80c49ddd6338b8e180\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b6584a4e87935c84f17e4314bf24e645\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b6584a4e87935c84f17e4314bf24e645\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6a52728054cb141a4381fb0e75a97032\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6a52728054cb141a4381fb0e75a97032\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b95d623a32d26e358a27746f38e0d098\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b95d623a32d26e358a27746f38e0d098\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b4d8488d5a0527ae26b3045e246473ab\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b4d8488d5a0527ae26b3045e246473ab\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f5b3327eba0d66e6a516c4d8d1695327\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f5b3327eba0d66e6a516c4d8d1695327\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8ab17a71b00b1a5f70591a07b8d1c3c8\transformed\tracing-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8ab17a71b00b1a5f70591a07b8d1c3c8\transformed\tracing-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\272d928509cb9c727636ae94c0cf1cb9\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\272d928509cb9c727636ae94c0cf1cb9\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\79b844f42efc1aacede6482754da5f77\transformed\uiautomator-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\79b844f42efc1aacede6482754da5f77\transformed\uiautomator-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3245cf2b607d7e823443967b0d77f064\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3245cf2b607d7e823443967b0d77f064\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e1697a5df2a6aeb33fba35e7564e2ea1\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e1697a5df2a6aeb33fba35e7564e2ea1\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8a323c6421bc2d40b741029651975be7\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8a323c6421bc2d40b741029651975be7\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\bfd84a7250dea1bd77b063e2ee3412c8\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\bfd84a7250dea1bd77b063e2ee3412c8\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b53089762abbf8f480e14ed383c7c2e8\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b53089762abbf8f480e14ed383c7c2e8\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7d18349d934ae69f932d4fc55c06b4a6\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7d18349d934ae69f932d4fc55c06b4a6\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\69eef9277dd67fdc19f32f26c63afde6\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\69eef9277dd67fdc19f32f26c63afde6\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f0a0ed531b2699b8cc6dfc771803a115\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f0a0ed531b2699b8cc6dfc771803a115\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\77687f73b994f839e0a2d875176aec26\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\77687f73b994f839e0a2d875176aec26\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1383c4a662328b3e1ba1646cd04d5df1\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1383c4a662328b3e1ba1646cd04d5df1\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\14965b3d28efa42febc1ade20ad2bce4\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\14965b3d28efa42febc1ade20ad2bce4\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ba2c7a65b18ac8b5caeb283c295279a7\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ba2c7a65b18ac8b5caeb283c295279a7\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\268740070b9309688fd950215e53252d\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\268740070b9309688fd950215e53252d\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0caca0d4e752fd29bece9aceb403c90c\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0caca0d4e752fd29bece9aceb403c90c\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b26020a1e64dee28d15d0f4d3919c70e\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b26020a1e64dee28d15d0f4d3919c70e\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\32dd1e56302fb92acd1d4f8c5d5f6440\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\32dd1e56302fb92acd1d4f8c5d5f6440\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\edddd7bc2da412c0dffef285f46115b4\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\edddd7bc2da412c0dffef285f46115b4\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8533032bb206c9af48a1b435b84b0295\transformed\coil-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8533032bb206c9af48a1b435b84b0295\transformed\coil-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7911c8da12a4d6ad6af0f1aaf112e03a\transformed\coil-compose-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7911c8da12a4d6ad6af0f1aaf112e03a\transformed\coil-compose-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d366f0ab2a9300af69c2298056471acb\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d366f0ab2a9300af69c2298056471acb\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\44665ef7ddb83e2c3368b8ad51fe0d31\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\44665ef7ddb83e2c3368b8ad51fe0d31\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.36.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a15ed100c634bbf32d91c92cb6ab3784\transformed\accompanist-drawablepainter-0.36.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.36.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a15ed100c634bbf32d91c92cb6ab3784\transformed\accompanist-drawablepainter-0.36.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b4f7198c5d5c71665eec1995d15785fd\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b4f7198c5d5c71665eec1995d15785fd\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a290fb5edac05ae9b61c40b525ba2fd3\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a290fb5edac05ae9b61c40b525ba2fd3\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3dfa89b78dcc0d378f036b50c0814721\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3dfa89b78dcc0d378f036b50c0814721\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\36e239e83568a8a725d1a743e437d221\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\36e239e83568a8a725d1a743e437d221\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\134cb76a4cb7fa7ad49532d5bc804bf5\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\134cb76a4cb7fa7ad49532d5bc804bf5\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dfffab03af9a3a17e184fc9dff08d3e0\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dfffab03af9a3a17e184fc9dff08d3e0\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c629eaafd67ed9a7d6eea0aae77ba9e9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c629eaafd67ed9a7d6eea0aae77ba9e9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9864ee9c6f97b8726a634d42cd15a005\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9864ee9c6f97b8726a634d42cd15a005\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\45afa1c032ef6618966da8c7597eaa2e\transformed\coil-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\45afa1c032ef6618966da8c7597eaa2e\transformed\coil-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57ca86774a1302c98e61585b68747fb9\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57ca86774a1302c98e61585b68747fb9\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\25114bc1af199f5fd8e21aa92edc2e1d\transformed\coil-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\25114bc1af199f5fd8e21aa92edc2e1d\transformed\coil-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\985fed79a70e398c5955c7645e61ba1d\transformed\junit-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\985fed79a70e398c5955c7645e61ba1d\transformed\junit-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a0edcb2fa70141472a9891a42e936fe9\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a0edcb2fa70141472a9891a42e936fe9\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4bd8cc0f6a263af3eb623950e52cc63d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4bd8cc0f6a263af3eb623950e52cc63d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\926967d4841507fe1cd4b97bf3840440\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\926967d4841507fe1cd4b97bf3840440\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\24b68b8660757b5937e5b04c1d5c12e5\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\24b68b8660757b5937e5b04c1d5c12e5\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b875e379983e077fdf1c2a8ff274d4eb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b875e379983e077fdf1c2a8ff274d4eb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\311f98e7b3b6cc00a48e1626a6d0a1e5\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\311f98e7b3b6cc00a48e1626a6d0a1e5\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\332a01f94883460160388b8580885afa\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\332a01f94883460160388b8580885afa\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fda86cd508d6d5019849ed579385d534\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fda86cd508d6d5019849ed579385d534\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e12b7f6191c928437c4b3760cfbcfd83\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e12b7f6191c928437c4b3760cfbcfd83\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8a23b18a1f6f391fb7ca456c1afd04ed\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8a23b18a1f6f391fb7ca456c1afd04ed\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c3490e7764dccb97cc99103dd9999450\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c3490e7764dccb97cc99103dd9999450\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a314fba22970ecbc5023459d0faee22d\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a314fba22970ecbc5023459d0faee22d\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57ebb9ff7035a5c32ed1e37d68635c8f\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57ebb9ff7035a5c32ed1e37d68635c8f\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\eebbc991cb50add2f1834e13fa2206a6\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\eebbc991cb50add2f1834e13fa2206a6\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\5a7d6633e03f0fe4f0e7b6615e985441\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\5a7d6633e03f0fe4f0e7b6615e985441\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\857adaeafae690deb15475f9f73694a0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\857adaeafae690deb15475f9f73694a0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7a608654eb352284b1fcc6a7a8a1a722\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7a608654eb352284b1fcc6a7a8a1a722\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\401e7e75b44bfa747ba5fd144c7359ac\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\401e7e75b44bfa747ba5fd144c7359ac\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0830f2ad2571e569d713744af0afbdd8\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0830f2ad2571e569d713744af0afbdd8\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\31fb8f0c997d97a43f54998d5d95abc1\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\31fb8f0c997d97a43f54998d5d95abc1\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a6d39651f5de021e5c684103c6a6c5ae\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a6d39651f5de021e5c684103c6a6c5ae\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f1112aacfbcccf8c058f3f56efb5f91f\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f1112aacfbcccf8c058f3f56efb5f91f\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\af266bbcfb56d1971268ddd23fc36321\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\af266bbcfb56d1971268ddd23fc36321\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\be555b8a59268bcd86b3d7f2bb41b171\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\be555b8a59268bcd86b3d7f2bb41b171\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\336956ae69b3657f52dc487ada58fe16\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\336956ae69b3657f52dc487ada58fe16\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2de3909c5786100d87d55be1c718d86c\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2de3909c5786100d87d55be1c718d86c\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e6a95a01ccad9039af6e2f9b8e2ad1db\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e6a95a01ccad9039af6e2f9b8e2ad1db\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\17e67a01433ce85fb61c321dbd7bd9cd\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\17e67a01433ce85fb61c321dbd7bd9cd\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8ab8b638dc89305ba4b81607b11305c5\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8ab8b638dc89305ba4b81607b11305c5\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9a5417633b6233e673da9847d877d510\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9a5417633b6233e673da9847d877d510\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e497a70c2b31e9dcb43ed017ed7a934e\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\e497a70c2b31e9dcb43ed017ed7a934e\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a3a020d688da6338af23f43b5325c306\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a3a020d688da6338af23f43b5325c306\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8a3e2766641ab0c9fd96e1b14f246629\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8a3e2766641ab0c9fd96e1b14f246629\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\03c54be0c3f9734bfb9203a7a20b718a\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\03c54be0c3f9734bfb9203a7a20b718a\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dc83d91084c832fc8b810ecefc017c53\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dc83d91084c832fc8b810ecefc017c53\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9b425167648a2f84f6a9dcd62b84978f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9b425167648a2f84f6a9dcd62b84978f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6936b007eee960965ece51b42c92da49\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6936b007eee960965ece51b42c92da49\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0d32490afb4ed7c785a5d60193efb0b7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0d32490afb4ed7c785a5d60193efb0b7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9d519a20ea3ba52d32771d75efd6542e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9d519a20ea3ba52d32771d75efd6542e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c7c0cefd4194512089c6962abbb72601\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c7c0cefd4194512089c6962abbb72601\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\13e627a7ffbf6c0263f23c6e2a9d120a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\13e627a7ffbf6c0263f23c6e2a9d120a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0f3e03d8bae7b7acb467218a56bc8377\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0f3e03d8bae7b7acb467218a56bc8377\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0305b4f9b47423f227eeda334ab2d9d7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0305b4f9b47423f227eeda334ab2d9d7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\baca275bcd9c6edf4c87725b4d8028fd\transformed\tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\baca275bcd9c6edf4c87725b4d8028fd\transformed\tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3b061e7f3b1ff9cc2126f5861bf88516\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3b061e7f3b1ff9cc2126f5861bf88516\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\573719264a2684366517e32c415652b6\transformed\uiautomator-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\573719264a2684366517e32c415652b6\transformed\uiautomator-2.2.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml
 activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a2cc1f72c309058ae08aada0b57103da\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0caca0d4e752fd29bece9aceb403c90c\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a2cc1f72c309058ae08aada0b57103da\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0caca0d4e752fd29bece9aceb403c90c\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a2cc1f72c309058ae08aada0b57103da\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0caca0d4e752fd29bece9aceb403c90c\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
 activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6b1e183f1b51c9a331b58b287526b840\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a290fb5edac05ae9b61c40b525ba2fd3\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6b1e183f1b51c9a331b58b287526b840\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a290fb5edac05ae9b61c40b525ba2fd3\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\6b1e183f1b51c9a331b58b287526b840\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\a290fb5edac05ae9b61c40b525ba2fd3\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:5-81
+ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:5-81
 	android:name
-		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:22-78
+		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:22-78
 activity#androidx.benchmark.IsolationActivity
-ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:32:9-36:20
+ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:32:9-36:20
 	android:exported
-		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:34:13-36
+		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:34:13-36
 	android:theme
-		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:35:13-77
+		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:35:13-77
 	android:name
-		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d96932f453b537f803a3441115a37268\transformed\benchmark-common-1.3.3\AndroidManifest.xml:33:13-64
+		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\419070a6a08e9c10a7e6c1d076e0229f\transformed\benchmark-common-1.3.3\AndroidManifest.xml:33:13-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:2:1-33:12 reason: androidx.benchmark requested WRITE_EXTERNAL_STORAGE
 uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:23:5-25:53
+ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:23:5-25:53
 	tools:ignore
-		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:25:9-50
+		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:24:9-61
+		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:24:9-61
 uses-permission#android.permission.INTERNET
-ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:5-67
+ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:5-67
 	android:name
-		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\9454099aa12976ee8169510b7cf0004b\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:22-64
+		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d916d053fbb00adbb824501d527dcef0\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:22-64
 uses-permission#android.permission.REORDER_TASKS
-ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
+ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
 	android:name
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
 activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
-ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
+ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
 	android:exported
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
 	android:theme
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
 intent-filter#category:name:android.intent.category.LAUNCHER
-ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
 activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
-ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
+ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
 	android:exported
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
 	android:theme
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
 	android:name
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
 activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
-ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
+ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
 	android:exported
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
 	android:theme
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
 	android:name
-		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\463f64b1947f3f6ab3ab164d9ea4c470\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
+		ADDED from [androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fcd7a38f4f26c9c3cebc1b2e1f610ebc\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:39:9-47:20
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:39:9-47:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f5b3327eba0d66e6a516c4d8d1695327\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\f5b3327eba0d66e6a516c4d8d1695327\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:39:9-47:20
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:39:9-47:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0305b4f9b47423f227eeda334ab2d9d7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0305b4f9b47423f227eeda334ab2d9d7\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\afbb5389ca05a0795fe039779942dff6\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\001cb3a5623bbece8b415537bbe31a31\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\58a0dd20854055f72589e7745f0c8d82\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\544ba1b8393255147ffe7e2eb3bed48f\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 uses-permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1222650cfee635a52ee69e83e8837bfa\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57f4b25fa76c897152e083da2d7b8c33\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 receiver#androidx.tracing.perfetto.TracingReceiver
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:24:9-37:20
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:24:9-37:20
 	android:enabled
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:27:13-35
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:27:13-35
 	android:exported
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:28:13-36
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:28:13-36
 	android:permission
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:29:13-57
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:29:13-57
 	android:directBootAware
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:26:13-44
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:26:13-44
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:25:13-69
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:25:13-69
 intent-filter#action:name:androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START+action:name:androidx.tracing.perfetto.action.ENABLE_TRACING+action:name:androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:32:13-36:29
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:32:13-36:29
 action#androidx.tracing.perfetto.action.ENABLE_TRACING
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:17-90
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:17-90
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:25-87
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:25-87
 action#androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:17-101
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:17-101
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:25-98
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:25-98
 action#androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:17-102
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:17-102
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:25-99
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:25-99
 meta-data#androidx.tracing.perfetto.StartupTracingInitializer
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:44:13-46:52
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:44:13-46:52
 	android:value
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:46:17-49
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:46:17-49
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:45:17-83
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:45:17-83
 receiver#androidx.tracing.perfetto.StartupTracingConfigStoreIsEnabledGate
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:49:9-55:20
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:49:9-55:20
 	android:enabled
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:52:13-36
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:52:13-36
 	android:exported
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:53:13-37
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:53:13-37
 	tools:targetApi
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:54:13-32
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:54:13-32
 	android:directBootAware
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:51:13-44
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:51:13-44
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8b84f367f977bbceef1381d4c1504ba3\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:50:13-92
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4c7f1e6f99c871cc32d9c4244270db63\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:50:13-92
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b47f618c154822232054f98c16e53c1e\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\92a5ed6cf28156baddfd78346f636808\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92

@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -36,6 +37,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.myapplication.ui.theme.MyApplicationTheme
 import coil3.compose.rememberAsyncImagePainter
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -45,29 +49,50 @@ import retrofit2.http.Header
 
 //LISTE DES INTERFACES
 
+//Etablis la structure nécessaire pour récupérer les spots
 interface ApiService {
-    @GET("https://api.airtable.com/v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/")
-    @Header("Authorization") token: String
-    suspend fun getSpots(): List<Spot>  // méthode QUI renvoie la liste des Spots
+    @GET("v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/") //URL de l'API
+    suspend fun getSpots(
+        @Header("Authorization") token: String //le token passé seras envoyé dans l'en tête de la requête
+    ): List<Spot>  // Retourne une liste d'objet spots
 }
+
 
 //LISTE DES VARIABLES
 val token = " Bearer patpzSBgSr3dnevwc.a4de7204ffccf9cb98878db35d702f98de1136cb75016c8943e7691e9cc8dc53 "
 
 val BASE_URL = "https://api.airtable.com/v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2/"
 
+//setup retrofit (indispensable pour effectuer un fetch de l'API)
 val retrofit = Retrofit.Builder()
     .baseUrl(BASE_URL)
     .addConverterFactory(GsonConverterFactory.create())
     .build()
 
-val dataspot = ApiService.getSpots(token)
+//creation d'une instance de ApiService (interface définis plus haut)
+val apiService = retrofit.create(ApiService::class.java)
+
+//LISTE DES FONCTIONS
+//fonction asynchrone pour récupérer les spots issus de l'API
+suspend fun fetchSpots() {
+    try {
+        val spots = apiService.getSpots(token) //Récupère la liste des spots
+        Log.d("tst_log", "Spots récupérés : $spots"
+    } catch (e: Exception) {
+        //gestion des erreurs
+        e.printStackTrace()
+    }
+}
 
 //LISTE DES CLASSES
 // Element principal c'est ce qui va s'afficher sur notre mobile
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //Appel fetchSpots() dans un CoroutineScope
+        CoroutineScope(Dispatchers.IO).launch {
+            fetchSpots()
+        }
         enableEdgeToEdge()
         setContent { //contenu à afficher
             MyApplicationTheme {
