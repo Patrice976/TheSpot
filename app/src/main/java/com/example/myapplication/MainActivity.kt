@@ -35,6 +35,14 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.myapplication.ui.theme.MyApplicationTheme
+import retrofit2.Call
+import retrofit2.http.GET
+import retrofit2.http.Headers
+import retrofit2.http.Query
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.Callback
+import retrofit2.Response
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -69,6 +77,29 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+        RetrofitClient.apiService.getSurfSpot().enqueue(object : Callback<SurfSpotResponse> {
+            override fun onResponse(call: Call<SurfSpotResponse>, response: Response<SurfSpotResponse>) {
+                if (response.isSuccessful) {
+                    val records = response.body()?.records
+                    records?.forEach {
+                        val fields = it.fields
+                        println("Destination: ${fields.destination}")
+                        println("Difficulté: ${fields.difficulty}")
+                        println("Break: ${fields.surfBreak}")
+                        println("Photos: ${fields.photos}")
+                        println("Début de la saison: ${fields.peakBegins}")
+                        println("Fin de la saison: ${fields.peakEnds}")
+                        println("Lien Magic Seaweed: ${fields.magicSeaweedLink}")
+                        println("Influenceurs: ${fields.influencers}")
+                    }
+                }
+            }
+
+            override fun onFailure(call: Call<SurfSpotResponse>, t: Throwable) {
+                println("Erreur: ${t.message}")
+            }
+        })
     }
 }
 
@@ -161,5 +192,44 @@ fun NavigationBarWithButtons() {
                 Icon(Icons.Filled.Edit, contentDescription = "Edit")
             }
         }
+    }
+}
+
+data class SurfSpotRecord(
+    val id: String,
+    val fields: SurfSpotFields
+)
+
+data class SurfSpotFields(
+    val destination: String,
+    val difficulty: String,
+    val surfBreak: String,
+    val photos: String,
+    val peakBegins: String,
+    val peakEnds: String,
+    val magicSeaweedLink: String,
+    val influencers: List<String>,
+    val travellers: List<String>,
+    val geocode: String
+)
+
+data class SurfSpotResponse(
+    val records: List<SurfSpotRecord>
+)
+
+interface AirtableApi {
+    // Endpoint pour récupérer les données
+    @GET("v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2")
+    @Headers("Authorization: Bearer patpzSBgSr3dnevwc.a4de7204ffccf9cb98878db35d702f98de1136cb75016c8943e7691e9cc8dc53")
+    fun getSurfSpot(): Call<SurfSpotResponse>
+}
+
+object RetrofitClient {
+    val apiService: AirtableApi by lazy {
+        Retrofit.Builder()
+            .baseUrl("https://api.airtable.com/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(AirtableApi::class.java)
     }
 }

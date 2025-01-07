@@ -68,4 +68,14 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // Retrofit
+    implementation(libs.retrofit)
+
+    // Gson Converter for Retrofit
+    implementation(libs.converter.gson)
+
+    // OkHttp for network requests
+    implementation(libs.okhttp)
+
+    implementation (libs.androidx.lifecycle.runtime.ktx.v287)
 }
