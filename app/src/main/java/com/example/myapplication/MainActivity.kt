@@ -35,6 +35,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.myapplication.ui.theme.MyApplicationTheme
+import coil.compose.rememberAsyncImagePainter
+
 
 //LISTE DES CLASSES
 // Element principal c'est ce qui va s'afficher sur notre mobile
@@ -94,7 +96,7 @@ fun SpotView(modifier: Modifier = Modifier, spot : Spot = Spot (
         ) {
             // Affichage de l'image
             Image(
-                painter = rememberAsyncImagePainter(spot.imageUrl),
+                painter =  rememberAsyncImagePainter(spot.imageUrl),
                 contentDescription = spot.name,
                 modifier = Modifier
                     .size(300.dp) // Taille de l'image
