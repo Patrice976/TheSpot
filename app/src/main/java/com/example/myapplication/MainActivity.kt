@@ -179,7 +179,7 @@ class MainActivity : ComponentActivity() {
                 } else {
                     println("Affichage des spots de surf : ${surfSpots.value}")
                     // Si les données ont été chargées avec succès, afficher l'écran principal avec les spots de surf.
-                    MainScreen(surfSpots.value)
+                    Screen(surfSpots.value)
                     // `MainScreen` est une fonction Composable qui reçoit les données des spots de surf et les affiche.
                 }
             }
@@ -188,7 +188,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
+/*@Composable
 fun MainScreen(surfSpots: List<SurfSpotRecord>) {
     // Utilisation du Scaffold pour une gestion correcte de la barre de navigation
     Scaffold(
@@ -212,35 +212,37 @@ fun MainScreen(surfSpots: List<SurfSpotRecord>) {
             }
         }
     }
-}
+}*/
 
 @Composable
-fun Screen() {
+fun Screen(surfSpots: List<SurfSpotRecord>) {
         Image(
             painter = painterResource(id= R.drawable.main_background),
             contentDescription = "Une planche planté dans du sable ",
             contentScale = ContentScale.FillBounds,
             modifier = Modifier.fillMaxSize()
         )
+    DisplaySurfSpots(surfSpots)
     }
 
 @Composable
 fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
     //div qui contiendra l'image et le texte
-    Box(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(16.dp)
-            .background(Color.White.copy(alpha = 0.8f))
-    ) {
-        //Premier item
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(1.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
+
             surfSpots.forEach {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp)
+                        .background(Color.White.copy(alpha = 0.8f))
+                ) {
+                    //Premier item
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(1.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
                 // Parcourt chaque élément de la liste `surfSpots` (qui contient des objets de type `SurfSpotRecord`).
                 // La variable implicite `it` représente chaque élément de la liste lors de l'itération.
 
