@@ -19,6 +19,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Home
@@ -70,26 +72,26 @@ data class SurfSpotFields(
 )
 
 data class Photos(
-    val id: String,
-    val width: Int,
-    val height: Int,
-    val url: String,
-    val filename: String,
-    val size: Int,
-    val type: String,
-    val thumbnails: Thumbnails
+    val id: String?,
+    val width: Int?,
+    val height: Int?,
+    val url: String?,
+    val filename: String?,
+    val size: Int?,
+    val type: String?,
+    val thumbnails: Thumbnails?
 )
 
 data class Thumbnails(
-    val small: Thumbnail,
-    val large: Thumbnail,
-    val full: Thumbnail
+    val small: Thumbnail?,
+    val large: Thumbnail?,
+    val full: Thumbnail?
 )
 
 data class Thumbnail(
-    val url: String,
-    val width: Int,
-    val height: Int
+    val url: String?,
+    val width: Int?,
+    val height: Int?
 )
 
 data class SurfSpotResponse(
@@ -223,7 +225,7 @@ fun Screen(surfSpots: List<SurfSpotRecord>) {
             contentScale = ContentScale.FillBounds,
             modifier = Modifier.fillMaxSize()
         )
-    DisplaySurfSpots(surfSpots)
+        Column (modifier = Modifier.verticalScroll(rememberScrollState())){DisplaySurfSpots(surfSpots)}
     }
 
 @Composable
