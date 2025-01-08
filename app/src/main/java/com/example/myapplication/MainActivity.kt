@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Home
@@ -227,49 +228,36 @@ fun Screen(surfSpots: List<SurfSpotRecord>) {
 
 @Composable
 fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
-    //div qui contiendra l'image et le texte
-
-            surfSpots.forEach {
-                Box(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(16.dp)
-                        .background(Color.White.copy(alpha = 0.8f))
-                ) {
-                    //Premier item
-                    Column(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(1.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
-                // Parcourt chaque élément de la liste `surfSpots` (qui contient des objets de type `SurfSpotRecord`).
-                // La variable implicite `it` représente chaque élément de la liste lors de l'itération.
-
+    // Utilisation de Column pour afficher les éléments
+    Column(modifier = Modifier.fillMaxSize()) {
+        // Parcours de la liste des spots avec forEach
+        surfSpots.forEach { spot ->
+            // Affichage de chaque élément avec une Column pour une disposition verticale
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp)
+                    .background(Color.White.copy(alpha = 0.8f)),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
                 // Affichage de l'image
                 Image(
-                    painter = rememberAsyncImagePainter(it.fields.photos),
-                    // Charge l'image depuis l'URL spécifiée dans `it.fields.photos` grâce à `rememberAsyncImagePainter`.
-                    // `rememberAsyncImagePainter` est une fonction de la bibliothèque Coil pour charger des images à partir d'une URL.
-
-                    contentDescription = "Image de ${it.fields.destination}",
-                    // Fournit une description pour les lecteurs d'écran ou en cas d'erreur de chargement de l'image.
-                    // Cette description utilise le nom de la destination contenu dans `it.fields.destination`.
-
+                    painter = rememberAsyncImagePainter(spot.fields.photos),  // Assurez-vous que spot.fields.photos est une image valide
+                    contentDescription = "Image de ${spot.fields.destination}",
                     modifier = Modifier
-                        .size(300.dp) // Définit la taille de l'image à 300 dp (density-independent pixels).
+                        .size(300.dp) // Définit la taille de l'image
+                        .padding(bottom = 8.dp) // Espacement en bas de l'image
                 )
 
-                // Affichage du texte associé à l'image
+                // Affichage du texte
                 Text(
-                    "Destination : ${it.fields.destination}"
-                    // Affiche une chaîne de caractères contenant la destination.
-                    // Cette information est extraite de `it.fields.destination`, qui fait partie de l'objet `SurfSpotRecord`.
+                    text = "Destination : ${spot.fields.destination}",
+                    modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
                 )
             }
         }
     }
-}
+    }
 
 
 @Composable
