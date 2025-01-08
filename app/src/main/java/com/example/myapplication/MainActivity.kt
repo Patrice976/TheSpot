@@ -60,7 +60,7 @@ data class SurfSpotRecord(
 
 data class SurfSpotFields(
     @SerializedName("Destination") val destination: String?,
-    @SerializedName("Difficulty") val difficulty: String?,
+    @SerializedName("Difficulty Level") val difficulty: Int,
     @SerializedName("surfBreak") val surfBreak: String?,
     @SerializedName("photos") val photos: Photos,
     @SerializedName("peakBegins") val peakBegins: String?,
@@ -254,6 +254,14 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
                 // Affichage du texte
                 Text(
                     text = "Destination : ${spot.fields.destination}",
+                    modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
+                )
+                Text(
+                    text = "Difficulté : ${spot.fields.difficulty}",
+                    modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
+                )
+                Text(
+                    text = "Surf Break : ${spot.fields.surfBreak}",
                     modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
                 )
             }
