@@ -86,7 +86,6 @@ dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
 drawable abc_vector_test
 drawable banane
-drawable ic_100tb
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video

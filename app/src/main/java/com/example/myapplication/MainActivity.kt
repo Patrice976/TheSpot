@@ -38,6 +38,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
 import com.example.myapplication.ui.theme.MyApplicationTheme
+import com.google.gson.annotations.SerializedName
+import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Headers
@@ -54,16 +56,39 @@ data class SurfSpotRecord(
 )
 
 data class SurfSpotFields(
-    val destination: String,
-    val difficulty: String,
-    val surfBreak: String,
-    val photos: String,
-    val peakBegins: String,
-    val peakEnds: String,
-    val magicSeaweedLink: String,
-    val influencers: List<String>,
-    val travellers: List<String>,
-    val geocode: String
+    @SerializedName("Destination") val destination: String?,
+    @SerializedName("Difficulty") val difficulty: String?,
+    @SerializedName("surfBreak") val surfBreak: String?,
+    @SerializedName("photos") val photos: Photos,
+    @SerializedName("peakBegins") val peakBegins: String?,
+    @SerializedName("peakEnds") val peakEnds: String?,
+    @SerializedName("magicSeaweedLink") val magicSeaweedLink: String?,
+    @SerializedName("Influencers") val influencers: List<String>?,
+    @SerializedName("Travellers") val travellers: List<String>?,
+    @SerializedName("Geocode") val geocode: String?
+)
+
+data class Photos(
+    val id: String,
+    val width: Int,
+    val height: Int,
+    val url: String,
+    val filename: String,
+    val size: Int,
+    val type: String,
+    val thumbnails: Thumbnails
+)
+
+data class Thumbnails(
+    val small: Thumbnail,
+    val large: Thumbnail,
+    val full: Thumbnail
+)
+
+data class Thumbnail(
+    val url: String,
+    val width: Int,
+    val height: Int
 )
 
 data class SurfSpotResponse(
@@ -104,25 +129,41 @@ class MainActivity : ComponentActivity() {
         val errorState = mutableStateOf<String?>(null)
         // `errorState` est une variable réactive pour stocker un message d'erreur, ou `null` s'il n'y a pas d'erreur.
 
+        // Appel à l'API pour récupérer les données via Retrofit.
         RetrofitClient.apiService.getSurfSpot().enqueue(object : Callback<SurfSpotResponse> {
             override fun onResponse(call: Call<SurfSpotResponse>, response: Response<SurfSpotResponse>) {
                 isLoading.value = false
+                // Une réponse a été reçue, donc on arrête d'indiquer que le chargement est en cours.
+
                 if (response.isSuccessful) {
+                    println("JSON brut : ${response.body()}")
+
                     surfSpots.value = response.body()?.records ?: emptyList()
+                    println("Données récupérées : ${surfSpots.value}")
+                    // Si la réponse est réussie, on extrait les données des spots de surf et on les assigne à `surfSpots`.
                 } else {
                     errorState.value = "Erreur : ${response.code()} - ${response.message()}"
+                    // Si la réponse contient une erreur, on met à jour `errorState` avec le code et le message d'erreur.
                 }
             }
 
             override fun onFailure(call: Call<SurfSpotResponse>, t: Throwable) {
                 isLoading.value = false
+                // Si la requête échoue (par exemple, problème de réseau), on arrête d'indiquer que le chargement est en cours.
+
                 errorState.value = "Erreur : ${t.message}"
+                // On met à jour `errorState` avec le message de l'exception.
             }
         })
 
+        // Configuration de l'interface utilisateur avec Jetpack Compose.
         setContent {
             MyApplicationTheme {
+                // Applique le thème de l'application pour styliser l'interface.
+
                 if (isLoading.value) {
+                    // Si les données sont encore en cours de chargement, afficher un indicateur de chargement.
+                    println("Chargement en cours...")
                     Box(
                         modifier = Modifier.fillMaxSize(),
                         contentAlignment = Alignment.Center
@@ -130,12 +171,16 @@ class MainActivity : ComponentActivity() {
                         CircularProgressIndicator()
                     }
                 } else if (errorState.value != null) {
+                    println("Erreur détectée : ${errorState.value}")
                     Text(
                         text = "Erreur : ${errorState.value}",
                         color = Color.Red
                     )
                 } else {
+                    println("Affichage des spots de surf : ${surfSpots.value}")
+                    // Si les données ont été chargées avec succès, afficher l'écran principal avec les spots de surf.
                     MainScreen(surfSpots.value)
+                    // `MainScreen` est une fonction Composable qui reçoit les données des spots de surf et les affiche.
                 }
             }
         }
@@ -196,15 +241,28 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             surfSpots.forEach {
+                // Parcourt chaque élément de la liste `surfSpots` (qui contient des objets de type `SurfSpotRecord`).
+                // La variable implicite `it` représente chaque élément de la liste lors de l'itération.
+
                 // Affichage de l'image
                 Image(
                     painter = rememberAsyncImagePainter(it.fields.photos),
+                    // Charge l'image depuis l'URL spécifiée dans `it.fields.photos` grâce à `rememberAsyncImagePainter`.
+                    // `rememberAsyncImagePainter` est une fonction de la bibliothèque Coil pour charger des images à partir d'une URL.
+
                     contentDescription = "Image de ${it.fields.destination}",
+                    // Fournit une description pour les lecteurs d'écran ou en cas d'erreur de chargement de l'image.
+                    // Cette description utilise le nom de la destination contenu dans `it.fields.destination`.
+
                     modifier = Modifier
-                        .size(300.dp) // Taille de l'image
+                        .size(300.dp) // Définit la taille de l'image à 300 dp (density-independent pixels).
                 )
+
+                // Affichage du texte associé à l'image
                 Text(
                     "Destination : ${it.fields.destination}"
+                    // Affiche une chaîne de caractères contenant la destination.
+                    // Cette information est extraite de `it.fields.destination`, qui fait partie de l'objet `SurfSpotRecord`.
                 )
             }
         }

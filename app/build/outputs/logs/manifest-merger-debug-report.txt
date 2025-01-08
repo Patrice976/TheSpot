@@ -4,93 +4,93 @@ ADDED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidMani
 INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml:2:1-33:12
-MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\4e8aa563488337a78a1d97f420e3e193\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\527e7752e89b0465f8ff40a6e7f6b931\transformed\material3-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\6c3bf6e24ba81b9bd676da2b47c6d6f7\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\86d895c3e59fbb556ede4b0798f63e3f\transformed\fragment-1.5.6\AndroidManifest.xml:17:1-24:12
-MERGED from [io.coil-kt:coil-compose:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\6ad567ae6321227b90788eff5fbab659\transformed\coil-compose-2.2.2\AndroidManifest.xml:2:1-9:12
-MERGED from [io.coil-kt:coil-compose-base:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\75349d067966f1e103f97d39991a161d\transformed\coil-compose-base-2.2.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.25.1] C:\Users\tipha\.gradle\caches\8.9\transforms\5d015d4a2f0b352e5e5f84110adaa664\transformed\accompanist-drawablepainter-0.25.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4385129e4130fe95488af60b46dde030\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\127bdaf14c62d49261473ea91e917d4c\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3a2bab718723c0ca64d0fae843e56e62\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4dde4870679a6ff31b3971607a6c6420\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\421d8813d7092ed453ffc1af3b43c33d\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\dcc13a46e9f30fd37e12a321c89b1b58\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d6ebb384281e51c4763770f7c04c4ebf\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\cab7c0e691e3cbf6397bb7fa7fa02ae4\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\148464c7ffe6baced4e483961107d30b\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\0442e4b9390e78ecdffd705c7ac7d6d0\transformed\material-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\4f5d1921d650bfaa1eaf9248bc88d3b8\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\498abf1aad26b0f7afe40981619aad6d\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4515b3a6a4490e2f994c5c362f5a65f0\transformed\animation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5485be0ee6e3fdb9115ce5d368770317\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\572f0423b9d00ad3b6acfbd7a6e3072b\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d877f781f6bddd72e59236671dee7b79\transformed\ui-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\08935135b394651d985be5dad99a6263\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.activity:activity:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\5c2d66407d2f2aaac72cf1333b86695f\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\6ea06f65b01a93a5152592ad7a3db2cb\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\7fb0356cf72373686c13743d7d1fffc1\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ef7f007f43bc0bdd7926ecb14cde7842\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7124925db79de2da0c5927569eb26ceb\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6c57db98e0ef7f6f4d17f20f4e36a24\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [io.coil-kt:coil:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\5c0c113f2f6b1806b5919ba916af38e4\transformed\coil-2.2.2\AndroidManifest.xml:2:1-9:12
-MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\9cffda20eb2f6931d5b19c8b91f4ba7e\transformed\coil-base-2.2.2\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:17:1-39:12
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:17:1-44:12
-MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\c7e1cf9810521d318972d1569f6060e9\transformed\junit-1.2.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:17:1-53:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\b58f52875412b046684830e896b28dc6\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\438d695a81e41591e9953a03f8a643bd\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\8cf6fddb4de6748177cb6fbec5fa94c8\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\50b4d4cb01676b936470f46a9957aedc\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9648ec254bdeba5386711ed3c5d7de3f\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\17ceaddc9b4b739ed071a9f31d2ae3d1\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\67d9a0aa16c421a05b400f750113c8dd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4989276f90441c1c0ed9910bc5cd14ca\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7cf2138a0ca6dcfd0ce769874c15bd38\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9107e57840cd05ab777b4635ccd3907f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5ff85ac2cfd365b00b2137e40690b454\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\tipha\.gradle\caches\8.9\transforms\d14454aa6391415ab20ad4417b8fc28e\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\b73e937cab2a15aeebe7e8cd108aea7e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ffa758e965322df55dff82b3f4e6f088\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9dbfba09c66a033d356bcc6d3e8047a4\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\a7ca36f3cd82f1f65224a2e7f567c2aa\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\db923be31113d91c94d86527f95da221\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\tipha\.gradle\caches\8.9\transforms\eef7b6f5d2fbaa98a76fa5520dbe6155\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\f617a499e322eeef9d906beecc9e89c0\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\abcec57d0b1ab4d41ee0e1469bdc75f7\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3ac54194a73434e9a6a32f1090492c71\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\52738ccfbed339fb08f0acc29a8e58c4\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\ce489b53956ff815f179a65121b91e88\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\7a48c4dc1386561534cca7e2dc95d00d\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\89abf3487d93eb2c793f79fda8b25fec\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\deef8878371068d69d52cc57fca49c23\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\403c5b0615f3fdd3838773ae252a134d\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\15e95ee0f595d3781db8db1c63b8e780\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\a9393464d34db7bbb56b5da6e2ea444e\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\0a39faaf453147345ac4a12ec62c36f9\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:17:1-58:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\7fc0ea8350da56033d8014f5704455db\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\fca97337457c54372cf7088a9ec7ff16\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tipha\.gradle\caches\8.9\transforms\e9c8fede5ac8a0c16cd6d82b9854efe4\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.test.services:storage:1.5.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4edfcc1c22089ac6957c745253d53de4\transformed\storage-1.5.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.test:monitor:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\00760bbac4ae2f1c2ff3035e1df8d7d8\transformed\monitor-1.7.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\9336e2b76a2853bc61f6db8f7c64b410\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3692bac7d15db1d1e7bcda7c16f831b6\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d8e0a89ca3dcdc3b57ab5a6800482bb5\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4209098c035523872e21323c20e61a24\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f79ce9a951a796a6b507878706ec22c2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\56fcbf2395aa8d2bc94374e1f4f42b8e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ae839e4c2ca451a44edea75d949d1dca\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\02971006b84e9832c2b67e8e768ca5b5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d817449552b7c824e05c666140ebd6a4\transformed\tracing-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\973dfe3efd48afe0e0def642e53c12e2\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c927bb7fcff1e09b92bf04dccf2c5856\transformed\uiautomator-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\82c508fcd72951c3e11a508321dc6e18\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\201c8db95ab385ce8fe4a7087af00fcf\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9a67f7d54ca7fdb829f531b6024553bc\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\d69fa914445a422d7ac6e84585767a80\transformed\fragment-1.5.6\AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil-compose:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7fe619f84a1e3f66f53cd2c7b30479db\transformed\coil-compose-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f0ac3bee6e7fef7b4734b817a3312578\transformed\coil-compose-base-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] C:\Users\tipha\.gradle\caches\8.9\transforms\359daee4a04327466d999e12caa987bf\transformed\accompanist-drawablepainter-0.30.1\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5b551bd4ee942389e66ed6d53286e14e\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ebcf1bd2c8009d98f8e1c67d40894649\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\89ed5fc75f7daf542911f1cadb76a7b9\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\050292a48802ffd850fdf1950cac7058\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3fce2f885b99c17c88ea27cd972e3199\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\90de1397c7f839eacb26edb6133f3595\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7410669776fd6bbb31ba7180efa99451\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\66a114567215da3dfc8ee22932fccb71\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\8e9be2c9cb0bf6d6b0f880d1c26a027c\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\d797d3cb4663d9a83b75bc611f85b8ed\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1d933caffe2401ba7b632e3219e59fac\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\0e79266b4dea824e220b91e20087bb48\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\b555dcfbe81dfa3a7a37776e4bc08478\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\dd7384c1c9d0f5fcdbba634f63453018\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1420c72fc84679a78a2b3038b5bcafa1\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\ba09041a7b68727ecd25e900f7fd6454\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\0f7ebdcfd7329c2c636fa54e27f7093c\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\bb4d61227d2b1083b4fc2435b86d6a20\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ba239ff042ff1ce100552f93a66f24a7\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\8d7274567c1e8f48623c0d2b10ca7f33\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3e1c97588de5a70a0887f1411f0961d1\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.coil-kt:coil:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\950a2076abe39daf420d6cca2eee0c03\transformed\coil-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\df3bcc7f260384c127baae44b818ec04\transformed\coil-base-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:17:1-39:12
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\cc15de1d816816c8fca5febc0366acf0\transformed\junit-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:17:1-53:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\3d666be41f16c65c262719f547ae4af1\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2ea1594371d61729524902852f215133\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\cff0d057569a904d2a32598bea1f90be\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\2b1562c7ca8c7c32df0debcc5dc40877\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\90abe7013c7e5808fcb2df985d6c150b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\2e3228cef5e20ba24aa3526ba2fa7e72\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7e6c21b96e9a969aeb337cb5a97a55ce\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\aabf2f6e0f129b0673735e3c6efc531a\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3ccb5bba9589254265a12941aa6ffaf8\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5c2d52bd6579c5589de54dc1cebfb013\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\18f316f83cf6ffed893c053b667a7423\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2ae38c1c7faef4d953c1368206f5a6d3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\74c3c5199ae0879cfbd7212d078aa13e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\19bacc4dc8db18a2cbf96a053f1e3d39\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\bffb2c77d6f57888abce87e809c42212\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\cbbb82021950ba075e69b9234eef6cb7\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\6346d1895e21bc074fa8d1e7f4bc44d2\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\tipha\.gradle\caches\8.9\transforms\d8cb4c1f2b7d865015eda655fbc9f68d\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\c72583d2db47c01d7634784c8fef2ce0\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\c818a00df1e9ea0ef310e157566d77c9\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\b156fa50023b4019436c982032d33d4c\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\b7468bb8d6ea0e8d02ddaa761761fb22\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\50e419459375d14f06f07caaee24454f\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\ca7e6a685e808983bf0cce9b3ac6795c\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\346ad0d1d66951e6a3c5e98b1f6d655f\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\cafa1013589bb334b09ccfe85396f90a\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\ff9fa405eef5ba04db2775204355ba3f\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\4735703155f4b2a7d97b814359a8bd6d\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\fe481948f0119c2552e9863ec053e6fd\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\52a49c5fce15961d580c1098620a69a2\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:17:1-58:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\57d28d9ed3d49bf2e7be061c564a9bde\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\4b81d980b8b21207953c08749ea1dc99\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tipha\.gradle\caches\8.9\transforms\fc28b17d8056418b1727096d7d054b01\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\tipha\.gradle\caches\8.9\transforms\be7d30b14938241009168c87d6bc8e3e\transformed\storage-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\634623a7222c1428175b775db5d923aa\transformed\monitor-1.7.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\4e01fa302bbe2fe32690fb74f616b88e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ba299f522d1f23c21b23da52959fcaca\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\49fdc1c9f25d25fcea934cabee4162df\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\6b94f3f31668e377f5200c21d32a2402\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\85b494ae65381cc0250c40b1361e0550\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\8105b4dfc468924c4484ff2e7058b9a4\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\57c9bb7eb076a03dd00a261138581670\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\153a367b3792f034ac26c27608c6e224\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\54fffc4493043cd129183637a3b215b6\transformed\tracing-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\tipha\.gradle\caches\8.9\transforms\ff776cedb78d4ebb841ce4ed38f79773\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\15edd562c10bace3d119f21eecebfad9\transformed\uiautomator-2.2.0\AndroidManifest.xml:17:1-24:12
 	package
 		INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -104,36 +104,36 @@ MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle
 application
 ADDED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml:5:5-31:19
 INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml:5:5-31:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\148464c7ffe6baced4e483961107d30b\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\148464c7ffe6baced4e483961107d30b\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\08935135b394651d985be5dad99a6263\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\08935135b394651d985be5dad99a6263\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:29:5-37:19
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:29:5-37:19
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:5-81
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:5-81
-MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
-MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:23:5-56:19
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:23:5-56:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\9336e2b76a2853bc61f6db8f7c64b410\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\9336e2b76a2853bc61f6db8f7c64b410\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\02971006b84e9832c2b67e8e768ca5b5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\02971006b84e9832c2b67e8e768ca5b5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c927bb7fcff1e09b92bf04dccf2c5856\transformed\uiautomator-2.2.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c927bb7fcff1e09b92bf04dccf2c5856\transformed\uiautomator-2.2.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:29:5-37:19
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:29:5-37:19
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:5-81
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:5-81
+MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:23:5-56:19
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:23:5-56:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\4e01fa302bbe2fe32690fb74f616b88e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\4e01fa302bbe2fe32690fb74f616b88e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\153a367b3792f034ac26c27608c6e224\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\153a367b3792f034ac26c27608c6e224\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\15edd562c10bace3d119f21eecebfad9\transformed\uiautomator-2.2.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\15edd562c10bace3d119f21eecebfad9\transformed\uiautomator-2.2.0\AndroidManifest.xml:22:5-20
 	android:extractNativeLibs
 		INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
@@ -149,7 +149,7 @@ MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle
 	android:allowBackup
 		ADDED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml:6:9-35
 	android:networkSecurityConfig
-		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:18-78
+		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:18-78
 	android:theme
 		ADDED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml:13:9-51
 	android:dataExtractionRules
@@ -188,385 +188,387 @@ uses-sdk
 INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml
-MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\4e8aa563488337a78a1d97f420e3e193\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\4e8aa563488337a78a1d97f420e3e193\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\527e7752e89b0465f8ff40a6e7f6b931\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\527e7752e89b0465f8ff40a6e7f6b931\transformed\material3-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\6c3bf6e24ba81b9bd676da2b47c6d6f7\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\6c3bf6e24ba81b9bd676da2b47c6d6f7\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\86d895c3e59fbb556ede4b0798f63e3f\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\86d895c3e59fbb556ede4b0798f63e3f\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
-MERGED from [io.coil-kt:coil-compose:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\6ad567ae6321227b90788eff5fbab659\transformed\coil-compose-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-compose:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\6ad567ae6321227b90788eff5fbab659\transformed\coil-compose-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-compose-base:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\75349d067966f1e103f97d39991a161d\transformed\coil-compose-base-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-compose-base:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\75349d067966f1e103f97d39991a161d\transformed\coil-compose-base-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.25.1] C:\Users\tipha\.gradle\caches\8.9\transforms\5d015d4a2f0b352e5e5f84110adaa664\transformed\accompanist-drawablepainter-0.25.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.accompanist:accompanist-drawablepainter:0.25.1] C:\Users\tipha\.gradle\caches\8.9\transforms\5d015d4a2f0b352e5e5f84110adaa664\transformed\accompanist-drawablepainter-0.25.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4385129e4130fe95488af60b46dde030\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4385129e4130fe95488af60b46dde030\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\127bdaf14c62d49261473ea91e917d4c\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\127bdaf14c62d49261473ea91e917d4c\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3a2bab718723c0ca64d0fae843e56e62\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3a2bab718723c0ca64d0fae843e56e62\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4dde4870679a6ff31b3971607a6c6420\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4dde4870679a6ff31b3971607a6c6420\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\421d8813d7092ed453ffc1af3b43c33d\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\421d8813d7092ed453ffc1af3b43c33d\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\dcc13a46e9f30fd37e12a321c89b1b58\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\dcc13a46e9f30fd37e12a321c89b1b58\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d6ebb384281e51c4763770f7c04c4ebf\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d6ebb384281e51c4763770f7c04c4ebf\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\cab7c0e691e3cbf6397bb7fa7fa02ae4\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\cab7c0e691e3cbf6397bb7fa7fa02ae4\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\148464c7ffe6baced4e483961107d30b\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\148464c7ffe6baced4e483961107d30b\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\0442e4b9390e78ecdffd705c7ac7d6d0\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\0442e4b9390e78ecdffd705c7ac7d6d0\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\4f5d1921d650bfaa1eaf9248bc88d3b8\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\4f5d1921d650bfaa1eaf9248bc88d3b8\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\498abf1aad26b0f7afe40981619aad6d\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\498abf1aad26b0f7afe40981619aad6d\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4515b3a6a4490e2f994c5c362f5a65f0\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4515b3a6a4490e2f994c5c362f5a65f0\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5485be0ee6e3fdb9115ce5d368770317\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5485be0ee6e3fdb9115ce5d368770317\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\572f0423b9d00ad3b6acfbd7a6e3072b\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\572f0423b9d00ad3b6acfbd7a6e3072b\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d877f781f6bddd72e59236671dee7b79\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d877f781f6bddd72e59236671dee7b79\transformed\ui-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\08935135b394651d985be5dad99a6263\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\08935135b394651d985be5dad99a6263\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\5c2d66407d2f2aaac72cf1333b86695f\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\5c2d66407d2f2aaac72cf1333b86695f\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\6ea06f65b01a93a5152592ad7a3db2cb\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\6ea06f65b01a93a5152592ad7a3db2cb\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\7fb0356cf72373686c13743d7d1fffc1\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\7fb0356cf72373686c13743d7d1fffc1\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ef7f007f43bc0bdd7926ecb14cde7842\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ef7f007f43bc0bdd7926ecb14cde7842\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7124925db79de2da0c5927569eb26ceb\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7124925db79de2da0c5927569eb26ceb\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6c57db98e0ef7f6f4d17f20f4e36a24\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6c57db98e0ef7f6f4d17f20f4e36a24\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [io.coil-kt:coil:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\5c0c113f2f6b1806b5919ba916af38e4\transformed\coil-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\5c0c113f2f6b1806b5919ba916af38e4\transformed\coil-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\9cffda20eb2f6931d5b19c8b91f4ba7e\transformed\coil-base-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\tipha\.gradle\caches\8.9\transforms\9cffda20eb2f6931d5b19c8b91f4ba7e\transformed\coil-base-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:21:5-44
-MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:21:5-44
-MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\c7e1cf9810521d318972d1569f6060e9\transformed\junit-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\c7e1cf9810521d318972d1569f6060e9\transformed\junit-1.2.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\b58f52875412b046684830e896b28dc6\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\b58f52875412b046684830e896b28dc6\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\438d695a81e41591e9953a03f8a643bd\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\438d695a81e41591e9953a03f8a643bd\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\8cf6fddb4de6748177cb6fbec5fa94c8\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\8cf6fddb4de6748177cb6fbec5fa94c8\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\50b4d4cb01676b936470f46a9957aedc\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\50b4d4cb01676b936470f46a9957aedc\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9648ec254bdeba5386711ed3c5d7de3f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9648ec254bdeba5386711ed3c5d7de3f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\17ceaddc9b4b739ed071a9f31d2ae3d1\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\17ceaddc9b4b739ed071a9f31d2ae3d1\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\67d9a0aa16c421a05b400f750113c8dd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\67d9a0aa16c421a05b400f750113c8dd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4989276f90441c1c0ed9910bc5cd14ca\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4989276f90441c1c0ed9910bc5cd14ca\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7cf2138a0ca6dcfd0ce769874c15bd38\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7cf2138a0ca6dcfd0ce769874c15bd38\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9107e57840cd05ab777b4635ccd3907f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9107e57840cd05ab777b4635ccd3907f\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5ff85ac2cfd365b00b2137e40690b454\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5ff85ac2cfd365b00b2137e40690b454\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\tipha\.gradle\caches\8.9\transforms\d14454aa6391415ab20ad4417b8fc28e\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\tipha\.gradle\caches\8.9\transforms\d14454aa6391415ab20ad4417b8fc28e\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\b73e937cab2a15aeebe7e8cd108aea7e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\b73e937cab2a15aeebe7e8cd108aea7e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ffa758e965322df55dff82b3f4e6f088\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ffa758e965322df55dff82b3f4e6f088\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9dbfba09c66a033d356bcc6d3e8047a4\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9dbfba09c66a033d356bcc6d3e8047a4\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\a7ca36f3cd82f1f65224a2e7f567c2aa\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\a7ca36f3cd82f1f65224a2e7f567c2aa\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\db923be31113d91c94d86527f95da221\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\db923be31113d91c94d86527f95da221\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\tipha\.gradle\caches\8.9\transforms\eef7b6f5d2fbaa98a76fa5520dbe6155\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\tipha\.gradle\caches\8.9\transforms\eef7b6f5d2fbaa98a76fa5520dbe6155\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\f617a499e322eeef9d906beecc9e89c0\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\f617a499e322eeef9d906beecc9e89c0\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\abcec57d0b1ab4d41ee0e1469bdc75f7\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\abcec57d0b1ab4d41ee0e1469bdc75f7\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3ac54194a73434e9a6a32f1090492c71\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3ac54194a73434e9a6a32f1090492c71\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\52738ccfbed339fb08f0acc29a8e58c4\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\52738ccfbed339fb08f0acc29a8e58c4\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\ce489b53956ff815f179a65121b91e88\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\ce489b53956ff815f179a65121b91e88\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\7a48c4dc1386561534cca7e2dc95d00d\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\7a48c4dc1386561534cca7e2dc95d00d\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\89abf3487d93eb2c793f79fda8b25fec\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\89abf3487d93eb2c793f79fda8b25fec\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\deef8878371068d69d52cc57fca49c23\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\deef8878371068d69d52cc57fca49c23\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\403c5b0615f3fdd3838773ae252a134d\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\403c5b0615f3fdd3838773ae252a134d\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\15e95ee0f595d3781db8db1c63b8e780\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\15e95ee0f595d3781db8db1c63b8e780\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
-MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\a9393464d34db7bbb56b5da6e2ea444e\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\a9393464d34db7bbb56b5da6e2ea444e\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\0a39faaf453147345ac4a12ec62c36f9\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\0a39faaf453147345ac4a12ec62c36f9\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\7fc0ea8350da56033d8014f5704455db\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\7fc0ea8350da56033d8014f5704455db\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\fca97337457c54372cf7088a9ec7ff16\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\fca97337457c54372cf7088a9ec7ff16\transformed\runtime-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tipha\.gradle\caches\8.9\transforms\e9c8fede5ac8a0c16cd6d82b9854efe4\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tipha\.gradle\caches\8.9\transforms\e9c8fede5ac8a0c16cd6d82b9854efe4\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.test.services:storage:1.5.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4edfcc1c22089ac6957c745253d53de4\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test.services:storage:1.5.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4edfcc1c22089ac6957c745253d53de4\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:monitor:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\00760bbac4ae2f1c2ff3035e1df8d7d8\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test:monitor:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\00760bbac4ae2f1c2ff3035e1df8d7d8\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\9336e2b76a2853bc61f6db8f7c64b410\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\9336e2b76a2853bc61f6db8f7c64b410\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3692bac7d15db1d1e7bcda7c16f831b6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3692bac7d15db1d1e7bcda7c16f831b6\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d8e0a89ca3dcdc3b57ab5a6800482bb5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d8e0a89ca3dcdc3b57ab5a6800482bb5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4209098c035523872e21323c20e61a24\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\4209098c035523872e21323c20e61a24\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f79ce9a951a796a6b507878706ec22c2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f79ce9a951a796a6b507878706ec22c2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\56fcbf2395aa8d2bc94374e1f4f42b8e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\56fcbf2395aa8d2bc94374e1f4f42b8e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ae839e4c2ca451a44edea75d949d1dca\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ae839e4c2ca451a44edea75d949d1dca\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\02971006b84e9832c2b67e8e768ca5b5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\02971006b84e9832c2b67e8e768ca5b5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d817449552b7c824e05c666140ebd6a4\transformed\tracing-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\d817449552b7c824e05c666140ebd6a4\transformed\tracing-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\973dfe3efd48afe0e0def642e53c12e2\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\973dfe3efd48afe0e0def642e53c12e2\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c927bb7fcff1e09b92bf04dccf2c5856\transformed\uiautomator-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c927bb7fcff1e09b92bf04dccf2c5856\transformed\uiautomator-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\82c508fcd72951c3e11a508321dc6e18\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\82c508fcd72951c3e11a508321dc6e18\transformed\fragment-ktx-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\201c8db95ab385ce8fe4a7087af00fcf\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\201c8db95ab385ce8fe4a7087af00fcf\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9a67f7d54ca7fdb829f531b6024553bc\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\9a67f7d54ca7fdb829f531b6024553bc\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\d69fa914445a422d7ac6e84585767a80\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.6] C:\Users\tipha\.gradle\caches\8.9\transforms\d69fa914445a422d7ac6e84585767a80\transformed\fragment-1.5.6\AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil-compose:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7fe619f84a1e3f66f53cd2c7b30479db\transformed\coil-compose-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7fe619f84a1e3f66f53cd2c7b30479db\transformed\coil-compose-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f0ac3bee6e7fef7b4734b817a3312578\transformed\coil-compose-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f0ac3bee6e7fef7b4734b817a3312578\transformed\coil-compose-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] C:\Users\tipha\.gradle\caches\8.9\transforms\359daee4a04327466d999e12caa987bf\transformed\accompanist-drawablepainter-0.30.1\AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] C:\Users\tipha\.gradle\caches\8.9\transforms\359daee4a04327466d999e12caa987bf\transformed\accompanist-drawablepainter-0.30.1\AndroidManifest.xml:21:5-23:42
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5b551bd4ee942389e66ed6d53286e14e\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5b551bd4ee942389e66ed6d53286e14e\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ebcf1bd2c8009d98f8e1c67d40894649\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ebcf1bd2c8009d98f8e1c67d40894649\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\89ed5fc75f7daf542911f1cadb76a7b9\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\89ed5fc75f7daf542911f1cadb76a7b9\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\050292a48802ffd850fdf1950cac7058\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\050292a48802ffd850fdf1950cac7058\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3fce2f885b99c17c88ea27cd972e3199\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3fce2f885b99c17c88ea27cd972e3199\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\90de1397c7f839eacb26edb6133f3595\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\90de1397c7f839eacb26edb6133f3595\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7410669776fd6bbb31ba7180efa99451\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7410669776fd6bbb31ba7180efa99451\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\66a114567215da3dfc8ee22932fccb71\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\66a114567215da3dfc8ee22932fccb71\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\8e9be2c9cb0bf6d6b0f880d1c26a027c\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\8e9be2c9cb0bf6d6b0f880d1c26a027c\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\d797d3cb4663d9a83b75bc611f85b8ed\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\tipha\.gradle\caches\8.9\transforms\d797d3cb4663d9a83b75bc611f85b8ed\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1d933caffe2401ba7b632e3219e59fac\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1d933caffe2401ba7b632e3219e59fac\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\0e79266b4dea824e220b91e20087bb48\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\0e79266b4dea824e220b91e20087bb48\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\b555dcfbe81dfa3a7a37776e4bc08478\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\b555dcfbe81dfa3a7a37776e4bc08478\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\dd7384c1c9d0f5fcdbba634f63453018\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\dd7384c1c9d0f5fcdbba634f63453018\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1420c72fc84679a78a2b3038b5bcafa1\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1420c72fc84679a78a2b3038b5bcafa1\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\ba09041a7b68727ecd25e900f7fd6454\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\ba09041a7b68727ecd25e900f7fd6454\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\0f7ebdcfd7329c2c636fa54e27f7093c\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\0f7ebdcfd7329c2c636fa54e27f7093c\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\bb4d61227d2b1083b4fc2435b86d6a20\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\tipha\.gradle\caches\8.9\transforms\bb4d61227d2b1083b4fc2435b86d6a20\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ba239ff042ff1ce100552f93a66f24a7\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ba239ff042ff1ce100552f93a66f24a7\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\8d7274567c1e8f48623c0d2b10ca7f33\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\8d7274567c1e8f48623c0d2b10ca7f33\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3e1c97588de5a70a0887f1411f0961d1\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3e1c97588de5a70a0887f1411f0961d1\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\950a2076abe39daf420d6cca2eee0c03\transformed\coil-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\950a2076abe39daf420d6cca2eee0c03\transformed\coil-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\df3bcc7f260384c127baae44b818ec04\transformed\coil-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.4.0] C:\Users\tipha\.gradle\caches\8.9\transforms\df3bcc7f260384c127baae44b818ec04\transformed\coil-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\cc15de1d816816c8fca5febc0366acf0\transformed\junit-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:junit:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\cc15de1d816816c8fca5febc0366acf0\transformed\junit-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\3d666be41f16c65c262719f547ae4af1\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\3d666be41f16c65c262719f547ae4af1\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2ea1594371d61729524902852f215133\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2ea1594371d61729524902852f215133\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\cff0d057569a904d2a32598bea1f90be\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\cff0d057569a904d2a32598bea1f90be\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\2b1562c7ca8c7c32df0debcc5dc40877\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\2b1562c7ca8c7c32df0debcc5dc40877\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\90abe7013c7e5808fcb2df985d6c150b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\90abe7013c7e5808fcb2df985d6c150b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\2e3228cef5e20ba24aa3526ba2fa7e72\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\2e3228cef5e20ba24aa3526ba2fa7e72\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7e6c21b96e9a969aeb337cb5a97a55ce\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7e6c21b96e9a969aeb337cb5a97a55ce\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\aabf2f6e0f129b0673735e3c6efc531a\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\aabf2f6e0f129b0673735e3c6efc531a\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3ccb5bba9589254265a12941aa6ffaf8\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\3ccb5bba9589254265a12941aa6ffaf8\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5c2d52bd6579c5589de54dc1cebfb013\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\5c2d52bd6579c5589de54dc1cebfb013\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\18f316f83cf6ffed893c053b667a7423\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\18f316f83cf6ffed893c053b667a7423\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2ae38c1c7faef4d953c1368206f5a6d3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2ae38c1c7faef4d953c1368206f5a6d3\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\74c3c5199ae0879cfbd7212d078aa13e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\74c3c5199ae0879cfbd7212d078aa13e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\19bacc4dc8db18a2cbf96a053f1e3d39\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\19bacc4dc8db18a2cbf96a053f1e3d39\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\bffb2c77d6f57888abce87e809c42212\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\bffb2c77d6f57888abce87e809c42212\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\cbbb82021950ba075e69b9234eef6cb7\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\cbbb82021950ba075e69b9234eef6cb7\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\6346d1895e21bc074fa8d1e7f4bc44d2\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\6346d1895e21bc074fa8d1e7f4bc44d2\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\tipha\.gradle\caches\8.9\transforms\d8cb4c1f2b7d865015eda655fbc9f68d\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\tipha\.gradle\caches\8.9\transforms\d8cb4c1f2b7d865015eda655fbc9f68d\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\c72583d2db47c01d7634784c8fef2ce0\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\c72583d2db47c01d7634784c8fef2ce0\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\c818a00df1e9ea0ef310e157566d77c9\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\c818a00df1e9ea0ef310e157566d77c9\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\b156fa50023b4019436c982032d33d4c\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\b156fa50023b4019436c982032d33d4c\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\b7468bb8d6ea0e8d02ddaa761761fb22\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\b7468bb8d6ea0e8d02ddaa761761fb22\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\50e419459375d14f06f07caaee24454f\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\50e419459375d14f06f07caaee24454f\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\ca7e6a685e808983bf0cce9b3ac6795c\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\ca7e6a685e808983bf0cce9b3ac6795c\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\346ad0d1d66951e6a3c5e98b1f6d655f\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\346ad0d1d66951e6a3c5e98b1f6d655f\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\cafa1013589bb334b09ccfe85396f90a\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\cafa1013589bb334b09ccfe85396f90a\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\ff9fa405eef5ba04db2775204355ba3f\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\ff9fa405eef5ba04db2775204355ba3f\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\4735703155f4b2a7d97b814359a8bd6d\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\4735703155f4b2a7d97b814359a8bd6d\transformed\lifecycle-livedata-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\fe481948f0119c2552e9863ec053e6fd\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing-ktx:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\fe481948f0119c2552e9863ec053e6fd\transformed\tracing-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\52a49c5fce15961d580c1098620a69a2\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-perfetto-binary:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\52a49c5fce15961d580c1098620a69a2\transformed\tracing-perfetto-binary-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\57d28d9ed3d49bf2e7be061c564a9bde\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\57d28d9ed3d49bf2e7be061c564a9bde\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\4b81d980b8b21207953c08749ea1dc99\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\4b81d980b8b21207953c08749ea1dc99\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tipha\.gradle\caches\8.9\transforms\fc28b17d8056418b1727096d7d054b01\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tipha\.gradle\caches\8.9\transforms\fc28b17d8056418b1727096d7d054b01\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\tipha\.gradle\caches\8.9\transforms\be7d30b14938241009168c87d6bc8e3e\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.5.0] C:\Users\tipha\.gradle\caches\8.9\transforms\be7d30b14938241009168c87d6bc8e3e\transformed\storage-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\634623a7222c1428175b775db5d923aa\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.7.1] C:\Users\tipha\.gradle\caches\8.9\transforms\634623a7222c1428175b775db5d923aa\transformed\monitor-1.7.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\4e01fa302bbe2fe32690fb74f616b88e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\4e01fa302bbe2fe32690fb74f616b88e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ba299f522d1f23c21b23da52959fcaca\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\ba299f522d1f23c21b23da52959fcaca\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\49fdc1c9f25d25fcea934cabee4162df\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\49fdc1c9f25d25fcea934cabee4162df\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\6b94f3f31668e377f5200c21d32a2402\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\6b94f3f31668e377f5200c21d32a2402\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\85b494ae65381cc0250c40b1361e0550\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\85b494ae65381cc0250c40b1361e0550\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\8105b4dfc468924c4484ff2e7058b9a4\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\8105b4dfc468924c4484ff2e7058b9a4\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\57c9bb7eb076a03dd00a261138581670\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\57c9bb7eb076a03dd00a261138581670\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\153a367b3792f034ac26c27608c6e224\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\153a367b3792f034ac26c27608c6e224\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\54fffc4493043cd129183637a3b215b6\transformed\tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\tipha\.gradle\caches\8.9\transforms\54fffc4493043cd129183637a3b215b6\transformed\tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\tipha\.gradle\caches\8.9\transforms\ff776cedb78d4ebb841ce4ed38f79773\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\tipha\.gradle\caches\8.9\transforms\ff776cedb78d4ebb841ce4ed38f79773\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\15edd562c10bace3d119f21eecebfad9\transformed\uiautomator-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test.uiautomator:uiautomator:2.2.0] C:\Users\tipha\.gradle\caches\8.9\transforms\15edd562c10bace3d119f21eecebfad9\transformed\uiautomator-2.2.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml
+	tools:ignore
+		ADDED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] C:\Users\tipha\.gradle\caches\8.9\transforms\359daee4a04327466d999e12caa987bf\transformed\accompanist-drawablepainter-0.30.1\AndroidManifest.xml:23:9-39
 	android:minSdkVersion
 		INJECTED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml
 activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\148464c7ffe6baced4e483961107d30b\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\148464c7ffe6baced4e483961107d30b\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\148464c7ffe6baced4e483961107d30b\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
 activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\08935135b394651d985be5dad99a6263\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
 	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\08935135b394651d985be5dad99a6263\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\08935135b394651d985be5dad99a6263\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\tipha\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:5-81
+ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:5-81
 	android:name
-		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:22-78
+		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:22-78
 activity#androidx.benchmark.IsolationActivity
-ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:32:9-36:20
+ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:32:9-36:20
 	android:exported
-		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:34:13-36
+		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:34:13-36
 	android:theme
-		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:35:13-77
+		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:35:13-77
 	android:name
-		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\053da6b0e38e7eaa0c126323a0356b44\transformed\benchmark-common-1.3.3\AndroidManifest.xml:33:13-64
+		ADDED from [androidx.benchmark:benchmark-common:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:33:13-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\AndroidManifest.xml:2:1-33:12 reason: androidx.benchmark requested WRITE_EXTERNAL_STORAGE
 uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:23:5-25:53
+ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:23:5-25:53
 	tools:ignore
-		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:25:9-50
+		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:24:9-61
+		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:24:9-61
 uses-permission#android.permission.INTERNET
-ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:5-67
+ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:5-67
 	android:name
-		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\57c75cc29574579d72103b8a75770c03\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:22-64
+		ADDED from [androidx.benchmark:benchmark-macro:1.3.3] C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:22-64
 uses-permission#android.permission.REORDER_TASKS
-ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
+ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
 	android:name
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
 activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
-ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
+ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
 	android:exported
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
 	android:theme
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
 intent-filter#category:name:android.intent.category.LAUNCHER
-ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
 activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
-ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
+ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
 	android:exported
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
 	android:theme
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
 	android:name
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
 activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
-ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
+ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
 	android:exported
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
 	android:theme
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
 	android:name
-		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\34b139327bb784411eb76676d2279633\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
+		ADDED from [androidx.test:core:1.6.1] C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:39:9-47:20
-MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:39:9-47:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\02971006b84e9832c2b67e8e768ca5b5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\02971006b84e9832c2b67e8e768ca5b5\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:39:9-47:20
+MERGED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:39:9-47:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\153a367b3792f034ac26c27608c6e224\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tipha\.gradle\caches\8.9\transforms\153a367b3792f034ac26c27608c6e224\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\7de89df742a75035d3b56a289f9ecd91\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\3b2cc571985ac57c302606317560c21a\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 uses-permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\44e63bf6afd0eaba48e66a897b4e2a59\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 receiver#androidx.tracing.perfetto.TracingReceiver
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:24:9-37:20
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:24:9-37:20
 	android:enabled
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:27:13-35
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:27:13-35
 	android:exported
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:28:13-36
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:28:13-36
 	android:permission
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:29:13-57
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:29:13-57
 	android:directBootAware
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:26:13-44
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:26:13-44
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:25:13-69
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:25:13-69
 intent-filter#action:name:androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START+action:name:androidx.tracing.perfetto.action.ENABLE_TRACING+action:name:androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:32:13-36:29
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:32:13-36:29
 action#androidx.tracing.perfetto.action.ENABLE_TRACING
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:17-90
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:17-90
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:25-87
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:25-87
 action#androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:17-101
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:17-101
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:25-98
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:25-98
 action#androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:17-102
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:17-102
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:25-99
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:25-99
 meta-data#androidx.tracing.perfetto.StartupTracingInitializer
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:44:13-46:52
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:44:13-46:52
 	android:value
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:46:17-49
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:46:17-49
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:45:17-83
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:45:17-83
 receiver#androidx.tracing.perfetto.StartupTracingConfigStoreIsEnabledGate
-ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:49:9-55:20
+ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:49:9-55:20
 	android:enabled
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:52:13-36
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:52:13-36
 	android:exported
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:53:13-37
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:53:13-37
 	tools:targetApi
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:54:13-32
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:54:13-32
 	android:directBootAware
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:51:13-44
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:51:13-44
 	android:name
-		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\f6ff81d9d5ed012c8db7b85e1fabd6c5\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:50:13-92
+		ADDED from [androidx.tracing:tracing-perfetto:1.0.0] C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:50:13-92
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\0d0f2c17aab8eca738c25365e3c6d1d2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

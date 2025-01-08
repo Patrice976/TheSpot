@@ -4,7 +4,26 @@
             "outputFile": "com.example.myapplication.app-mergeDebugResources-60:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\50b4d4cb01676b936470f46a9957aedc\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\599a8aaaf04955561b915135054149c0\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
+                    "from": {
+                        "startLines": "4,13",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,621",
+                        "endLines": "12,21",
+                        "endColumns": "8,8",
+                        "endOffsets": "620,1093"
+                    },
+                    "to": {
+                        "startLines": "22,31",
+                        "startColumns": "4,4",
+                        "startOffsets": "1530,2009",
+                        "endLines": "30,39",
+                        "endColumns": "8,8",
+                        "endOffsets": "2004,2481"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\2b1562c7ca8c7c32df0debcc5dc40877\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -23,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\44e63bf6afd0eaba48e66a897b4e2a59\\transformed\\core-1.13.1\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\2a38a63b120a45fa3fd2f2372db07291\\transformed\\core-1.13.1\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -39,25 +58,6 @@
                         "endLines": "2,3,4,5,6,7,14,18,42,47",
                         "endColumns": "117,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "168,232,299,363,479,605,1062,1358,2653,3005"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\34b139327bb784411eb76676d2279633\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
-                    "from": {
-                        "startLines": "4,13",
-                        "startColumns": "0,0",
-                        "startOffsets": "146,621",
-                        "endLines": "12,21",
-                        "endColumns": "8,8",
-                        "endOffsets": "620,1093"
-                    },
-                    "to": {
-                        "startLines": "22,31",
-                        "startColumns": "4,4",
-                        "startOffsets": "1530,2009",
-                        "endLines": "30,39",
-                        "endColumns": "8,8",
-                        "endOffsets": "2004,2481"
                     }
                 }
             ]

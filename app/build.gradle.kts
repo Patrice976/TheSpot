@@ -80,4 +80,8 @@ dependencies {
     implementation (libs.androidx.lifecycle.runtime.ktx.v287)
 
     implementation(libs.coil.compose)
+
+    implementation(libs.gson)
+
+    implementation(libs.coil.compose.v240)
 }
