@@ -78,4 +78,6 @@ dependencies {
     implementation(libs.okhttp)
 
     implementation (libs.androidx.lifecycle.runtime.ktx.v287)
+
+    implementation(libs.coil.compose)
 }

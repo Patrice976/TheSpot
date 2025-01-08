@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-58:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-60:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\9ea3153ec3caae8bd2d5b412da5a5bc5\\transformed\\material3-release\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\527e7752e89b0465f8ff40a6e7f6b931\\transformed\\material3-release\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\730c11a4dde99cba439020665280420f\\transformed\\ui-release\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\d877f781f6bddd72e59236671dee7b79\\transformed\\ui-release\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\1ad9a44b1514fbcb3456a9fb4a07ce55\\transformed\\foundation-release\\res\\values-en-rCA\\values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,141",
-                        "endColumns": "85,84",
-                        "endOffsets": "136,221"
-                    },
-                    "to": {
-                        "startLines": "85,86",
-                        "startColumns": "4,4",
-                        "startOffsets": "8540,8626",
-                        "endColumns": "85,84",
-                        "endOffsets": "8621,8706"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\833f183ccc5badc8e8826b510f45d6e1\\transformed\\core-1.13.1\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\44e63bf6afd0eaba48e66a897b4e2a59\\transformed\\core-1.13.1\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "105,201,303,402,501,605,707,8176",
                         "endColumns": "95,101,98,98,103,101,115,100",
                         "endOffsets": "196,298,397,496,600,702,818,8272"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\572f0423b9d00ad3b6acfbd7a6e3072b\\transformed\\foundation-release\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,141",
+                        "endColumns": "85,84",
+                        "endOffsets": "136,221"
+                    },
+                    "to": {
+                        "startLines": "85,86",
+                        "startColumns": "4,4",
+                        "startOffsets": "8540,8626",
+                        "endColumns": "85,84",
+                        "endOffsets": "8621,8706"
                     }
                 }
             ]

@@ -84,7 +84,9 @@ dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
+drawable abc_vector_test
 drawable banane
+drawable ic_100tb
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -162,6 +164,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id clock_state
+id coil_request_manager
 id compose_view_saveable_id_tag
 id consume_window_insets_tag
 id dialog_button
@@ -359,6 +362,9 @@ style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 style Widget_Support_CoordinatorLayout
 style Widget_Theme_MyApplication_MyView
+styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
+styleable AnimatedStateListDrawableItem android_id android_drawable
+styleable AnimatedStateListDrawableTransition android_drawable android_toId android_fromId android_reversible
 styleable Capability queryPatterns shortcutMatchRequired
 styleable ColorStateListItem android_color android_alpha android_lStar alpha lStar
 styleable CoordinatorLayout keylines statusBarBackground
@@ -370,6 +376,8 @@ styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable HomePage exampleColor exampleDimension exampleDrawable exampleString
+styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
+styleable StateListDrawableItem android_drawable
 xml backup_rules
 xml data_extraction_rules
 xml network_security_config
