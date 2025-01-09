@@ -21,6 +21,10 @@ drawable ic_launcher_foreground
 drawable main_background
 drawable spot_idea
 drawable spot_idea2
+drawable surf_spot_1
+drawable surf_spot_2
+drawable surf_spot_3
+drawable surf_spot_4
 layout fragment_list_spots
 layout sample_home_page
 mipmap ic_launcher

@@ -1,65 +1,65 @@
-com.example.myapplication.app-ui-text-release-0 C:\Users\tipha\.gradle\caches\8.9\transforms\050292a48802ffd850fdf1950cac7058\transformed\ui-text-release\res
-com.example.myapplication.app-animation-release-1 C:\Users\tipha\.gradle\caches\8.9\transforms\0e79266b4dea824e220b91e20087bb48\transformed\animation-release\res
-com.example.myapplication.app-activity-ktx-1.8.2-2 C:\Users\tipha\.gradle\caches\8.9\transforms\0f7ebdcfd7329c2c636fa54e27f7093c\transformed\activity-ktx-1.8.2\res
-com.example.myapplication.app-ui-test-manifest-1.7.0-3 C:\Users\tipha\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\res
-com.example.myapplication.app-ui-release-4 C:\Users\tipha\.gradle\caches\8.9\transforms\1420c72fc84679a78a2b3038b5bcafa1\transformed\ui-release\res
-com.example.myapplication.app-startup-runtime-1.1.1-5 C:\Users\tipha\.gradle\caches\8.9\transforms\153a367b3792f034ac26c27608c6e224\transformed\startup-runtime-1.1.1\res
-com.example.myapplication.app-material-ripple-release-6 C:\Users\tipha\.gradle\caches\8.9\transforms\1d933caffe2401ba7b632e3219e59fac\transformed\material-ripple-release\res
-com.example.myapplication.app-material3-release-7 C:\Users\tipha\.gradle\caches\8.9\transforms\201c8db95ab385ce8fe4a7087af00fcf\transformed\material3-release\res
-com.example.myapplication.app-core-1.13.1-8 C:\Users\tipha\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\res
-com.example.myapplication.app-appcompat-resources-1.6.1-9 C:\Users\tipha\.gradle\caches\8.9\transforms\2ae38c1c7faef4d953c1368206f5a6d3\transformed\appcompat-resources-1.6.1\res
-com.example.myapplication.app-media-1.0.0-10 C:\Users\tipha\.gradle\caches\8.9\transforms\2b1562c7ca8c7c32df0debcc5dc40877\transformed\media-1.0.0\res
-com.example.myapplication.app-coordinatorlayout-1.0.0-11 C:\Users\tipha\.gradle\caches\8.9\transforms\2e3228cef5e20ba24aa3526ba2fa7e72\transformed\coordinatorlayout-1.0.0\res
-com.example.myapplication.app-savedstate-1.2.1-12 C:\Users\tipha\.gradle\caches\8.9\transforms\2ea1594371d61729524902852f215133\transformed\savedstate-1.2.1\res
-com.example.myapplication.app-lifecycle-livedata-2.8.7-13 C:\Users\tipha\.gradle\caches\8.9\transforms\346ad0d1d66951e6a3c5e98b1f6d655f\transformed\lifecycle-livedata-2.8.7\res
-com.example.myapplication.app-ui-tooling-release-14 C:\Users\tipha\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\res
-com.example.myapplication.app-savedstate-ktx-1.2.1-15 C:\Users\tipha\.gradle\caches\8.9\transforms\3d666be41f16c65c262719f547ae4af1\transformed\savedstate-ktx-1.2.1\res
-com.example.myapplication.app-ui-geometry-release-16 C:\Users\tipha\.gradle\caches\8.9\transforms\3fce2f885b99c17c88ea27cd972e3199\transformed\ui-geometry-release\res
-com.example.myapplication.app-profileinstaller-1.3.1-17 C:\Users\tipha\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\res
-com.example.myapplication.app-lifecycle-livedata-ktx-2.8.7-18 C:\Users\tipha\.gradle\caches\8.9\transforms\4735703155f4b2a7d97b814359a8bd6d\transformed\lifecycle-livedata-ktx-2.8.7\res
-com.example.myapplication.app-runtime-release-19 C:\Users\tipha\.gradle\caches\8.9\transforms\4b81d980b8b21207953c08749ea1dc99\transformed\runtime-release\res
-com.example.myapplication.app-lifecycle-viewmodel-release-20 C:\Users\tipha\.gradle\caches\8.9\transforms\50e419459375d14f06f07caaee24454f\transformed\lifecycle-viewmodel-release\res
-com.example.myapplication.app-tracing-perfetto-binary-1.0.0-21 C:\Users\tipha\.gradle\caches\8.9\transforms\52a49c5fce15961d580c1098620a69a2\transformed\tracing-perfetto-binary-1.0.0\res
-com.example.myapplication.app-tracing-1.1.0-22 C:\Users\tipha\.gradle\caches\8.9\transforms\54fffc4493043cd129183637a3b215b6\transformed\tracing-1.1.0\res
-com.example.myapplication.app-core-runtime-2.2.0-23 C:\Users\tipha\.gradle\caches\8.9\transforms\57c9bb7eb076a03dd00a261138581670\transformed\core-runtime-2.2.0\res
-com.example.myapplication.app-runtime-saveable-release-24 C:\Users\tipha\.gradle\caches\8.9\transforms\57d28d9ed3d49bf2e7be061c564a9bde\transformed\runtime-saveable-release\res
-com.example.myapplication.app-core-1.6.1-25 C:\Users\tipha\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\res
-com.example.myapplication.app-animation-core-release-26 C:\Users\tipha\.gradle\caches\8.9\transforms\5b551bd4ee942389e66ed6d53286e14e\transformed\animation-core-release\res
-com.example.myapplication.app-ui-unit-release-27 C:\Users\tipha\.gradle\caches\8.9\transforms\66a114567215da3dfc8ee22932fccb71\transformed\ui-unit-release\res
-com.example.myapplication.app-ui-util-release-28 C:\Users\tipha\.gradle\caches\8.9\transforms\7410669776fd6bbb31ba7180efa99451\transformed\ui-util-release\res
-com.example.myapplication.app-fragment-ktx-1.5.6-29 C:\Users\tipha\.gradle\caches\8.9\transforms\82c508fcd72951c3e11a508321dc6e18\transformed\fragment-ktx-1.5.6\res
-com.example.myapplication.app-emoji2-1.3.0-30 C:\Users\tipha\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\res
-com.example.myapplication.app-ui-tooling-preview-release-31 C:\Users\tipha\.gradle\caches\8.9\transforms\89ed5fc75f7daf542911f1cadb76a7b9\transformed\ui-tooling-preview-release\res
-com.example.myapplication.app-material-release-32 C:\Users\tipha\.gradle\caches\8.9\transforms\8e9be2c9cb0bf6d6b0f880d1c26a027c\transformed\material-release\res
-com.example.myapplication.app-ui-graphics-release-33 C:\Users\tipha\.gradle\caches\8.9\transforms\90de1397c7f839eacb26edb6133f3595\transformed\ui-graphics-release\res
-com.example.myapplication.app-lifecycle-process-2.8.7-34 C:\Users\tipha\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\res
-com.example.myapplication.app-benchmark-common-1.3.3-35 C:\Users\tipha\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\res
-com.example.myapplication.app-lifecycle-livedata-core-2.8.7-36 C:\Users\tipha\.gradle\caches\8.9\transforms\b156fa50023b4019436c982032d33d4c\transformed\lifecycle-livedata-core-2.8.7\res
-com.example.myapplication.app-foundation-layout-release-37 C:\Users\tipha\.gradle\caches\8.9\transforms\b555dcfbe81dfa3a7a37776e4bc08478\transformed\foundation-layout-release\res
-com.example.myapplication.app-activity-1.8.2-38 C:\Users\tipha\.gradle\caches\8.9\transforms\ba09041a7b68727ecd25e900f7fd6454\transformed\activity-1.8.2\res
-com.example.myapplication.app-activity-compose-1.8.2-39 C:\Users\tipha\.gradle\caches\8.9\transforms\bb4d61227d2b1083b4fc2435b86d6a20\transformed\activity-compose-1.8.2\res
-com.example.myapplication.app-customview-poolingcontainer-1.0.0-40 C:\Users\tipha\.gradle\caches\8.9\transforms\bffb2c77d6f57888abce87e809c42212\transformed\customview-poolingcontainer-1.0.0\res
-com.example.myapplication.app-lifecycle-runtime-release-41 C:\Users\tipha\.gradle\caches\8.9\transforms\c72583d2db47c01d7634784c8fef2ce0\transformed\lifecycle-runtime-release\res
-com.example.myapplication.app-tracing-perfetto-1.0.0-42 C:\Users\tipha\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\res
-com.example.myapplication.app-lifecycle-viewmodel-savedstate-2.8.7-43 C:\Users\tipha\.gradle\caches\8.9\transforms\c818a00df1e9ea0ef310e157566d77c9\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
-com.example.myapplication.app-lifecycle-livedata-core-ktx-2.8.7-44 C:\Users\tipha\.gradle\caches\8.9\transforms\ca7e6a685e808983bf0cce9b3ac6795c\transformed\lifecycle-livedata-core-ktx-2.8.7\res
-com.example.myapplication.app-lifecycle-runtime-ktx-release-45 C:\Users\tipha\.gradle\caches\8.9\transforms\cafa1013589bb334b09ccfe85396f90a\transformed\lifecycle-runtime-ktx-release\res
-com.example.myapplication.app-core-ktx-1.13.1-46 C:\Users\tipha\.gradle\caches\8.9\transforms\cbbb82021950ba075e69b9234eef6cb7\transformed\core-ktx-1.13.1\res
-com.example.myapplication.app-lifecycle-runtime-compose-release-47 C:\Users\tipha\.gradle\caches\8.9\transforms\cff0d057569a904d2a32598bea1f90be\transformed\lifecycle-runtime-compose-release\res
-com.example.myapplication.app-fragment-1.5.6-48 C:\Users\tipha\.gradle\caches\8.9\transforms\d69fa914445a422d7ac6e84585767a80\transformed\fragment-1.5.6\res
-com.example.myapplication.app-material-icons-core-release-49 C:\Users\tipha\.gradle\caches\8.9\transforms\d797d3cb4663d9a83b75bc611f85b8ed\transformed\material-icons-core-release\res
-com.example.myapplication.app-graphics-path-1.0.1-50 C:\Users\tipha\.gradle\caches\8.9\transforms\d8cb4c1f2b7d865015eda655fbc9f68d\transformed\graphics-path-1.0.1\res
-com.example.myapplication.app-foundation-release-51 C:\Users\tipha\.gradle\caches\8.9\transforms\dd7384c1c9d0f5fcdbba634f63453018\transformed\foundation-release\res
-com.example.myapplication.app-coil-base-2.4.0-52 C:\Users\tipha\.gradle\caches\8.9\transforms\df3bcc7f260384c127baae44b818ec04\transformed\coil-base-2.4.0\res
-com.example.myapplication.app-ui-tooling-data-release-53 C:\Users\tipha\.gradle\caches\8.9\transforms\ebcf1bd2c8009d98f8e1c67d40894649\transformed\ui-tooling-data-release\res
-com.example.myapplication.app-annotation-experimental-1.4.1-54 C:\Users\tipha\.gradle\caches\8.9\transforms\fc28b17d8056418b1727096d7d054b01\transformed\annotation-experimental-1.4.1\res
-com.example.myapplication.app-benchmark-macro-1.3.3-55 C:\Users\tipha\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\res
-com.example.myapplication.app-tracing-ktx-1.1.0-56 C:\Users\tipha\.gradle\caches\8.9\transforms\fe481948f0119c2552e9863ec053e6fd\transformed\tracing-ktx-1.1.0\res
-com.example.myapplication.app-lifecycle-viewmodel-ktx-2.8.7-57 C:\Users\tipha\.gradle\caches\8.9\transforms\ff9fa405eef5ba04db2775204355ba3f\transformed\lifecycle-viewmodel-ktx-2.8.7\res
-com.example.myapplication.app-pngs-58 C:\Users\tipha\AndroidStudioProjects\TheSpot\app\build\generated\res\pngs\debug
-com.example.myapplication.app-resValues-59 C:\Users\tipha\AndroidStudioProjects\TheSpot\app\build\generated\res\resValues\debug
-com.example.myapplication.app-packageDebugResources-60 C:\Users\tipha\AndroidStudioProjects\TheSpot\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.myapplication.app-packageDebugResources-61 C:\Users\tipha\AndroidStudioProjects\TheSpot\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.myapplication.app-debug-62 C:\Users\tipha\AndroidStudioProjects\TheSpot\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.myapplication.app-debug-63 C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\debug\res
-com.example.myapplication.app-main-64 C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\res
+com.example.myapplication.app-ui-text-release-0 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\050292a48802ffd850fdf1950cac7058\transformed\ui-text-release\res
+com.example.myapplication.app-animation-release-1 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0e79266b4dea824e220b91e20087bb48\transformed\animation-release\res
+com.example.myapplication.app-activity-ktx-1.8.2-2 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\0f7ebdcfd7329c2c636fa54e27f7093c\transformed\activity-ktx-1.8.2\res
+com.example.myapplication.app-ui-test-manifest-1.7.0-3 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\res
+com.example.myapplication.app-ui-release-4 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1420c72fc84679a78a2b3038b5bcafa1\transformed\ui-release\res
+com.example.myapplication.app-startup-runtime-1.1.1-5 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\153a367b3792f034ac26c27608c6e224\transformed\startup-runtime-1.1.1\res
+com.example.myapplication.app-material-ripple-release-6 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1d933caffe2401ba7b632e3219e59fac\transformed\material-ripple-release\res
+com.example.myapplication.app-material3-release-7 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\201c8db95ab385ce8fe4a7087af00fcf\transformed\material3-release\res
+com.example.myapplication.app-core-1.13.1-8 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\res
+com.example.myapplication.app-appcompat-resources-1.6.1-9 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2ae38c1c7faef4d953c1368206f5a6d3\transformed\appcompat-resources-1.6.1\res
+com.example.myapplication.app-media-1.0.0-10 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2b1562c7ca8c7c32df0debcc5dc40877\transformed\media-1.0.0\res
+com.example.myapplication.app-coordinatorlayout-1.0.0-11 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2e3228cef5e20ba24aa3526ba2fa7e72\transformed\coordinatorlayout-1.0.0\res
+com.example.myapplication.app-savedstate-1.2.1-12 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2ea1594371d61729524902852f215133\transformed\savedstate-1.2.1\res
+com.example.myapplication.app-lifecycle-livedata-2.8.7-13 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\346ad0d1d66951e6a3c5e98b1f6d655f\transformed\lifecycle-livedata-2.8.7\res
+com.example.myapplication.app-ui-tooling-release-14 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\res
+com.example.myapplication.app-savedstate-ktx-1.2.1-15 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3d666be41f16c65c262719f547ae4af1\transformed\savedstate-ktx-1.2.1\res
+com.example.myapplication.app-ui-geometry-release-16 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\3fce2f885b99c17c88ea27cd972e3199\transformed\ui-geometry-release\res
+com.example.myapplication.app-profileinstaller-1.3.1-17 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\res
+com.example.myapplication.app-lifecycle-livedata-ktx-2.8.7-18 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4735703155f4b2a7d97b814359a8bd6d\transformed\lifecycle-livedata-ktx-2.8.7\res
+com.example.myapplication.app-runtime-release-19 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\4b81d980b8b21207953c08749ea1dc99\transformed\runtime-release\res
+com.example.myapplication.app-lifecycle-viewmodel-release-20 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\50e419459375d14f06f07caaee24454f\transformed\lifecycle-viewmodel-release\res
+com.example.myapplication.app-tracing-perfetto-binary-1.0.0-21 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\52a49c5fce15961d580c1098620a69a2\transformed\tracing-perfetto-binary-1.0.0\res
+com.example.myapplication.app-tracing-1.1.0-22 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\54fffc4493043cd129183637a3b215b6\transformed\tracing-1.1.0\res
+com.example.myapplication.app-core-runtime-2.2.0-23 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57c9bb7eb076a03dd00a261138581670\transformed\core-runtime-2.2.0\res
+com.example.myapplication.app-runtime-saveable-release-24 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\57d28d9ed3d49bf2e7be061c564a9bde\transformed\runtime-saveable-release\res
+com.example.myapplication.app-core-1.6.1-25 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\res
+com.example.myapplication.app-animation-core-release-26 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\5b551bd4ee942389e66ed6d53286e14e\transformed\animation-core-release\res
+com.example.myapplication.app-ui-unit-release-27 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\66a114567215da3dfc8ee22932fccb71\transformed\ui-unit-release\res
+com.example.myapplication.app-ui-util-release-28 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\7410669776fd6bbb31ba7180efa99451\transformed\ui-util-release\res
+com.example.myapplication.app-fragment-ktx-1.5.6-29 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\82c508fcd72951c3e11a508321dc6e18\transformed\fragment-ktx-1.5.6\res
+com.example.myapplication.app-emoji2-1.3.0-30 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\res
+com.example.myapplication.app-ui-tooling-preview-release-31 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\89ed5fc75f7daf542911f1cadb76a7b9\transformed\ui-tooling-preview-release\res
+com.example.myapplication.app-material-release-32 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\8e9be2c9cb0bf6d6b0f880d1c26a027c\transformed\material-release\res
+com.example.myapplication.app-ui-graphics-release-33 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\90de1397c7f839eacb26edb6133f3595\transformed\ui-graphics-release\res
+com.example.myapplication.app-lifecycle-process-2.8.7-34 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\res
+com.example.myapplication.app-benchmark-common-1.3.3-35 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\res
+com.example.myapplication.app-lifecycle-livedata-core-2.8.7-36 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b156fa50023b4019436c982032d33d4c\transformed\lifecycle-livedata-core-2.8.7\res
+com.example.myapplication.app-foundation-layout-release-37 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b555dcfbe81dfa3a7a37776e4bc08478\transformed\foundation-layout-release\res
+com.example.myapplication.app-activity-1.8.2-38 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ba09041a7b68727ecd25e900f7fd6454\transformed\activity-1.8.2\res
+com.example.myapplication.app-activity-compose-1.8.2-39 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\bb4d61227d2b1083b4fc2435b86d6a20\transformed\activity-compose-1.8.2\res
+com.example.myapplication.app-customview-poolingcontainer-1.0.0-40 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\bffb2c77d6f57888abce87e809c42212\transformed\customview-poolingcontainer-1.0.0\res
+com.example.myapplication.app-lifecycle-runtime-release-41 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c72583d2db47c01d7634784c8fef2ce0\transformed\lifecycle-runtime-release\res
+com.example.myapplication.app-tracing-perfetto-1.0.0-42 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\res
+com.example.myapplication.app-lifecycle-viewmodel-savedstate-2.8.7-43 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c818a00df1e9ea0ef310e157566d77c9\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.example.myapplication.app-lifecycle-livedata-core-ktx-2.8.7-44 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ca7e6a685e808983bf0cce9b3ac6795c\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.example.myapplication.app-lifecycle-runtime-ktx-release-45 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\cafa1013589bb334b09ccfe85396f90a\transformed\lifecycle-runtime-ktx-release\res
+com.example.myapplication.app-core-ktx-1.13.1-46 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\cbbb82021950ba075e69b9234eef6cb7\transformed\core-ktx-1.13.1\res
+com.example.myapplication.app-lifecycle-runtime-compose-release-47 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\cff0d057569a904d2a32598bea1f90be\transformed\lifecycle-runtime-compose-release\res
+com.example.myapplication.app-fragment-1.5.6-48 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d69fa914445a422d7ac6e84585767a80\transformed\fragment-1.5.6\res
+com.example.myapplication.app-material-icons-core-release-49 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d797d3cb4663d9a83b75bc611f85b8ed\transformed\material-icons-core-release\res
+com.example.myapplication.app-graphics-path-1.0.1-50 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\d8cb4c1f2b7d865015eda655fbc9f68d\transformed\graphics-path-1.0.1\res
+com.example.myapplication.app-foundation-release-51 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\dd7384c1c9d0f5fcdbba634f63453018\transformed\foundation-release\res
+com.example.myapplication.app-coil-base-2.4.0-52 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\df3bcc7f260384c127baae44b818ec04\transformed\coil-base-2.4.0\res
+com.example.myapplication.app-ui-tooling-data-release-53 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ebcf1bd2c8009d98f8e1c67d40894649\transformed\ui-tooling-data-release\res
+com.example.myapplication.app-annotation-experimental-1.4.1-54 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fc28b17d8056418b1727096d7d054b01\transformed\annotation-experimental-1.4.1\res
+com.example.myapplication.app-benchmark-macro-1.3.3-55 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\res
+com.example.myapplication.app-tracing-ktx-1.1.0-56 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fe481948f0119c2552e9863ec053e6fd\transformed\tracing-ktx-1.1.0\res
+com.example.myapplication.app-lifecycle-viewmodel-ktx-2.8.7-57 C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\ff9fa405eef5ba04db2775204355ba3f\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.example.myapplication.app-pngs-58 C:\Users\Ada Tech School\Desktop\TheSpot\app\build\generated\res\pngs\debug
+com.example.myapplication.app-resValues-59 C:\Users\Ada Tech School\Desktop\TheSpot\app\build\generated\res\resValues\debug
+com.example.myapplication.app-packageDebugResources-60 C:\Users\Ada Tech School\Desktop\TheSpot\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.myapplication.app-packageDebugResources-61 C:\Users\Ada Tech School\Desktop\TheSpot\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.myapplication.app-debug-62 C:\Users\Ada Tech School\Desktop\TheSpot\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.myapplication.app-debug-63 C:\Users\Ada Tech School\Desktop\TheSpot\app\src\debug\res
+com.example.myapplication.app-main-64 C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\res

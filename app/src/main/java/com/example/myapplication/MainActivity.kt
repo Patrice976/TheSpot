@@ -191,32 +191,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-/*@Composable
-fun MainScreen(surfSpots: List<SurfSpotRecord>) {
-    // Utilisation du Scaffold pour une gestion correcte de la barre de navigation
-    Scaffold(
-        modifier = Modifier.fillMaxSize(),
-        bottomBar = { NavigationBarWithButtons() } // Ajout de la barre de navigation en bas
-    ) { innerPadding ->
-        Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(innerPadding)
-        ) {
-            Column(
-                modifier = Modifier
-                    .fillMaxSize(),
-                verticalArrangement = Arrangement.spacedBy(16.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                Spacer(modifier = Modifier.height(50.dp))
-                Screen()
-                DisplaySurfSpots(surfSpots)
-            }
-        }
-    }
-}*/
-
 @Composable
 fun Screen(surfSpots: List<SurfSpotRecord>) {
         Image(
@@ -234,6 +208,14 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
     Column(modifier = Modifier.fillMaxSize()) {
         // Parcours de la liste des spots avec forEach
         surfSpots.forEach { spot ->
+            //Sélection aléatoire d'une image
+            val drawableImages = listOf(
+                R.drawable.surf_spot_1,
+                R.drawable.surf_spot_2,
+                R.drawable.surf_spot_3,
+                R.drawable.surf_spot_4)
+
+            val randomImage = drawableImages.random()
             // Affichage de chaque élément avec une Column pour une disposition verticale
             Column(
                 modifier = Modifier
@@ -244,7 +226,7 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
             ) {
                 // Affichage de l'image
                 Image(
-                    painter = rememberAsyncImagePainter(spot.fields.photos),  // Assurez-vous que spot.fields.photos est une image valide
+                    painter = painterResource(id = randomImage),  // Assurez-vous que spot.fields.photos est une image valide
                     contentDescription = "Image de ${spot.fields.destination}",
                     modifier = Modifier
                         .size(300.dp) // Définit la taille de l'image
