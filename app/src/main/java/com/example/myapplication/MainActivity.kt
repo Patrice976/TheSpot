@@ -1,59 +1,60 @@
 package com.example.myapplication
 
-import android.os.Bundle
-import android.util.Log
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.benchmark.perfetto.Row
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.*
-import androidx.compose.material3.TextField
-import androidx.compose.material3.TextFieldDefaults
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.colorResource
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
-import androidx.core.content.ContextCompat
-import com.example.myapplication.ui.theme.MyApplicationTheme
-import com.google.gson.annotations.SerializedName
-import org.json.JSONObject
-import retrofit2.Call
-import retrofit2.http.GET
-import retrofit2.http.Headers
-import retrofit2.http.Query
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.Callback
-import retrofit2.Response
+// Importation des classes nécessaires à l'application Android et à la gestion de l'interface utilisateur
+import android.os.Bundle                 // Permet d'utiliser la classe Bundle (stockage de données d'activité)
+import android.util.Log                   // Permet d'utiliser les logs pour le débogage
+import androidx.activity.ComponentActivity  // Permet de créer une activité principale utilisant Jetpack Compose
+import androidx.activity.compose.setContent  // Permet de définir le contenu de l'activité avec Jetpack Compose
+import androidx.activity.enableEdgeToEdge   // Permet d'activer un design de type "edge-to-edge" (sans bordures)
+import androidx.benchmark.perfetto.Row     // Importation pour les benchmarks de performance
+import androidx.compose.foundation.Image    // Permet d'afficher une image dans l'UI
+import androidx.compose.foundation.background // Permet d'ajouter une couleur de fond à un composant
+import androidx.compose.foundation.layout.Arrangement // Permet de gérer l'alignement des éléments dans des conteneurs
+import androidx.compose.foundation.layout.Box  // Permet de créer un conteneur flexible pour positionner des éléments
+import androidx.compose.foundation.layout.Column // Permet de disposer les éléments verticalement dans une colonne
+import androidx.compose.foundation.layout.Row    // Permet de disposer les éléments horizontalement dans une ligne
+import androidx.compose.foundation.layout.Spacer // Permet de créer un espace vide entre les éléments
+import androidx.compose.foundation.layout.fillMaxHeight // Permet de remplir la hauteur d'un conteneur
+import androidx.compose.foundation.layout.fillMaxSize // Permet de remplir entièrement l'espace d'un conteneur
+import androidx.compose.foundation.layout.fillMaxWidth // Permet de remplir la largeur d'un conteneur
+import androidx.compose.foundation.layout.height    // Permet de spécifier une hauteur pour un composant
+import androidx.compose.foundation.layout.padding   // Permet d'ajouter un espacement (padding) autour d'un composant
+import androidx.compose.foundation.layout.size      // Permet de définir la taille d'un composant
+import androidx.compose.foundation.layout.width     // Permet de spécifier une largeur pour un composant
+import androidx.compose.foundation.lazy.LazyColumn  // Permet de créer une liste qui charge les éléments de manière paresseuse (lazy loading)
+import androidx.compose.foundation.rememberScrollState // Permet de mémoriser l'état du défilement d'une liste
+import androidx.compose.foundation.shape.RoundedCornerShape // Permet de créer des coins arrondis pour les composants
+import androidx.compose.foundation.verticalScroll  // Permet de faire défiler les éléments verticalement
+import androidx.compose.material.icons.Icons        // Permet d'utiliser les icônes Material Design
+import androidx.compose.material.icons.filled.Edit  // Icône pour un bouton de modification (édition)
+import androidx.compose.material.icons.filled.Home  // Icône pour un bouton d'accueil
+import androidx.compose.material.icons.filled.Search // Icône pour un bouton de recherche
+import androidx.compose.material3.*                // Importation des composants Material 3 pour l'UI
+import androidx.compose.material3.TextField       // Permet de créer un champ de texte pour la saisie de l'utilisateur
+import androidx.compose.material3.TextFieldDefaults // Permet de définir des valeurs par défaut pour un champ de texte
+import androidx.compose.runtime.Composable       // Annotation utilisée pour marquer une fonction composable (UI déclarative)
+import androidx.compose.runtime.mutableStateOf   // Permet de définir un état mutable dans un composable
+import androidx.compose.ui.Alignment             // Permet de spécifier l'alignement des éléments dans l'UI
+import androidx.compose.ui.Modifier              // Permet d'appliquer des modifications à un composant
+import androidx.compose.ui.draw.clip             // Permet de rogner les bords d'un composant (par exemple, coins arrondis)
+import androidx.compose.ui.graphics.Color       // Permet de définir une couleur pour un composant
+import androidx.compose.ui.layout.ContentScale  // Permet de spécifier comment une image doit être mise à l'échelle
+import androidx.compose.ui.res.colorResource    // Permet d'utiliser des couleurs définies dans les ressources XML
+import androidx.compose.ui.res.painterResource  // Permet de charger une image depuis les ressources
+import androidx.compose.ui.text.font.FontWeight // Permet de spécifier le poids de la police pour le texte
+import androidx.compose.ui.unit.dp               // Permet de spécifier des dimensions (comme des marges, tailles) en dp (density-independent pixels)
+import androidx.core.content.ContextCompat      // Permet d'utiliser les ressources contextuelles comme les couleurs ou les ressources matérielles
+import com.example.myapplication.ui.theme.MyApplicationTheme // Permet d'appliquer le thème personnalisé de l'application
+import com.google.gson.annotations.SerializedName // Permet d'annoter les champs d'un objet pour la sérialisation/desérialisation JSON avec Gson
+import org.json.JSONObject                    // Permet de manipuler des objets JSON
+import retrofit2.Call                         // Permet de gérer les appels réseau avec Retrofit
+import retrofit2.http.GET                     // Permet de définir des requêtes HTTP GET
+import retrofit2.http.Headers                // Permet de spécifier des en-têtes HTTP dans une requête
+import retrofit2.http.Query                  // Permet de spécifier des paramètres de requête dans une URL
+import retrofit2.Retrofit                    // Permet de créer une instance de Retrofit pour effectuer des requêtes réseau
+import retrofit2.converter.gson.GsonConverterFactory // Permet de convertir les réponses en objets Java/Kotlin à l'aide de Gson
+import retrofit2.Callback                    // Permet de gérer les réponses asynchrones des requêtes réseau
+import retrofit2.Response                    // Permet de gérer les réponses de Retrofit à une requête
 
 
 data class SurfSpotRecord(
