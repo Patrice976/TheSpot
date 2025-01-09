@@ -39,7 +39,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import coil.compose.rememberAsyncImagePainter
 import com.example.myapplication.ui.theme.MyApplicationTheme
 import com.google.gson.annotations.SerializedName
 import org.json.JSONObject
@@ -55,20 +54,22 @@ import retrofit2.Response
 
 data class SurfSpotRecord(
     val id: String,
-    val fields: SurfSpotFields
+    val fields: SurfSpotFields,
+
 )
 
 data class SurfSpotFields(
     @SerializedName("Destination") val destination: String?,
     @SerializedName("Difficulty Level") val difficulty: Int,
-    @SerializedName("surfBreak") val surfBreak: String?,
+    @SerializedName("Surf Break") val surfBreak: List<String>?,
     @SerializedName("photos") val photos: Photos,
     @SerializedName("peakBegins") val peakBegins: String?,
     @SerializedName("peakEnds") val peakEnds: String?,
     @SerializedName("magicSeaweedLink") val magicSeaweedLink: String?,
     @SerializedName("Influencers") val influencers: List<String>?,
     @SerializedName("Travellers") val travellers: List<String>?,
-    @SerializedName("Geocode") val geocode: String?
+    @SerializedName("Geocode") val geocode: String?,
+    @SerializedName("Destination State/Country") val address: String?
 )
 
 data class Photos(
@@ -213,7 +214,19 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
                 R.drawable.surf_spot_1,
                 R.drawable.surf_spot_2,
                 R.drawable.surf_spot_3,
-                R.drawable.surf_spot_4)
+                R.drawable.surf_spot_4,
+                R.drawable.surf_spot_5,
+                R.drawable.surf_spot_6,
+                R.drawable.surf_spot_7,
+                R.drawable.surf_spot_8,
+                R.drawable.surf_spot_9,
+                R.drawable.surf_spot_10,
+                R.drawable.surf_spot_11,
+                R.drawable.surf_spot_12,
+                R.drawable.surf_spot_13,
+                R.drawable.surf_spot_15,
+                R.drawable.surf_spot_16
+            )
 
             val randomImage = drawableImages.random()
             // Affichage de chaque élément avec une Column pour une disposition verticale
@@ -239,11 +252,15 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
                     modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
                 )
                 Text(
+                    text = "adresse : ${spot.fields.address}",
+                    modifier = Modifier.padding(top = 8.dp)
+                )
+                Text(
                     text = "Difficulté : ${spot.fields.difficulty}",
                     modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
                 )
                 Text(
-                    text = "Surf Break : ${spot.fields.surfBreak}",
+                    text = "Surf Break : ${spot.fields.surfBreak?.get(0)}",
                     modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
                 )
             }
