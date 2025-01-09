@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -12,6 +13,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -20,25 +22,27 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.NavigationBar
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.*
+import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat
 import com.example.myapplication.ui.theme.MyApplicationTheme
 import com.google.gson.annotations.SerializedName
 import org.json.JSONObject
@@ -164,8 +168,18 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 // Applique le thème de l'application pour styliser l'interface.
-
-                if (isLoading.value) {
+                // Scaffold est reponssable de la structure et de la mise en page
+                Scaffold(
+                    modifier = Modifier.fillMaxSize(),
+                    topBar = { SearchBar() },
+                    bottomBar = { NavigationBarWithButtons() } // Ajout de la barre de navigation en bas
+                ) { innerPadding ->
+                    Box( //permet de superposer les éléments
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(innerPadding)
+                    )
+                    if (isLoading.value) {
                     // Si les données sont encore en cours de chargement, afficher un indicateur de chargement.
                     println("Chargement en cours...")
                     Box(
@@ -203,6 +217,7 @@ fun Screen(surfSpots: List<SurfSpotRecord>) {
         Column (modifier = Modifier.verticalScroll(rememberScrollState())){DisplaySurfSpots(surfSpots)}
     }
 
+
 @Composable
 fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
     // Utilisation de Column pour afficher les éléments
@@ -229,40 +244,56 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
             )
 
             val randomImage = drawableImages.random()
+
+
             // Affichage de chaque élément avec une Column pour une disposition verticale
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(16.dp)
-                    .background(Color.White.copy(alpha = 0.8f)),
+                    .clip(RoundedCornerShape(80.dp))
+                    .background(Color.White.copy(alpha = 0.8f))
+                    ,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                // Affichage de l'image
-                Image(
-                    painter = painterResource(id = randomImage),  // Assurez-vous que spot.fields.photos est une image valide
-                    contentDescription = "Image de ${spot.fields.destination}",
+                Box(
                     modifier = Modifier
-                        .size(300.dp) // Définit la taille de l'image
-                        .padding(bottom = 8.dp) // Espacement en bas de l'image
-                )
+                        .fillMaxWidth()
+                        .height(60.dp), // Hauteur ajustée pour bien centrer le texte
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text(
+                        text = "${spot.fields.destination}",
+                        fontWeight = FontWeight.Bold,
+                        // Espacement en haut du texte
+                    )
+                }
+                    // Affichage de l'image
+                    Image(
+                        painter = painterResource(id = randomImage),  // Assurez-vous que spot.fields.photos est une image valide
+                        contentDescription = "Image de ${spot.fields.destination}",
+                        modifier = Modifier
+                            .size(285.dp) // Définit la taille de l'image
+                            .fillMaxWidth()
+                            .clip(RoundedCornerShape(56.dp))
+                            .padding(0.dp)
+                        //.padding(bottom = 8.dp) // Espacement en bas de l'image
+                    )
 
-                // Affichage du texte
-                Text(
-                    text = "Destination : ${spot.fields.destination}",
-                    modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
-                )
-                Text(
-                    text = "adresse : ${spot.fields.address}",
-                    modifier = Modifier.padding(top = 8.dp)
-                )
-                Text(
-                    text = "Difficulté : ${spot.fields.difficulty}",
-                    modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
-                )
-                Text(
-                    text = "Surf Break : ${spot.fields.surfBreak?.get(0)}",
-                    modifier = Modifier.padding(top = 8.dp) // Espacement en haut du texte
-                )
+                    // Affichage du texte
+                    Text(
+                        text = "adresse : ${spot.fields.address}",
+                        modifier = Modifier.padding(top = 4.dp)
+                    )
+                    Text(
+                        text = "Difficulté : ${spot.fields.difficulty}",
+                        modifier = Modifier.padding(top = 4.dp) // Espacement en haut du texte
+                    )
+                    Text(
+                        text = "Surf Break : ${spot.fields.surfBreak?.get(0)}",
+                        modifier = Modifier.padding(top = 4.dp , bottom = 8.dp)
+                    )
+                }
             }
         }
     }
@@ -271,12 +302,24 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
 
 @Composable
 fun NavigationBarWithButtons() {
-    NavigationBar {
+    val sable = colorResource(id = R.color.Sable)
+    Log.d("Debug", sable.toString()) // Vérifiez dans les logs la valeur de la couleur
+
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(sable.copy(alpha = 0.8f)) // Appliquer la transparence ici
+    ) {
+    NavigationBar (
+        modifier = Modifier.height(90.dp)
+    ) {
         // Row pour gérer l'alignement des boutons
         Row(
             modifier = Modifier.fillMaxWidth(), // La Row prend toute la largeur
             horizontalArrangement = Arrangement.Center, // Centrer les boutons horizontalement
             verticalAlignment = Alignment.CenterVertically // Alignement centré verticalement
+
+
         ) {
             // Bouton Home
             IconButton(onClick = {}) {
@@ -291,6 +334,28 @@ fun NavigationBarWithButtons() {
                 Icon(Icons.Filled.Edit, contentDescription = "Edit")
             }
         }
+    }
+}}
+
+@Composable
+fun SearchBar() {
+    // Utilisation d'un Column avec Modifier.fillMaxHeight() pour étendre la hauteur
+    Column(
+        modifier = Modifier
+            .fillMaxWidth() // Prend toute la largeur
+            .fillMaxHeight() // Prend toute la hauteur
+            , // Padding en haut pour espacer du bord
+        verticalArrangement = Arrangement.Top, // Aligner tout en haut
+        horizontalAlignment = Alignment.CenterHorizontally // Aligner horizontalement au centre
+    ) {
+        TextField(
+            value = "",
+            onValueChange = {},
+            placeholder = { Text("Search...") },
+            modifier = Modifier
+                .fillMaxWidth() // Le champ prend toute la largeur
+                .height(48.dp), // Hauteur du champ de texte
+        )
     }
 }
 

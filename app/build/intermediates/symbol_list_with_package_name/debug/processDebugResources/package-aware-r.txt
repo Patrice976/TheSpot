@@ -36,6 +36,7 @@ attr queryPatterns
 attr shortcutMatchRequired
 attr statusBarBackground
 attr ttcIndex
+color Sable
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color black

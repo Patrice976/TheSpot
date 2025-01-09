@@ -4,6 +4,7 @@ attr? exampleColor
 attr? exampleDimension
 attr? exampleDrawable
 attr? exampleString
+color Sable
 color black
 color gray_400
 color gray_600

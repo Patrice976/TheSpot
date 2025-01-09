@@ -35,6 +35,7 @@ int attr queryPatterns 0x7f03001a
 int attr shortcutMatchRequired 0x7f03001b
 int attr statusBarBackground 0x7f03001c
 int attr ttcIndex 0x7f03001d
+int color Sable 0x7f040016
 int color androidx_core_ripple_material_light 0x7f040000
 int color androidx_core_secondary_text_default_material_light 0x7f040001
 int color black 0x7f040002
