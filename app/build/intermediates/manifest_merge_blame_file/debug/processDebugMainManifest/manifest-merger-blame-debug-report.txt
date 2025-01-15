@@ -14,267 +14,267 @@
 14     machine after the tests are done running.
 15    -->
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:5-81
-16-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:22-78
+16-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:5-81
+16-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:27:22-78
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 18    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-18-->[androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:23:5-25:53
-18-->[androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:24:9-61
+18-->[androidx.benchmark:benchmark-macro:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:23:5-25:53
+18-->[androidx.benchmark:benchmark-macro:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:24:9-61
 19    <!--
 20         Internet permission is required for perfetto trace shell processor http server but
 21        it's used to reach localhost only
 22    -->
 23    <uses-permission android:name="android.permission.INTERNET" />
-23-->[androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:5-67
-23-->[androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:22-64
+23-->[androidx.benchmark:benchmark-macro:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:5-67
+23-->[androidx.benchmark:benchmark-macro:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:31:22-64
 24    <uses-permission android:name="android.permission.REORDER_TASKS" />
-24-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
-24-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
+24-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
+24-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
 25
 26    <permission
-26-->[androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+26-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 27        android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-27-->[androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+27-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 28        android:protectionLevel="signature" />
-28-->[androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+28-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 29
 30    <uses-permission android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-30-->[androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-30-->[androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+30-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 31
 32    <application
-32-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:5:5-31:19
+32-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:5:5-32:19
 33        android:allowBackup="true"
-33-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:6:9-35
+33-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:7:9-35
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-34-->[androidx.core:core:1.13.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+34-->[androidx.core:core:1.13.1] C:\Users\user\.gradle\caches\8.9\transforms\2a38a63b120a45fa3fd2f2372db07291\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 35        android:dataExtractionRules="@xml/data_extraction_rules"
-35-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:7:9-65
+35-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:8:9-65
 36        android:debuggable="true"
 37        android:extractNativeLibs="false"
 38        android:fullBackupContent="@xml/backup_rules"
-38-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:8:9-54
+38-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:9:9-54
 39        android:icon="@mipmap/ic_launcher"
-39-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:9:9-43
+39-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:10:9-43
 40        android:label="@string/app_name"
-40-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:10:9-41
+40-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:11:9-41
 41        android:networkSecurityConfig="@xml/network_security_config"
-41-->[androidx.benchmark:benchmark-macro:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\fd336fea238ad46b1f2bdccb6a51efd4\transformed\benchmark-macro-1.3.3\AndroidManifest.xml:42:18-78
+41-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:6:9-69
 42        android:roundIcon="@mipmap/ic_launcher_round"
-42-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:11:9-54
+42-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:12:9-54
 43        android:supportsRtl="true"
-43-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:12:9-35
+43-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:13:9-35
 44        android:testOnly="true"
 45        android:theme="@style/Theme.MyApplication" >
-45-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:13:9-51
+45-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:14:9-51
 46        <activity
-46-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:15:9-19:58
+46-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:16:9-20:58
 47            android:name="com.example.myapplication.MainActivity2"
-47-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:16:13-42
+47-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:17:13-42
 48            android:exported="false"
-48-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:17:13-37
+48-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:18:13-37
 49            android:label="@string/title_activity_main2"
-49-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:18:13-57
+49-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:19:13-57
 50            android:theme="@style/Theme.MyApplication" />
-50-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:19:13-55
+50-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:20:13-55
 51        <activity
-51-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:20:9-30:20
+51-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:21:9-31:20
 52            android:name="com.example.myapplication.MainActivity"
-52-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:21:13-41
+52-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:22:13-41
 53            android:exported="true"
-53-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:22:13-36
+53-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:23:13-36
 54            android:label="@string/app_name"
-54-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:23:13-45
+54-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:24:13-45
 55            android:theme="@style/Theme.MyApplication" >
-55-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:24:13-55
+55-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:25:13-55
 56            <intent-filter>
-56-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:25:13-29:29
+56-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:26:13-30:29
 57                <action android:name="android.intent.action.MAIN" />
-57-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:26:17-69
-57-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:26:25-66
+57-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:27:17-69
+57-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:27:25-66
 58
 59                <category android:name="android.intent.category.LAUNCHER" />
-59-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:28:17-77
-59-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:28:27-74
+59-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:29:17-77
+59-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:29:27-74
 60            </intent-filter>
 61        </activity>
 62        <activity
-62-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+62-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 63            android:name="androidx.compose.ui.tooling.PreviewActivity"
-63-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+63-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
 64            android:exported="true" />
-64-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+64-->[androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\37c4ad0e65215ed67e092eb42530a269\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
 65        <activity
-65-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
+65-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
 66            android:name="androidx.activity.ComponentActivity"
-66-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
+66-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
 67            android:exported="true" /> <!-- Activity used to block background content while benchmarks are running -->
-67-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
+67-->[androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\user\.gradle\caches\8.9\transforms\1054b67f33dcbd8d040b8918fc164b36\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
 68        <activity
-68-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:32:9-36:20
+68-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:32:9-36:20
 69            android:name="androidx.benchmark.IsolationActivity"
-69-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:33:13-64
+69-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:33:13-64
 70            android:exported="true"
-70-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:34:13-36
+70-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:34:13-36
 71            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
-71-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:35:13-77
+71-->[androidx.benchmark:benchmark-common:1.3.3] C:\Users\user\.gradle\caches\8.9\transforms\b02d04fffe715cf0d8966920a5578dbe\transformed\benchmark-common-1.3.3\AndroidManifest.xml:35:13-77
 72        </activity>
 73        <activity
-73-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
+73-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
 74            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-74-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
+74-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
 75            android:exported="true"
-75-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
+75-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
 76            android:theme="@style/WhiteBackgroundTheme" >
-76-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
+76-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
 77            <intent-filter android:priority="-100" >
-77-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
-77-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+77-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+77-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
 78                <category android:name="android.intent.category.LAUNCHER" />
-78-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:28:17-77
-78-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:28:27-74
+78-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:29:17-77
+78-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:29:27-74
 79            </intent-filter>
 80        </activity>
 81        <activity
-81-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
+81-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
 82            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-82-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
+82-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
 83            android:exported="true"
-83-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
+83-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
 84            android:theme="@style/WhiteBackgroundTheme" >
-84-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
+84-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
 85            <intent-filter android:priority="-100" >
-85-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
-85-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+85-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+85-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
 86                <category android:name="android.intent.category.LAUNCHER" />
-86-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:28:17-77
-86-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:28:27-74
+86-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:29:17-77
+86-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:29:27-74
 87            </intent-filter>
 88        </activity>
 89        <activity
-89-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
+89-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
 90            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-90-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
+90-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
 91            android:exported="true"
-91-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
+91-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
 92            android:theme="@style/WhiteBackgroundDialogTheme" >
-92-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
+92-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
 93            <intent-filter android:priority="-100" >
-93-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
-93-->[androidx.test:core:1.6.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+93-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+93-->[androidx.test:core:1.6.1] C:\Users\user\.gradle\caches\8.9\transforms\599a8aaaf04955561b915135054149c0\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
 94                <category android:name="android.intent.category.LAUNCHER" />
-94-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:28:17-77
-94-->C:\Users\Ada Tech School\Desktop\TheSpot\app\src\main\AndroidManifest.xml:28:27-74
+94-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:29:17-77
+94-->C:\Users\user\Desktop\TheSpotFront\app\src\main\AndroidManifest.xml:29:27-74
 95            </intent-filter>
 96        </activity>
 97
 98        <provider
-98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 99            android:name="androidx.startup.InitializationProvider"
-99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 100            android:authorities="com.example.myapplication.androidx-startup"
-100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 101            android:exported="false" >
-101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 102            <meta-data
-102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 104                android:value="androidx.startup" />
-104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\8.9\transforms\86672268aacd307d778eb569423e8af4\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 105            <meta-data
-105-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+105-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\user\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
 106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-106-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+106-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\user\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
 107                android:value="androidx.startup" />
-107-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+107-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\user\.gradle\caches\8.9\transforms\973d62916a2122b560b526e076d76035\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
 108            <meta-data
-108-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:44:13-46:52
+108-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:44:13-46:52
 109                android:name="androidx.tracing.perfetto.StartupTracingInitializer"
-109-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:45:17-83
+109-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:45:17-83
 110                android:value="androidx.startup" />
-110-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:46:17-49
+110-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:46:17-49
 111            <meta-data
-111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 112                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
 113                android:value="androidx.startup" />
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
 114        </provider>
 115
 116        <receiver
-116-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:24:9-37:20
+116-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:24:9-37:20
 117            android:name="androidx.tracing.perfetto.TracingReceiver"
-117-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:25:13-69
+117-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:25:13-69
 118            android:directBootAware="false"
-118-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:26:13-44
+118-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:26:13-44
 119            android:enabled="true"
-119-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:27:13-35
+119-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:27:13-35
 120            android:exported="true"
-120-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:28:13-36
+120-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:28:13-36
 121            android:permission="android.permission.DUMP" >
-121-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:29:13-57
+121-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:29:13-57
 122
 123            <!-- Note: DUMP above highly limits who can call the receiver; Shell has DUMP perm. -->
 124            <intent-filter>
-124-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:32:13-36:29
+124-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:32:13-36:29
 125                <action android:name="androidx.tracing.perfetto.action.ENABLE_TRACING" />
-125-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:17-90
-125-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:25-87
+125-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:17-90
+125-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:33:25-87
 126                <action android:name="androidx.tracing.perfetto.action.ENABLE_TRACING_COLD_START" />
-126-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:17-101
-126-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:25-98
+126-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:17-101
+126-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:34:25-98
 127                <action android:name="androidx.tracing.perfetto.action.DISABLE_TRACING_COLD_START" />
-127-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:17-102
-127-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:25-99
+127-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:17-102
+127-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:35:25-99
 128            </intent-filter>
 129        </receiver>
 130        <receiver
-130-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:49:9-55:20
+130-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:49:9-55:20
 131            android:name="androidx.tracing.perfetto.StartupTracingConfigStoreIsEnabledGate"
-131-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:50:13-92
+131-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:50:13-92
 132            android:directBootAware="false"
-132-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:51:13-44
+132-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:51:13-44
 133            android:enabled="false"
-133-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:52:13-36
+133-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:52:13-36
 134            android:exported="false" >
-134-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:53:13-37
+134-->[androidx.tracing:tracing-perfetto:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\c74203ee383537d90bc51a1d23f52d5c\transformed\tracing-perfetto-1.0.0\AndroidManifest.xml:53:13-37
 135        </receiver>
 136        <receiver
-136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
 137            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
 138            android:directBootAware="false"
-138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
 139            android:enabled="true"
-139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
 140            android:exported="true"
-140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
 141            android:permission="android.permission.DUMP" >
-141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
 142            <intent-filter>
-142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
 143                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
 144            </intent-filter>
 145            <intent-filter>
-145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
 146                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
 147            </intent-filter>
 148            <intent-filter>
-148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
 149                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
 150            </intent-filter>
 151            <intent-filter>
-151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
 152                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Ada Tech School\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\user\.gradle\caches\8.9\transforms\464ac097fae350fe1c457da776d34f1f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
 153            </intent-filter>
 154        </receiver>
 155    </application>

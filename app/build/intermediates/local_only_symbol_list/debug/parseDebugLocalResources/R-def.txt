@@ -48,3 +48,4 @@ style Widget.Theme.MyApplication.MyView
 styleable HomePage exampleString exampleDimension exampleColor exampleDrawable
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

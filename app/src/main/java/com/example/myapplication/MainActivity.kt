@@ -56,67 +56,67 @@ import retrofit2.converter.gson.GsonConverterFactory // Permet de convertir les 
 import retrofit2.Callback                    // Permet de gérer les réponses asynchrones des requêtes réseau
 import retrofit2.Response                    // Permet de gérer les réponses de Retrofit à une requête
 
-
-data class SurfSpotRecord(
-    val id: String, // Identifiant unique du spot de surf
-    val fields: SurfSpotFields, // Contient les informations détaillées sur le spot (via la classe SurfSpotFields)
+data class SurfSpotResponse(
+    @SerializedName("data") val data: List<SurfSpotRecord> // La liste de records dans la clé "data"
 )
 
-data class SurfSpotFields(
-    @SerializedName("Destination") val destination: String?, // Nom de la destination (facultatif, peut être null)
-    @SerializedName("Difficulty Level") val difficulty: Int, // Niveau de difficulté du spot
-    @SerializedName("Surf Break") val surfBreak: List<String>?, // Liste des endroits où les vagues se brisent (facultatif)
-    @SerializedName("photos") val photos: Photos, // Informations sur les photos liées au spot
-    @SerializedName("peakBegins") val peakBegins: String?, // Heure à laquelle les vagues commencent à être meilleures (facultatif)
-    @SerializedName("peakEnds") val peakEnds: String?, // Heure à laquelle les vagues sont les meilleures (facultatif)
-    @SerializedName("magicSeaweedLink") val magicSeaweedLink: String?, // Lien vers la plateforme Magic Seaweed pour plus d'infos
-    @SerializedName("Influencers") val influencers: List<String>?, // Liste des influenceurs associés à ce spot (facultatif)
-    @SerializedName("Travellers") val travellers: List<String>?, // Liste des voyageurs associés à ce spot (facultatif)
-    @SerializedName("Geocode") val geocode: String?, // Géocode du spot (facultatif)
-    @SerializedName("Destination State/Country") val address: String? // Adresse complète du spot de surf
+data class SurfSpotRecord(
+    @SerializedName("id") val id: String, // Identifiant du spot
+    @SerializedName("surf_break") val surfBreak: List<String>, // Liste des types de surf break
+    @SerializedName("difficulty_level") val difficultyLevel: Int, // Niveau de difficulté
+    @SerializedName("destination") val destination: String, // Destination du spot
+    @SerializedName("geocode") val geocode: String, // Géocode (peut-être une localisation)
+    @SerializedName("influencers") val influencers: List<String>, // Liste des influenceurs
+    @SerializedName("magic_seaweed_link") val magicSeaweedLink: String, // Lien vers Magic Seaweed
+    @SerializedName("photos") val photos: List<Photos>, // Liste des photos
+    @SerializedName("peak_surf_season_begins") val peakBegins: String, // Saison de surf commence
+    @SerializedName("peak_surf_season_ends") val peakEnds: String, // Saison de surf finit
+    @SerializedName("address") val address: String, // Adresse
+    @SerializedName("created_time") val createdTime: String // Date de création
 )
 
 data class Photos(
-    val id: String?, // Identifiant de la photo (facultatif)
-    val width: Int?, // Largeur de la photo (facultatif)
-    val height: Int?, // Hauteur de la photo (facultatif)
-    val url: String?, // URL de la photo (facultatif)
-    val filename: String?, // Nom du fichier de la photo (facultatif)
-    val size: Int?, // Taille du fichier de la photo (facultatif)
-    val type: String?, // Type de fichier de la photo (facultatif)
-    val thumbnails: Thumbnails? // Thumbnails de la photo (facultatif)
+    @SerializedName("id") val id: String?, // ID de la photo
+    @SerializedName("url") val url: String?, // URL de la photo
+    @SerializedName("filename") val filename: String?, // Nom du fichier
+    @SerializedName("size") val size: Int?, // Taille de la photo
+    @SerializedName("type") val type: String?, // Type de fichier (image/jpeg)
+    @SerializedName("thumbnails") val thumbnails: Thumbnails? // Thumbnails des images
 )
 
 data class Thumbnails(
-    val small: Thumbnail?, // Version réduite de la photo
-    val large: Thumbnail?, // Version large de la photo
-    val full: Thumbnail? // Version complète de la photo
+    @SerializedName("small") val small: Thumbnail?,
+    @SerializedName("large") val large: Thumbnail?,
+    @SerializedName("full") val full: Thumbnail?
 )
 
 data class Thumbnail(
-    val url: String?, // URL de l'image miniature (facultatif)
-    val width: Int?, // Largeur de la miniature (facultatif)
-    val height: Int? // Hauteur de la miniature (facultatif)
+    @SerializedName("url") val url: String?,
+    @SerializedName("width") val width: Int?,
+    @SerializedName("height") val height: Int?
 )
 
-data class SurfSpotResponse(
-    val records: List<SurfSpotRecord> // Liste des enregistrements de spots de surf
-)
 
-interface AirtableApi {
+/* interface AirtableApi {
     // Endpoint pour récupérer les données
     @GET("v0/appEksYm9WhIjEtus/tblRuaa61gtDvzAt2") // URL de l'API pour récupérer les données
     @Headers("Authorization: Bearer patpzSBgSr3dnevwc.a4de7204ffccf9cb98878db35d702f98de1136cb75016c8943e7691e9cc8dc53") // En-tête pour l'autorisation API
     fun getSurfSpot(): Call<SurfSpotResponse> // Fonction qui retourne une requête pour récupérer les spots de surf
+} */
+
+interface SurfSpotApi {
+    @GET("spots")
+    fun getSurfSpot(): Call<SurfSpotResponse>  // Now matches your Golang response structure exactly
 }
 
 object RetrofitClient {
-    val apiService: AirtableApi by lazy {
+    val apiService: SurfSpotApi by lazy {
         Retrofit.Builder()
-            .baseUrl("https://api.airtable.com/") // URL de base de l'API Airtable
+            .baseUrl("http://192.168.75.157:6000") // URL de base de l'API Airtable
+            //.baseUrl("http://10.0.2.2:6000") // URL pour renvoyer le localhost de android sur le localhost du PC.
             .addConverterFactory(GsonConverterFactory.create()) // Convertisseur JSON en objet Kotlin avec Gson
             .build() // Construction de l'instance Retrofit
-            .create(AirtableApi::class.java) // Création de l'interface AirtableApi
+            .create(SurfSpotApi::class.java) // Création de l'interface AirtableApi
     }
 }
 
@@ -143,7 +143,7 @@ class MainActivity : ComponentActivity() {
                 isLoading.value = false // Fin du chargement
                 if (response.isSuccessful) {
                     println("JSON brut : ${response.body()}") // Affiche les données brutes de la réponse
-                    surfSpots.value = response.body()?.records
+                    surfSpots.value = response.body()?.data
                         ?: emptyList() // Assigne les spots récupérés à `surfSpots`
                     println("Données récupérées : ${surfSpots.value}") // Affiche les données récupérées
                 } else {
@@ -248,7 +248,7 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
-                        text = "${spot.fields.destination}", // Affiche le nom de la destination
+                        text = spot.destination, // Affiche le nom de la destination
                         fontWeight = FontWeight.Bold, // Applique une graisse au texte
                     )
                 }
@@ -256,7 +256,7 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
                 // Affichage de l'image
                 Image(
                     painter = painterResource(id = randomImage), // L'image du spot de surf
-                    contentDescription = "Image de ${spot.fields.destination}", // Description de l'image
+                    contentDescription = "Image de ${spot.destination}", // Description de l'image
                     modifier = Modifier
                         .size(285.dp) // Définit la taille de l'image
                         .fillMaxWidth()
@@ -265,15 +265,15 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
 
                 // Affichage des informations supplémentaires sur le spot
                 Text(
-                    text = "adresse : ${spot.fields.address}",
+                    text = "adresse : ${spot.address}",
                     modifier = Modifier.padding(top = 4.dp)
                 )
                 Text(
-                    text = "Difficulté : ${spot.fields.difficulty}",
+                    text = "Difficulté : ${spot.difficultyLevel}",
                     modifier = Modifier.padding(top = 4.dp)
                 )
                 Text(
-                    text = "Surf Break : ${spot.fields.surfBreak?.get(0)}",
+                    text = "Surf Break : ${spot.surfBreak.get(0)}",
                     modifier = Modifier.padding(top = 4.dp, bottom = 8.dp)
                 )
             }
