@@ -3,12 +3,14 @@ package com.example.myapplication
 // Importation des classes nécessaires à l'application Android et à la gestion de l'interface utilisateur
 import android.os.Bundle                 // Permet d'utiliser la classe Bundle (stockage de données d'activité)
 import android.util.Log                   // Permet d'utiliser les logs pour le débogage
+import android.widget.Toast
 import androidx.activity.ComponentActivity  // Permet de créer une activité principale utilisant Jetpack Compose
 import androidx.activity.compose.setContent  // Permet de définir le contenu de l'activité avec Jetpack Compose
 import androidx.activity.enableEdgeToEdge   // Permet d'activer un design de type "edge-to-edge" (sans bordures)
 import androidx.benchmark.perfetto.Row     // Importation pour les benchmarks de performance
 import androidx.compose.foundation.Image    // Permet d'afficher une image dans l'UI
 import androidx.compose.foundation.background // Permet d'ajouter une couleur de fond à un composant
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement // Permet de gérer l'alignement des éléments dans des conteneurs
 import androidx.compose.foundation.layout.Box  // Permet de créer un conteneur flexible pour positionner des éléments
 import androidx.compose.foundation.layout.Column // Permet de disposer les éléments verticalement dans une colonne
@@ -44,6 +46,7 @@ import androidx.compose.ui.res.painterResource  // Permet de charger une image d
 import androidx.compose.ui.text.font.FontWeight // Permet de spécifier le poids de la police pour le texte
 import androidx.compose.ui.unit.dp               // Permet de spécifier des dimensions (comme des marges, tailles) en dp (density-independent pixels)
 import androidx.core.content.ContextCompat      // Permet d'utiliser les ressources contextuelles comme les couleurs ou les ressources matérielles
+import androidx.test.core.app.ApplicationProvider
 import com.example.myapplication.ui.theme.MyApplicationTheme // Permet d'appliquer le thème personnalisé de l'application
 import com.google.gson.annotations.SerializedName // Permet d'annoter les champs d'un objet pour la sérialisation/desérialisation JSON avec Gson
 import org.json.JSONObject                    // Permet de manipuler des objets JSON
@@ -112,7 +115,7 @@ interface SurfSpotApi {
 object RetrofitClient {
     val apiService: SurfSpotApi by lazy {
         Retrofit.Builder()
-            .baseUrl("http://192.168.75.157:6000") // URL de base de l'API Airtable
+            .baseUrl("http://127.0.0.1:6000") // URL de base de l'API Airtable
             //.baseUrl("http://10.0.2.2:6000") // URL pour renvoyer le localhost de android sur le localhost du PC.
             .addConverterFactory(GsonConverterFactory.create()) // Convertisseur JSON en objet Kotlin avec Gson
             .build() // Construction de l'instance Retrofit
@@ -120,7 +123,20 @@ object RetrofitClient {
     }
 }
 
+object IdGetter {
+    //GESTION RECUPERATION ET MEMORISATION ID SPOT
+//déclaration de la varaible qui contiendra la valeur de l'id du spot
+    var selectedSpotId: Int? = null
+    fun SpotId(spotId: Int) {
+        //mémorisation de l'ID du spot selectionné
+        selectedSpotId = spotId
+        //affiché à l'écrant la data récupéré
+        Toast.makeText(ApplicationProvider.getApplicationContext(), "Spot sélectionné: $spotId", Toast.LENGTH_SHORT).show()
+    }
+}
+
 class MainActivity : ComponentActivity() {
+
     // La classe MainActivity hérite de ComponentActivity, utilisée pour créer une activité avec Jetpack Compose
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -159,9 +175,12 @@ class MainActivity : ComponentActivity() {
             }
         })
 
+
+
         // Configuration de l'interface utilisateur avec Jetpack Compose
         setContent {
             MyApplicationTheme { // Applique le thème de l'application
+
                 Scaffold(
                     modifier = Modifier.fillMaxSize(), // Utilise tout l'espace disponible pour l'interface
                     topBar = { SearchBar() }, // Barre de recherche en haut
@@ -208,10 +227,11 @@ fun Screen(surfSpots: List<SurfSpotRecord>) {
 }
 
 @Composable
-fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
+
+fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>,) {
     // Affiche la liste des spots de surf dans une colonne
     Column(modifier = Modifier.fillMaxSize()) {
-        surfSpots.forEach { spot -> // Parcours de chaque spot
+        surfSpots.forEachIndexed { index, spot -> // Parcours de chaque spot
             // Sélection aléatoire d'une image parmi une liste
             val drawableImages = listOf(
                 R.drawable.surf_spot_1,
@@ -238,7 +258,8 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
                     .fillMaxWidth()
                     .padding(16.dp)
                     .clip(RoundedCornerShape(80.dp))
-                    .background(Color.White.copy(alpha = 0.8f)),
+                    .background(Color.White.copy(alpha = 0.8f))
+                    .clickable { IdGetter.SpotId(index) },
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Box(
@@ -280,6 +301,8 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
         }
     }
 }
+
+
 
 @Composable
 fun NavigationBarWithButtons() {
