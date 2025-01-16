@@ -113,6 +113,11 @@
                 android:value="androidx.startup" />
         </provider>
 
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
         <receiver
             android:name="androidx.tracing.perfetto.TracingReceiver"
             android:directBootAware="false"

@@ -16,6 +16,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled
     }
 
     buildTypes {
@@ -60,6 +61,7 @@ dependencies {
     implementation(libs.androidx.storage)
     implementation(libs.androidx.storage)
     implementation(libs.androidx.storage)
+    implementation(libs.androidx.room.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -84,4 +86,6 @@ dependencies {
     implementation(libs.gson)
 
     implementation(libs.coil.compose.v240)
+
+    implementation (libs.androidx.multidex)
 }

@@ -32,7 +32,10 @@ import androidx.compose.material3.*
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -43,6 +46,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
+import androidx.room.util.query
 import com.example.myapplication.ui.theme.MyApplicationTheme
 import com.google.gson.annotations.SerializedName
 import org.json.JSONObject
@@ -168,11 +172,11 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 // Applique le thème de l'application pour styliser l'interface.
-                // Scaffold est reponssable de la structure et de la mise en page
+                // Scaffold est responsable de la structure et de la mise en page
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     topBar = { SearchBar() },
-                    bottomBar = { NavigationBarWithButtons() } // Ajout de la barre de navigation en bas
+                    bottomBar = { NavigationBarWithButtons() }, // Ajout de la barre de navigation en bas
                 ) { innerPadding ->
                     Box( //permet de superposer les éléments
                         modifier = Modifier
@@ -339,22 +343,34 @@ fun NavigationBarWithButtons() {
 
 @Composable
 fun SearchBar() {
+    var query by remember { mutableStateOf("")}
     // Utilisation d'un Column avec Modifier.fillMaxHeight() pour étendre la hauteur
     Column(
         modifier = Modifier
             .fillMaxWidth() // Prend toute la largeur
-            .fillMaxHeight() // Prend toute la hauteur
-            , // Padding en haut pour espacer du bord
+            //.fillMaxHeight() // Prend toute la hauteur
+            .padding(8.dp)// Padding en haut pour espacer du bord
+            .clip(RoundedCornerShape(12.dp)),
         verticalArrangement = Arrangement.Top, // Aligner tout en haut
         horizontalAlignment = Alignment.CenterHorizontally // Aligner horizontalement au centre
     ) {
         TextField(
-            value = "",
-            onValueChange = {},
-            placeholder = { Text("Search...") },
+            value = query,
+            onValueChange = { query = it },
+            colors = TextFieldDefaults.textFieldColors(
+                unfocusedIndicatorColor = Color.Gray,
+                focusedIndicatorColor = Color.Blue
+            )
+            placeholder = { Text("Rechercher...") },
+            leadingIcon = {
+                Icon(
+                    imageVector = Icons.Default.Search,
+                    contentDescription = "Icone de recherche"
+                )
+            },
             modifier = Modifier
                 .fillMaxWidth() // Le champ prend toute la largeur
-                .height(48.dp), // Hauteur du champ de texte
+                .height(50.dp), // Hauteur du champ de texte
         )
     }
 }

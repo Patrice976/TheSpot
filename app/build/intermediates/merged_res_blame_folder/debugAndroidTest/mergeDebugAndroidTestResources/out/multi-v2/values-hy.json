@@ -4,7 +4,7 @@
             "outputFile": "com.example.myapplication.test.app-mergeDebugAndroidTestResources-35:/values-hy/values-hy.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\44e63bf6afd0eaba48e66a897b4e2a59\\transformed\\core-1.13.1\\res\\values-hy\\values-hy.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\d0d02ee104e4c5d85b74ea8676c0b814\\transformed\\core-1.13.1\\res\\values-hy\\values-hy.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\d877f781f6bddd72e59236671dee7b79\\transformed\\ui-release\\res\\values-hy\\values-hy.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\ed283cb2367d1e6330b00e1e3e4d2a67\\transformed\\ui-release\\res\\values-hy\\values-hy.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

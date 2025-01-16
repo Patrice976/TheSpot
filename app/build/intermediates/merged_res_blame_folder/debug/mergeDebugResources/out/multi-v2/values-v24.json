@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-60:/values-v24/values-v24.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-64:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\2b1562c7ca8c7c32df0debcc5dc40877\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\0c857b6afd729a82040b097164cd3f94\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-60:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-64:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ada Tech School\\Desktop\\TheSpot\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\tipha\\AndroidStudioProjects\\TheSpot\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

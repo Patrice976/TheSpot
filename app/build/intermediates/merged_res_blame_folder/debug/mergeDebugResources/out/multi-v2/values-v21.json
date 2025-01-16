@@ -1,29 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-60:/values-v21/values-v21.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-64:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\2a38a63b120a45fa3fd2f2372db07291\\transformed\\core-1.13.1\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\0c857b6afd729a82040b097164cd3f94\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,14,18,40,43",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,237,304,368,484,941,1235,2486,2658",
-                        "endLines": "2,3,4,5,6,7,14,18,42,47",
-                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "168,232,299,363,479,605,1062,1358,2653,3005"
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "610,778,1067,1363",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "773,936,1230,1525"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\599a8aaaf04955561b915135054149c0\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\da6eae69010e6ff5662b2bb21f7b67c9\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",
@@ -42,22 +42,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\2b1562c7ca8c7c32df0debcc5dc40877\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\tipha\\.gradle\\caches\\8.9\\transforms\\92c434b1417a2eef5cc0f50cc62eac70\\transformed\\core-1.13.1\\res\\values-v21\\values-v21.xml",
                     "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
                     },
                     "to": {
-                        "startLines": "8,11,15,19",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "610,778,1067,1363",
-                        "endLines": "10,13,17,21",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "773,936,1230,1525"
+                        "startLines": "2,3,4,5,6,7,14,18,40,43",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,941,1235,2486,2658",
+                        "endLines": "2,3,4,5,6,7,14,18,42,47",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,1062,1358,2653,3005"
                     }
                 }
             ]
