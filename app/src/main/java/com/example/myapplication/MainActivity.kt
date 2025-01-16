@@ -130,12 +130,12 @@ object RetrofitClient {
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge() // Active l'affichage sans bordures inutiles
 
         // Utilisation de setContent dans onCreate pour configurer l'UI Jetpack Compose
         setContent {
-            val navController = rememberNavController() // Crée un contrôleur de navigation à l'intérieur du composable
+            val navController = rememberNavController() // Crée un contrôleur de navigation
 
+            // États pour gérer les données
             val surfSpots = remember { mutableStateOf<List<SurfSpotRecord>>(emptyList()) }
             val isLoading = remember { mutableStateOf(true) }
             val errorState = remember { mutableStateOf<String?>(null) }
@@ -157,7 +157,7 @@ class MainActivity : ComponentActivity() {
                 }
             })
 
-            MyApplicationTheme { // Applique le thème de l'application
+            MyApplicationTheme {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     topBar = { SearchBar() },
@@ -177,10 +177,10 @@ class MainActivity : ComponentActivity() {
                             // Configuration de la navigation
                             NavHost(navController = navController, startDestination = "surfSpotList") {
                                 composable("surfSpotList") {
-                                    Screen(surfSpots.value, navController)
+                                    Screen(surfSpots.value, navController) // Affiche les spots de surf
                                 }
                                 composable("testScreen") {
-                                    TestScreen()
+                                    TestScreen() // Écran de test
                                 }
                             }
                         }
