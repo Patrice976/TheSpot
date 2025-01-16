@@ -132,6 +132,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
+            // NavController pour la navigation entre les différentes pages
+            val navController = rememberNavController()
+
             val surfSpots = remember { mutableStateOf<List<SurfSpotRecord>>(emptyList()) }
             val isLoading = remember { mutableStateOf(true) }
             val errorState = remember { mutableStateOf<String?>(null) }
@@ -157,7 +160,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     topBar = { SearchBar() },
-                    bottomBar = { NavigationBarWithButtons() }
+                    bottomBar = { NavigationBarWithButtons(navController) }
                 ) { innerPadding ->
                     Box(modifier = Modifier.fillMaxSize().padding(innerPadding)) {
                         if (isLoading.value) {
@@ -167,7 +170,15 @@ class MainActivity : ComponentActivity() {
                         } else if (errorState.value != null) {
                             Text(text = "Erreur : ${errorState.value}", color = Color.Red)
                         } else {
-                            DisplayAllSpots(surfSpots.value)
+                            // Configuration de la navigation entre les écrans
+                            NavHost(navController = navController, startDestination = "surfSpotList") {
+                                composable("surfSpotList") {
+                                    DisplayAllSpots(surfSpots.value, navController)
+                                }
+                                composable("testScreen") {
+                                    TestScreen()
+                                }
+                            }
                         }
                     }
                 }
@@ -177,7 +188,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun DisplayAllSpots(surfSpots: List<SurfSpotRecord>) {
+fun DisplayAllSpots(surfSpots: List<SurfSpotRecord>, navController: NavController) {
     Column(modifier = Modifier.fillMaxSize()) {
         surfSpots.forEach { spot ->
             val drawableImages = listOf(
@@ -214,13 +225,25 @@ fun DisplayAllSpots(surfSpots: List<SurfSpotRecord>) {
                     text = "Surf Break : ${spot.surfBreak.firstOrNull() ?: "Non défini"}",
                     modifier = Modifier.padding(top = 4.dp, bottom = 8.dp)
                 )
+
+                // Exemple de bouton pour naviguer vers un autre écran
+                Button(onClick = { navController.navigate("testScreen") }) {
+                    Text("Go to Test Screen")
+                }
             }
         }
     }
 }
 
 @Composable
-fun NavigationBarWithButtons() {
+fun TestScreen() {
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        Text("Test Screen", color = Color.Black)
+    }
+}
+
+@Composable
+fun NavigationBarWithButtons(navController: NavController) {
     val sable = colorResource(id = R.color.Sable)
 
     Box(modifier = Modifier.fillMaxWidth().background(sable.copy(alpha = 0.8f))) {
@@ -230,13 +253,13 @@ fun NavigationBarWithButtons() {
                 horizontalArrangement = Arrangement.Center,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                IconButton(onClick = {}) {
+                IconButton(onClick = { navController.navigate("surfSpotList") }) {
                     Icon(Icons.Filled.Home, contentDescription = "Home")
                 }
 
                 Spacer(modifier = Modifier.width(32.dp))
 
-                IconButton(onClick = {}) {
+                IconButton(onClick = { navController.navigate("testScreen") }) {
                     Icon(Icons.Filled.Edit, contentDescription = "Edit")
                 }
             }
