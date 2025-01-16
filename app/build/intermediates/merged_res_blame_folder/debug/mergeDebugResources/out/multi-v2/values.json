@@ -4,60 +4,7 @@
             "outputFile": "com.example.myapplication.app-mergeDebugResources-60:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\599a8aaaf04955561b915135054149c0\\transformed\\core-1.6.1\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "4,11",
-                        "startColumns": "0,0",
-                        "startOffsets": "142,510",
-                        "endLines": "10,17",
-                        "endColumns": "8,8",
-                        "endOffsets": "509,875"
-                    },
-                    "to": {
-                        "startLines": "257,264",
-                        "startColumns": "4,4",
-                        "startOffsets": "16296,16668",
-                        "endLines": "263,270",
-                        "endColumns": "8,8",
-                        "endOffsets": "16663,17033"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\2b1562c7ca8c7c32df0debcc5dc40877\\transformed\\media-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
-                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
-                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
-                    },
-                    "to": {
-                        "startLines": "16,17,21,47,48,49,50,122,245,247,248,253,255",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "968,1057,1269,2940,2993,3046,3099,7222,15384,15560,15682,15944,16139",
-                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
-                        "endOffsets": "1052,1123,1337,2988,3041,3094,3147,7277,15445,15677,15738,16005,16201"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\90de1397c7f839eacb26edb6133f3595\\transformed\\ui-graphics-release\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "5569",
-                        "endColumns": "65",
-                        "endOffsets": "5630"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\d69fa914445a422d7ac6e84585767a80\\transformed\\fragment-1.5.6\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\d69fa914445a422d7ac6e84585767a80\\transformed\\fragment-1.5.6\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
                         "startColumns": "4,4,4,4,4",
@@ -76,62 +23,77 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\Desktop\\TheSpotFront\\app\\src\\main\\res\\values\\attrs_home_page.xml",
+                    "source": "C:\\Users\\Ada Tech School\\Desktop\\TheSpot\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endLines": "6",
-                        "endColumns": "24",
-                        "endOffsets": "307"
+                        "startLines": "13,7,11,12,9,10,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "575,293,483,529,379,431,57,105,153,201,247,336",
+                        "endColumns": "39,41,44,44,50,50,46,46,46,44,44,41",
+                        "endOffsets": "610,330,523,569,425,477,99,147,195,241,287,373"
                     },
                     "to": {
-                        "startLines": "520",
-                        "startColumns": "4",
-                        "startOffsets": "27222",
-                        "endLines": "525",
-                        "endColumns": "24",
-                        "endOffsets": "27509"
+                        "startLines": "4,7,10,11,12,13,18,19,20,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "271,471,644,689,734,785,1128,1175,1222,1342,1387,1432",
+                        "endColumns": "39,41,44,44,50,50,46,46,46,44,44,41",
+                        "endOffsets": "306,508,684,729,780,831,1170,1217,1264,1382,1427,1469"
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\Desktop\\TheSpotFront\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\2b1562c7ca8c7c32df0debcc5dc40877\\transformed\\media-1.0.0\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "214"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
                     },
                     "to": {
-                        "startLines": "276",
-                        "startColumns": "4",
-                        "startOffsets": "17322",
-                        "endLines": "279",
-                        "endColumns": "12",
-                        "endOffsets": "17519"
+                        "startLines": "16,17,21,47,48,49,50,122,245,247,248,253,255",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "968,1057,1269,2940,2993,3046,3099,7222,15384,15560,15682,15944,16139",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "1052,1123,1337,2988,3041,3094,3147,7277,15445,15677,15738,16005,16201"
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\df3bcc7f260384c127baae44b818ec04\\transformed\\coil-base-2.4.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\599a8aaaf04955561b915135054149c0\\transformed\\core-1.6.1\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "49",
-                        "endOffsets": "100"
+                        "startLines": "4,11",
+                        "startColumns": "0,0",
+                        "startOffsets": "142,510",
+                        "endLines": "10,17",
+                        "endColumns": "8,8",
+                        "endOffsets": "509,875"
                     },
                     "to": {
-                        "startLines": "87",
-                        "startColumns": "4",
-                        "startOffsets": "5349",
-                        "endColumns": "49",
-                        "endOffsets": "5394"
+                        "startLines": "257,264",
+                        "startColumns": "4,4",
+                        "startOffsets": "16296,16668",
+                        "endLines": "263,270",
+                        "endColumns": "8,8",
+                        "endOffsets": "16663,17033"
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\1420c72fc84679a78a2b3038b5bcafa1\\transformed\\ui-release\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\dd7384c1c9d0f5fcdbba634f63453018\\transformed\\foundation-release\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,111",
+                        "endColumns": "55,54",
+                        "endOffsets": "106,161"
+                    },
+                    "to": {
+                        "startLines": "215,216",
+                        "startColumns": "4,4",
+                        "startOffsets": "13669,13725",
+                        "endColumns": "55,54",
+                        "endOffsets": "13720,13775"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\1420c72fc84679a78a2b3038b5bcafa1\\transformed\\ui-release\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,61,64",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -150,24 +112,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\bffb2c77d6f57888abce87e809c42212\\transformed\\customview-poolingcontainer-1.0.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\Desktop\\TheSpot\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,3",
+                        "startLines": "1,2",
                         "startColumns": "4,4",
-                        "startOffsets": "55,109",
-                        "endColumns": "53,66",
-                        "endOffsets": "104,171"
+                        "startOffsets": "17,70",
+                        "endColumns": "51,62",
+                        "endOffsets": "64,128"
                     },
                     "to": {
-                        "startLines": "94,97",
+                        "startLines": "126,214",
                         "startColumns": "4,4",
-                        "startOffsets": "5741,5865",
-                        "endColumns": "53,66",
-                        "endOffsets": "5790,5927"
+                        "startOffsets": "7508,13606",
+                        "endColumns": "51,62",
+                        "endOffsets": "7555,13664"
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\2ae38c1c7faef4d953c1368206f5a6d3\\transformed\\appcompat-resources-1.6.1\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\Desktop\\TheSpot\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endColumns": "90",
+                        "endOffsets": "145"
+                    },
+                    "to": {
+                        "startLines": "256",
+                        "startColumns": "4",
+                        "startOffsets": "16206",
+                        "endColumns": "89",
+                        "endOffsets": "16291"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\2ae38c1c7faef4d953c1368206f5a6d3\\transformed\\appcompat-resources-1.6.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
                         "startColumns": "4,4,4,4,4",
@@ -186,7 +165,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\50e419459375d14f06f07caaee24454f\\transformed\\lifecycle-viewmodel-release\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\df3bcc7f260384c127baae44b818ec04\\transformed\\coil-base-2.4.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -195,15 +174,15 @@
                         "endOffsets": "100"
                     },
                     "to": {
-                        "startLines": "119",
+                        "startLines": "87",
                         "startColumns": "4",
-                        "startOffsets": "7055",
+                        "startOffsets": "5349",
                         "endColumns": "49",
-                        "endOffsets": "7100"
+                        "endOffsets": "5394"
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\2a38a63b120a45fa3fd2f2372db07291\\transformed\\core-1.13.1\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\2a38a63b120a45fa3fd2f2372db07291\\transformed\\core-1.13.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,98,99,103,104,105,106,112,122,155,176,209",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -222,94 +201,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\c72583d2db47c01d7634784c8fef2ce0\\transformed\\lifecycle-runtime-release\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "42",
-                        "endOffsets": "93"
-                    },
-                    "to": {
-                        "startLines": "116",
-                        "startColumns": "4",
-                        "startOffsets": "6898",
-                        "endColumns": "42",
-                        "endOffsets": "6936"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\2ea1594371d61729524902852f215133\\transformed\\savedstate-1.2.1\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "53",
-                        "endOffsets": "104"
-                    },
-                    "to": {
-                        "startLines": "118",
-                        "startColumns": "4",
-                        "startOffsets": "7001",
-                        "endColumns": "53",
-                        "endOffsets": "7050"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\153a367b3792f034ac26c27608c6e224\\transformed\\startup-runtime-1.1.1\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "82",
-                        "endOffsets": "133"
-                    },
-                    "to": {
-                        "startLines": "125",
-                        "startColumns": "4",
-                        "startOffsets": "7425",
-                        "endColumns": "82",
-                        "endOffsets": "7503"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\ba09041a7b68727ecd25e900f7fd6454\\transformed\\activity-1.8.2\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\bffb2c77d6f57888abce87e809c42212\\transformed\\customview-poolingcontainer-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
-                        "startOffsets": "55,97",
-                        "endColumns": "41,59",
-                        "endOffsets": "92,152"
+                        "startOffsets": "55,109",
+                        "endColumns": "53,66",
+                        "endOffsets": "104,171"
                     },
                     "to": {
-                        "startLines": "98,117",
+                        "startLines": "94,97",
                         "startColumns": "4,4",
-                        "startOffsets": "5932,6941",
-                        "endColumns": "41,59",
-                        "endOffsets": "5969,6996"
+                        "startOffsets": "5741,5865",
+                        "endColumns": "53,66",
+                        "endOffsets": "5790,5927"
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\201c8db95ab385ce8fe4a7087af00fcf\\transformed\\material3-release\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,15,16,17,18,19,20,21,22,23,24,25,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,74",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "100,173,261,347,428,512,581,646,729,835,921,1041,1095,1164,1225,1294,1383,1478,1552,1649,1742,1840,1989,2080,2168,2264,2362,2426,2494,2581,2675,2742,2814,2886,2987,3096,3172,3241,3289,3355,3419,3493,3550,3607,3679,3729,3783,3854,3925,3995,4064,4122,4198,4269,4343,4429,4479,4549,4614,5329",
-                        "endLines": "2,3,4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,73,76",
-                        "endColumns": "72,87,85,80,83,68,64,82,105,85,13,53,68,60,68,88,94,73,96,92,97,13,90,87,95,97,63,67,86,93,66,71,71,100,108,75,68,47,65,63,73,56,56,71,49,53,70,70,69,68,57,75,70,73,85,49,69,64,12,12",
-                        "endOffsets": "168,256,342,423,507,576,641,724,830,916,1036,1090,1159,1220,1289,1378,1473,1547,1644,1737,1835,1984,2075,2163,2259,2357,2421,2489,2576,2670,2737,2809,2881,2982,3091,3167,3236,3284,3350,3414,3488,3545,3602,3674,3724,3778,3849,3920,3990,4059,4117,4193,4264,4338,4424,4474,4544,4609,5324,5477"
-                    },
-                    "to": {
-                        "startLines": "123,141,142,143,144,145,146,147,148,149,150,153,154,155,156,157,158,159,160,161,162,163,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,220,230",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "7282,8527,8615,8701,8782,8866,8935,9000,9083,9189,9275,9395,9449,9518,9579,9648,9737,9832,9906,10003,10096,10194,10343,10434,10522,10618,10716,10780,10848,10935,11029,11096,11168,11240,11341,11450,11526,11595,11643,11709,11773,11847,11904,11961,12033,12083,12137,12208,12279,12349,12418,12476,12552,12623,12697,12783,12833,12903,13892,14607",
-                        "endLines": "123,141,142,143,144,145,146,147,148,149,152,153,154,155,156,157,158,159,160,161,162,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,229,232",
-                        "endColumns": "72,87,85,80,83,68,64,82,105,85,13,53,68,60,68,88,94,73,96,92,97,13,90,87,95,97,63,67,86,93,66,71,71,100,108,75,68,47,65,63,73,56,56,71,49,53,70,70,69,68,57,75,70,73,85,49,69,64,12,12",
-                        "endOffsets": "7350,8610,8696,8777,8861,8930,8995,9078,9184,9270,9390,9444,9513,9574,9643,9732,9827,9901,9998,10091,10189,10338,10429,10517,10613,10711,10775,10843,10930,11024,11091,11163,11235,11336,11445,11521,11590,11638,11704,11768,11842,11899,11956,12028,12078,12132,12203,12274,12344,12413,12471,12547,12618,12692,12778,12828,12898,12963,14602,14755"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\2e3228cef5e20ba24aa3526ba2fa7e72\\transformed\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\2e3228cef5e20ba24aa3526ba2fa7e72\\transformed\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
                         "startColumns": "4,4,4,4",
@@ -328,71 +237,162 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\dd7384c1c9d0f5fcdbba634f63453018\\transformed\\foundation-release\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Ada Tech School\\Desktop\\TheSpot\\app\\src\\main\\res\\values\\attrs_home_page.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "6",
+                        "endColumns": "24",
+                        "endOffsets": "313"
+                    },
+                    "to": {
+                        "startLines": "520",
+                        "startColumns": "4",
+                        "startOffsets": "27222",
+                        "endLines": "525",
+                        "endColumns": "24",
+                        "endOffsets": "27509"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\153a367b3792f034ac26c27608c6e224\\transformed\\startup-runtime-1.1.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    },
+                    "to": {
+                        "startLines": "125",
+                        "startColumns": "4",
+                        "startOffsets": "7425",
+                        "endColumns": "82",
+                        "endOffsets": "7503"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\c72583d2db47c01d7634784c8fef2ce0\\transformed\\lifecycle-runtime-release\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "116",
+                        "startColumns": "4",
+                        "startOffsets": "6898",
+                        "endColumns": "42",
+                        "endOffsets": "6936"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\ba09041a7b68727ecd25e900f7fd6454\\transformed\\activity-1.8.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
-                        "startOffsets": "55,111",
-                        "endColumns": "55,54",
-                        "endOffsets": "106,161"
+                        "startOffsets": "55,97",
+                        "endColumns": "41,59",
+                        "endOffsets": "92,152"
                     },
                     "to": {
-                        "startLines": "215,216",
+                        "startLines": "98,117",
                         "startColumns": "4,4",
-                        "startOffsets": "13669,13725",
-                        "endColumns": "55,54",
-                        "endOffsets": "13720,13775"
+                        "startOffsets": "5932,6941",
+                        "endColumns": "41,59",
+                        "endOffsets": "5969,6996"
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\Desktop\\TheSpotFront\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\90de1397c7f839eacb26edb6133f3595\\transformed\\ui-graphics-release\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "13,7,11,12,9,10,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "562,286,472,517,370,421,55,102,149,196,241,328",
-                        "endColumns": "39,41,44,44,50,50,46,46,46,44,44,41",
-                        "endOffsets": "597,323,512,557,416,467,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "4,7,10,11,12,13,18,19,20,22,23,24",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "271,471,644,689,734,785,1128,1175,1222,1342,1387,1432",
-                        "endColumns": "39,41,44,44,50,50,46,46,46,44,44,41",
-                        "endOffsets": "306,508,684,729,780,831,1170,1217,1264,1382,1427,1469"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\Desktop\\TheSpotFront\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "16,68",
-                        "endColumns": "51,62",
-                        "endOffsets": "63,126"
-                    },
-                    "to": {
-                        "startLines": "126,214",
-                        "startColumns": "4,4",
-                        "startOffsets": "7508,13606",
-                        "endColumns": "51,62",
-                        "endOffsets": "7555,13664"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\Desktop\\TheSpotFront\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "3",
+                        "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "56",
-                        "endColumns": "90",
-                        "endOffsets": "142"
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     },
                     "to": {
-                        "startLines": "256",
+                        "startLines": "91",
                         "startColumns": "4",
-                        "startOffsets": "16206",
-                        "endColumns": "89",
-                        "endOffsets": "16291"
+                        "startOffsets": "5569",
+                        "endColumns": "65",
+                        "endOffsets": "5630"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\2ea1594371d61729524902852f215133\\transformed\\savedstate-1.2.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "53",
+                        "endOffsets": "104"
+                    },
+                    "to": {
+                        "startLines": "118",
+                        "startColumns": "4",
+                        "startOffsets": "7001",
+                        "endColumns": "53",
+                        "endOffsets": "7050"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\50e419459375d14f06f07caaee24454f\\transformed\\lifecycle-viewmodel-release\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "119",
+                        "startColumns": "4",
+                        "startOffsets": "7055",
+                        "endColumns": "49",
+                        "endOffsets": "7100"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ada Tech School\\.gradle\\caches\\8.9\\transforms\\201c8db95ab385ce8fe4a7087af00fcf\\transformed\\material3-release\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,15,16,17,18,19,20,21,22,23,24,25,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,74",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,173,261,347,428,512,581,646,729,835,921,1041,1095,1164,1225,1294,1383,1478,1552,1649,1742,1840,1989,2080,2168,2264,2362,2426,2494,2581,2675,2742,2814,2886,2987,3096,3172,3241,3289,3355,3419,3493,3550,3607,3679,3729,3783,3854,3925,3995,4064,4122,4198,4269,4343,4429,4479,4549,4614,5329",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,14,15,16,17,18,19,20,21,22,23,24,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,73,76",
+                        "endColumns": "72,87,85,80,83,68,64,82,105,85,13,53,68,60,68,88,94,73,96,92,97,13,90,87,95,97,63,67,86,93,66,71,71,100,108,75,68,47,65,63,73,56,56,71,49,53,70,70,69,68,57,75,70,73,85,49,69,64,12,12",
+                        "endOffsets": "168,256,342,423,507,576,641,724,830,916,1036,1090,1159,1220,1289,1378,1473,1547,1644,1737,1835,1984,2075,2163,2259,2357,2421,2489,2576,2670,2737,2809,2881,2982,3091,3167,3236,3284,3350,3414,3488,3545,3602,3674,3724,3778,3849,3920,3990,4059,4117,4193,4264,4338,4424,4474,4544,4609,5324,5477"
+                    },
+                    "to": {
+                        "startLines": "123,141,142,143,144,145,146,147,148,149,150,153,154,155,156,157,158,159,160,161,162,163,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,220,230",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "7282,8527,8615,8701,8782,8866,8935,9000,9083,9189,9275,9395,9449,9518,9579,9648,9737,9832,9906,10003,10096,10194,10343,10434,10522,10618,10716,10780,10848,10935,11029,11096,11168,11240,11341,11450,11526,11595,11643,11709,11773,11847,11904,11961,12033,12083,12137,12208,12279,12349,12418,12476,12552,12623,12697,12783,12833,12903,13892,14607",
+                        "endLines": "123,141,142,143,144,145,146,147,148,149,152,153,154,155,156,157,158,159,160,161,162,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,229,232",
+                        "endColumns": "72,87,85,80,83,68,64,82,105,85,13,53,68,60,68,88,94,73,96,92,97,13,90,87,95,97,63,67,86,93,66,71,71,100,108,75,68,47,65,63,73,56,56,71,49,53,70,70,69,68,57,75,70,73,85,49,69,64,12,12",
+                        "endOffsets": "7350,8610,8696,8777,8861,8930,8995,9078,9184,9270,9390,9444,9513,9574,9643,9732,9827,9901,9998,10091,10189,10338,10429,10517,10613,10711,10775,10843,10930,11024,11091,11163,11235,11336,11445,11521,11590,11638,11704,11768,11842,11899,11956,12028,12078,12132,12203,12274,12344,12413,12471,12547,12618,12692,12778,12828,12898,12963,14602,14755"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ada Tech School\\Desktop\\TheSpot\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "19",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "219"
+                    },
+                    "to": {
+                        "startLines": "276",
+                        "startColumns": "4",
+                        "startOffsets": "17322",
+                        "endLines": "279",
+                        "endColumns": "12",
+                        "endOffsets": "17519"
                     }
                 }
             ]

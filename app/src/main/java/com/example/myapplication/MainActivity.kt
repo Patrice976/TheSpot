@@ -112,7 +112,7 @@ interface SurfSpotApi {
 object RetrofitClient {
     val apiService: SurfSpotApi by lazy {
         Retrofit.Builder()
-            .baseUrl("http://192.168.75.157:6000") // URL de base de l'API Airtable
+            .baseUrl("http://192.168.75.183:6000") // URL de base de l'API Airtable
             //.baseUrl("http://10.0.2.2:6000") // URL pour renvoyer le localhost de android sur le localhost du PC.
             .addConverterFactory(GsonConverterFactory.create()) // Convertisseur JSON en objet Kotlin avec Gson
             .build() // Construction de l'instance Retrofit

@@ -4,14 +4,14 @@
             "outputFile": "com.example.myapplication.app-mergeDebugResources-60:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\Desktop\\TheSpotFront\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\Ada Tech School\\Desktop\\TheSpot\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "17",
+                        "startOffsets": "19",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "214"
+                        "endOffsets": "219"
                     },
                     "to": {
                         "startLines": "2",
