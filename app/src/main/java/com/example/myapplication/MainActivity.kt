@@ -44,6 +44,8 @@ import androidx.compose.ui.res.painterResource  // Permet de charger une image d
 import androidx.compose.ui.text.font.FontWeight // Permet de spécifier le poids de la police pour le texte
 import androidx.compose.ui.unit.dp               // Permet de spécifier des dimensions (comme des marges, tailles) en dp (density-independent pixels)
 import androidx.core.content.ContextCompat      // Permet d'utiliser les ressources contextuelles comme les couleurs ou les ressources matérielles
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import com.example.myapplication.ui.theme.MyApplicationTheme // Permet d'appliquer le thème personnalisé de l'application
 import com.google.gson.annotations.SerializedName // Permet d'annoter les champs d'un objet pour la sérialisation/desérialisation JSON avec Gson
 import org.json.JSONObject                    // Permet de manipuler des objets JSON
@@ -55,6 +57,11 @@ import retrofit2.Retrofit                    // Permet de créer une instance de
 import retrofit2.converter.gson.GsonConverterFactory // Permet de convertir les réponses en objets Java/Kotlin à l'aide de Gson
 import retrofit2.Callback                    // Permet de gérer les réponses asynchrones des requêtes réseau
 import retrofit2.Response                    // Permet de gérer les réponses de Retrofit à une requête
+import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Typography
+import androidx.compose.runtime.remember
 
 data class SurfSpotResponse(
     @SerializedName("data") val data: List<SurfSpotRecord> // La liste de records dans la clé "data"
@@ -121,74 +128,62 @@ object RetrofitClient {
 }
 
 class MainActivity : ComponentActivity() {
-    // La classe MainActivity hérite de ComponentActivity, utilisée pour créer une activité avec Jetpack Compose
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge() // Active l'affichage sans bordures inutiles (plein écran)
+        enableEdgeToEdge() // Active l'affichage sans bordures inutiles
 
-        // Déclaration des états réactifs pour gérer les données, le chargement et les erreurs
-        val surfSpots =
-            mutableStateOf<List<SurfSpotRecord>>(emptyList()) // Liste réactive des spots de surf
-        val isLoading =
-            mutableStateOf(true) // Variable réactive pour afficher l'indicateur de chargement
-        val errorState =
-            mutableStateOf<String?>(null) // Variable réactive pour l'affichage des erreurs
-
-        // Appel à l'API pour récupérer les données via Retrofit
-        RetrofitClient.apiService.getSurfSpot().enqueue(object : Callback<SurfSpotResponse> {
-            override fun onResponse(
-                call: Call<SurfSpotResponse>,
-                response: Response<SurfSpotResponse>
-            ) {
-                isLoading.value = false // Fin du chargement
-                if (response.isSuccessful) {
-                    println("JSON brut : ${response.body()}") // Affiche les données brutes de la réponse
-                    surfSpots.value = response.body()?.data
-                        ?: emptyList() // Assigne les spots récupérés à `surfSpots`
-                    println("Données récupérées : ${surfSpots.value}") // Affiche les données récupérées
-                } else {
-                    errorState.value =
-                        "Erreur : ${response.code()} - ${response.message()}" // Affiche l'erreur si la réponse est un échec
-                }
-            }
-
-            override fun onFailure(call: Call<SurfSpotResponse>, t: Throwable) {
-                isLoading.value = false // Fin du chargement en cas d'échec
-                errorState.value =
-                    "Erreur : ${t.message}" // Affiche l'erreur spécifique en cas d'échec
-            }
-        })
-
-        // Configuration de l'interface utilisateur avec Jetpack Compose
+        // Utilisation de setContent dans onCreate pour configurer l'UI Jetpack Compose
         setContent {
+            val navController = rememberNavController() // Crée un contrôleur de navigation à l'intérieur du composable
+
+            val surfSpots = remember { mutableStateOf<List<SurfSpotRecord>>(emptyList()) }
+            val isLoading = remember { mutableStateOf(true) }
+            val errorState = remember { mutableStateOf<String?>(null) }
+
+            // Appel Retrofit pour récupérer les données
+            RetrofitClient.apiService.getSurfSpot().enqueue(object : Callback<SurfSpotResponse> {
+                override fun onResponse(call: Call<SurfSpotResponse>, response: Response<SurfSpotResponse>) {
+                    isLoading.value = false
+                    if (response.isSuccessful) {
+                        surfSpots.value = response.body()?.data ?: emptyList()
+                    } else {
+                        errorState.value = "Erreur : ${response.code()} - ${response.message()}"
+                    }
+                }
+
+                override fun onFailure(call: Call<SurfSpotResponse>, t: Throwable) {
+                    isLoading.value = false
+                    errorState.value = "Erreur : ${t.message}"
+                }
+            })
+
             MyApplicationTheme { // Applique le thème de l'application
                 Scaffold(
-                    modifier = Modifier.fillMaxSize(), // Utilise tout l'espace disponible pour l'interface
-                    topBar = { SearchBar() }, // Barre de recherche en haut
-                    bottomBar = { NavigationBarWithButtons() } // Barre de navigation en bas
+                    modifier = Modifier.fillMaxSize(),
+                    topBar = { SearchBar() },
+                    bottomBar = { NavigationBarWithButtons(navController) }
                 ) { innerPadding ->
-                    Box( // Conteneur pour superposer les éléments
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .padding(innerPadding)
-                    )
-                    if (isLoading.value) { // Si les données sont encore en cours de chargement, afficher un indicateur de chargement
-                        println("Chargement en cours...")
-                        Box(
-                            modifier = Modifier.fillMaxSize(),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            CircularProgressIndicator() // Affiche un indicateur de chargement
+                    Box(modifier = Modifier.fillMaxSize().padding(innerPadding)) {
+                        if (isLoading.value) {
+                            Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                                CircularProgressIndicator()
+                            }
+                        } else if (errorState.value != null) {
+                            Text(
+                                text = "Erreur : ${errorState.value}",
+                                color = Color.Red
+                            )
+                        } else {
+                            // Configuration de la navigation
+                            NavHost(navController = navController, startDestination = "surfSpotList") {
+                                composable("surfSpotList") {
+                                    Screen(surfSpots.value, navController)
+                                }
+                                composable("testScreen") {
+                                    TestScreen()
+                                }
+                            }
                         }
-                    } else if (errorState.value != null) { // Si une erreur est survenue, afficher le message d'erreur
-                        println("Erreur détectée : ${errorState.value}")
-                        Text(
-                            text = "Erreur : ${errorState.value}",
-                            color = Color.Red // Affiche le message d'erreur en rouge
-                        )
-                    } else {
-                        println("Affichage des spots de surf : ${surfSpots.value}")
-                        Screen(surfSpots.value) // Affiche les spots de surf
                     }
                 }
             }
@@ -197,42 +192,29 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Screen(surfSpots: List<SurfSpotRecord>) {
+fun Screen(surfSpots: List<SurfSpotRecord>, navController: NavController) {
     Image(
-        painter = painterResource(id = R.drawable.main_background), // Image de fond
-        contentDescription = "Une planche planté dans du sable ", // Description de l'image
-        contentScale = ContentScale.FillBounds, // L'image occupe toute la surface disponible
-        modifier = Modifier.fillMaxSize() // Utilise tout l'espace disponible
+        painter = painterResource(id = R.drawable.main_background),
+        contentDescription = "Une planche plantée dans du sable",
+        contentScale = ContentScale.FillBounds,
+        modifier = Modifier.fillMaxSize()
     )
-    Column(modifier = Modifier.verticalScroll(rememberScrollState())) { DisplaySurfSpots(surfSpots) }
+    Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
+        DisplaySurfSpots(surfSpots, navController)
+    }
 }
 
 @Composable
-fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
-    // Affiche la liste des spots de surf dans une colonne
+fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>, navController: NavController) {
     Column(modifier = Modifier.fillMaxSize()) {
-        surfSpots.forEach { spot -> // Parcours de chaque spot
-            // Sélection aléatoire d'une image parmi une liste
+        surfSpots.forEach { spot ->
             val drawableImages = listOf(
-                R.drawable.surf_spot_1,
-                R.drawable.surf_spot_2,
-                R.drawable.surf_spot_3,
-                R.drawable.surf_spot_4,
-                R.drawable.surf_spot_5,
-                R.drawable.surf_spot_6,
-                R.drawable.surf_spot_7,
-                R.drawable.surf_spot_8,
-                R.drawable.surf_spot_9,
-                R.drawable.surf_spot_10,
-                R.drawable.surf_spot_11,
-                R.drawable.surf_spot_12,
-                R.drawable.surf_spot_13,
-                R.drawable.surf_spot_15,
-                R.drawable.surf_spot_16
+                R.drawable.surf_spot_1, R.drawable.surf_spot_2, R.drawable.surf_spot_3,
+                R.drawable.surf_spot_4, R.drawable.surf_spot_5, R.drawable.surf_spot_6,
+                R.drawable.surf_spot_7, R.drawable.surf_spot_8, R.drawable.surf_spot_9
             )
-            val randomImage = drawableImages.random() // Choisit une image aléatoire
+            val randomImage = drawableImages.random()
 
-            // Affiche le spot de surf avec une colonne pour disposer les informations
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -242,73 +224,57 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>) {
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Box(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(60.dp), // Hauteur ajustée pour bien centrer le texte
+                    modifier = Modifier.fillMaxWidth().height(60.dp),
                     contentAlignment = Alignment.Center
                 ) {
-                    Text(
-                        text = spot.destination, // Affiche le nom de la destination
-                        fontWeight = FontWeight.Bold, // Applique une graisse au texte
-                    )
+                    Text(text = spot.destination, fontWeight = FontWeight.Bold)
                 }
 
-                // Affichage de l'image
                 Image(
-                    painter = painterResource(id = randomImage), // L'image du spot de surf
-                    contentDescription = "Image de ${spot.destination}", // Description de l'image
-                    modifier = Modifier
-                        .size(285.dp) // Définit la taille de l'image
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(56.dp))
+                    painter = painterResource(id = randomImage),
+                    contentDescription = "Image de ${spot.destination}",
+                    modifier = Modifier.size(285.dp).fillMaxWidth().clip(RoundedCornerShape(56.dp))
                 )
 
-                // Affichage des informations supplémentaires sur le spot
-                Text(
-                    text = "adresse : ${spot.address}",
-                    modifier = Modifier.padding(top = 4.dp)
-                )
-                Text(
-                    text = "Difficulté : ${spot.difficultyLevel}",
-                    modifier = Modifier.padding(top = 4.dp)
-                )
+                Text(text = "Adresse : ${spot.address}", modifier = Modifier.padding(top = 4.dp))
+                Text(text = "Difficulté : ${spot.difficultyLevel}", modifier = Modifier.padding(top = 4.dp))
                 Text(
                     text = "Surf Break : ${spot.surfBreak.get(0)}",
                     modifier = Modifier.padding(top = 4.dp, bottom = 8.dp)
                 )
+
+                Button(onClick = { navController.navigate("testScreen") }) {
+                    Text("Go to Test Screen")
+                }
             }
         }
     }
 }
 
 @Composable
-fun NavigationBarWithButtons() {
-    val sable =
-        colorResource(id = R.color.Sable) // Récupère la couleur "Sable" définie dans les ressources
-    Log.d("Debug", sable.toString()) // Log pour vérifier la valeur de la couleur
+fun TestScreen() {
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        Text("Test Screen", color = Color.Black)
+    }
+}
 
-    Box(
-        modifier = Modifier
-            .fillMaxWidth()
-            .background(sable.copy(alpha = 0.8f)) // Applique la couleur de fond avec un peu de transparence
-    ) {
-        NavigationBar(
-            modifier = Modifier.height(90.dp) // Définit la hauteur de la barre de navigation
-        ) {
+@Composable
+fun NavigationBarWithButtons(navController: NavController) {
+    val sable = colorResource(id = R.color.Sable)
+
+    Box(modifier = Modifier.fillMaxWidth().background(sable.copy(alpha = 0.8f))) {
+        NavigationBar(modifier = Modifier.height(90.dp)) {
             Row(
-                modifier = Modifier.fillMaxWidth(), // La Row prend toute la largeur
-                horizontalArrangement = Arrangement.Center, // Centre les éléments horizontalement
-                verticalAlignment = Alignment.CenterVertically // Centre les éléments verticalement
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.Center,
+                verticalAlignment = Alignment.CenterVertically
             ) {
-                // Bouton Home
-                IconButton(onClick = {}) {
+                IconButton(onClick = { navController.navigate("surfSpotList") }) {
                     Icon(Icons.Filled.Home, contentDescription = "Home")
                 }
 
-                // Espacement entre les boutons
                 Spacer(modifier = Modifier.width(32.dp))
 
-                // Bouton Edit
                 IconButton(onClick = {}) {
                     Icon(Icons.Filled.Edit, contentDescription = "Edit")
                 }
@@ -320,19 +286,15 @@ fun NavigationBarWithButtons() {
 @Composable
 fun SearchBar() {
     Column(
-        modifier = Modifier
-            .fillMaxWidth() // Prend toute la largeur
-            .fillMaxHeight(), // Prend toute la hauteur
-        verticalArrangement = Arrangement.Top, // Aligne tout en haut
-        horizontalAlignment = Alignment.CenterHorizontally // Centre horizontalement
+        modifier = Modifier.fillMaxWidth().fillMaxHeight(),
+        verticalArrangement = Arrangement.Top,
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
         TextField(
             value = "",
             onValueChange = {},
             placeholder = { Text("Search...") },
-            modifier = Modifier
-                .fillMaxWidth() // Le champ prend toute la largeur
-                .height(48.dp) // Hauteur du champ de texte
+            modifier = Modifier.fillMaxWidth().height(48.dp)
         )
     }
 }

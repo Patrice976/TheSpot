@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-60:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-66:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\Desktop\\TheSpotFront\\app\\src\\main\\res\\values-night\\styles.xml",
