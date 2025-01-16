@@ -131,29 +131,25 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Utilisation de setContent dans onCreate pour configurer l'UI Jetpack Compose
         setContent {
-            val navController = rememberNavController() // Crée un contrôleur de navigation
-
-            // États pour gérer les données
             val surfSpots = remember { mutableStateOf<List<SurfSpotRecord>>(emptyList()) }
             val isLoading = remember { mutableStateOf(true) }
             val errorState = remember { mutableStateOf<String?>(null) }
 
-            // Appel Retrofit pour récupérer les données
+            // Appel à l'API pour récupérer les spots de surf
             RetrofitClient.apiService.getSurfSpot().enqueue(object : Callback<SurfSpotResponse> {
                 override fun onResponse(call: Call<SurfSpotResponse>, response: Response<SurfSpotResponse>) {
                     isLoading.value = false
                     if (response.isSuccessful) {
                         surfSpots.value = response.body()?.data ?: emptyList()
                     } else {
-                        errorState.value = "Erreur : ${response.code()} - ${response.message()}"
+                        errorState.value = "Erreur serveur : ${response.code()}"
                     }
                 }
 
                 override fun onFailure(call: Call<SurfSpotResponse>, t: Throwable) {
                     isLoading.value = false
-                    errorState.value = "Erreur : ${t.message}"
+                    errorState.value = "Erreur connexion : ${t.message}"
                 }
             })
 
@@ -161,7 +157,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     topBar = { SearchBar() },
-                    bottomBar = { NavigationBarWithButtons(navController) }
+                    bottomBar = { NavigationBarWithButtons() }
                 ) { innerPadding ->
                     Box(modifier = Modifier.fillMaxSize().padding(innerPadding)) {
                         if (isLoading.value) {
@@ -169,20 +165,9 @@ class MainActivity : ComponentActivity() {
                                 CircularProgressIndicator()
                             }
                         } else if (errorState.value != null) {
-                            Text(
-                                text = "Erreur : ${errorState.value}",
-                                color = Color.Red
-                            )
+                            Text(text = "Erreur : ${errorState.value}", color = Color.Red)
                         } else {
-                            // Configuration de la navigation
-                            NavHost(navController = navController, startDestination = "surfSpotList") {
-                                composable("surfSpotList") {
-                                    Screen(surfSpots.value, navController) // Affiche les spots de surf
-                                }
-                                composable("testScreen") {
-                                    TestScreen() // Écran de test
-                                }
-                            }
+                            DisplayAllSpots(surfSpots.value)
                         }
                     }
                 }
@@ -192,26 +177,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Screen(surfSpots: List<SurfSpotRecord>, navController: NavController) {
-    Image(
-        painter = painterResource(id = R.drawable.main_background),
-        contentDescription = "Une planche plantée dans du sable",
-        contentScale = ContentScale.FillBounds,
-        modifier = Modifier.fillMaxSize()
-    )
-    Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
-        DisplaySurfSpots(surfSpots, navController)
-    }
-}
-
-@Composable
-fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>, navController: NavController) {
+fun DisplayAllSpots(surfSpots: List<SurfSpotRecord>) {
     Column(modifier = Modifier.fillMaxSize()) {
         surfSpots.forEach { spot ->
             val drawableImages = listOf(
-                R.drawable.surf_spot_1, R.drawable.surf_spot_2, R.drawable.surf_spot_3,
-                R.drawable.surf_spot_4, R.drawable.surf_spot_5, R.drawable.surf_spot_6,
-                R.drawable.surf_spot_7, R.drawable.surf_spot_8, R.drawable.surf_spot_9
+                R.drawable.surf_spot_1, R.drawable.surf_spot_2, R.drawable.surf_spot_3
             )
             val randomImage = drawableImages.random()
 
@@ -223,43 +193,34 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>, navController: NavControll
                     .background(Color.White.copy(alpha = 0.8f)),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Box(
-                    modifier = Modifier.fillMaxWidth().height(60.dp),
-                    contentAlignment = Alignment.Center
-                ) {
-                    Text(text = spot.destination, fontWeight = FontWeight.Bold)
-                }
+                Text(
+                    text = spot.destination,
+                    fontWeight = FontWeight.Bold,
+                    modifier = Modifier.padding(8.dp)
+                )
 
                 Image(
                     painter = painterResource(id = randomImage),
                     contentDescription = "Image de ${spot.destination}",
-                    modifier = Modifier.size(285.dp).fillMaxWidth().clip(RoundedCornerShape(56.dp))
+                    modifier = Modifier
+                        .size(285.dp)
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(56.dp))
                 )
 
                 Text(text = "Adresse : ${spot.address}", modifier = Modifier.padding(top = 4.dp))
                 Text(text = "Difficulté : ${spot.difficultyLevel}", modifier = Modifier.padding(top = 4.dp))
                 Text(
-                    text = "Surf Break : ${spot.surfBreak.get(0)}",
+                    text = "Surf Break : ${spot.surfBreak.firstOrNull() ?: "Non défini"}",
                     modifier = Modifier.padding(top = 4.dp, bottom = 8.dp)
                 )
-
-                Button(onClick = { navController.navigate("testScreen") }) {
-                    Text("Go to Test Screen")
-                }
             }
         }
     }
 }
 
 @Composable
-fun TestScreen() {
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Text("Test Screen", color = Color.Black)
-    }
-}
-
-@Composable
-fun NavigationBarWithButtons(navController: NavController) {
+fun NavigationBarWithButtons() {
     val sable = colorResource(id = R.color.Sable)
 
     Box(modifier = Modifier.fillMaxWidth().background(sable.copy(alpha = 0.8f))) {
@@ -269,7 +230,7 @@ fun NavigationBarWithButtons(navController: NavController) {
                 horizontalArrangement = Arrangement.Center,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                IconButton(onClick = { navController.navigate("surfSpotList") }) {
+                IconButton(onClick = {}) {
                     Icon(Icons.Filled.Home, contentDescription = "Home")
                 }
 
@@ -298,3 +259,4 @@ fun SearchBar() {
         )
     }
 }
+
