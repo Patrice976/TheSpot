@@ -1,63 +1,60 @@
 package com.example.myapplication
 
 // Importation des classes nécessaires à l'application Android et à la gestion de l'interface utilisateur
-import android.os.Bundle                 // Permet d'utiliser la classe Bundle (stockage de données d'activité)
-import android.util.Log                   // Permet d'utiliser les logs pour le débogage
+import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
-import androidx.activity.ComponentActivity  // Permet de créer une activité principale utilisant Jetpack Compose
-import androidx.activity.compose.setContent  // Permet de définir le contenu de l'activité avec Jetpack Compose
-import androidx.activity.enableEdgeToEdge   // Permet d'activer un design de type "edge-to-edge" (sans bordures)
-import androidx.benchmark.perfetto.Row     // Importation pour les benchmarks de performance
-import androidx.compose.foundation.Image    // Permet d'afficher une image dans l'UI
-import androidx.compose.foundation.background // Permet d'ajouter une couleur de fond à un composant
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement // Permet de gérer l'alignement des éléments dans des conteneurs
-import androidx.compose.foundation.layout.Box  // Permet de créer un conteneur flexible pour positionner des éléments
-import androidx.compose.foundation.layout.Column // Permet de disposer les éléments verticalement dans une colonne
-import androidx.compose.foundation.layout.Row    // Permet de disposer les éléments horizontalement dans une ligne
-import androidx.compose.foundation.layout.Spacer // Permet de créer un espace vide entre les éléments
-import androidx.compose.foundation.layout.fillMaxHeight // Permet de remplir la hauteur d'un conteneur
-import androidx.compose.foundation.layout.fillMaxSize // Permet de remplir entièrement l'espace d'un conteneur
-import androidx.compose.foundation.layout.fillMaxWidth // Permet de remplir la largeur d'un conteneur
-import androidx.compose.foundation.layout.height    // Permet de spécifier une hauteur pour un composant
-import androidx.compose.foundation.layout.padding   // Permet d'ajouter un espacement (padding) autour d'un composant
-import androidx.compose.foundation.layout.size      // Permet de définir la taille d'un composant
-import androidx.compose.foundation.layout.width     // Permet de spécifier une largeur pour un composant
-import androidx.compose.foundation.lazy.LazyColumn  // Permet de créer une liste qui charge les éléments de manière paresseuse (lazy loading)
-import androidx.compose.foundation.rememberScrollState // Permet de mémoriser l'état du défilement d'une liste
-import androidx.compose.foundation.shape.RoundedCornerShape // Permet de créer des coins arrondis pour les composants
-import androidx.compose.foundation.verticalScroll  // Permet de faire défiler les éléments verticalement
-import androidx.compose.material.icons.Icons        // Permet d'utiliser les icônes Material Design
-import androidx.compose.material.icons.filled.Edit  // Icône pour un bouton de modification (édition)
-import androidx.compose.material.icons.filled.Home  // Icône pour un bouton d'accueil
-import androidx.compose.material.icons.filled.Search // Icône pour un bouton de recherche
-import androidx.compose.material3.*                // Importation des composants Material 3 pour l'UI
-import androidx.compose.material3.TextField       // Permet de créer un champ de texte pour la saisie de l'utilisateur
-import androidx.compose.material3.TextFieldDefaults // Permet de définir des valeurs par défaut pour un champ de texte
-import androidx.compose.runtime.Composable       // Annotation utilisée pour marquer une fonction composable (UI déclarative)
-import androidx.compose.runtime.mutableStateOf   // Permet de définir un état mutable dans un composable
-import androidx.compose.ui.Alignment             // Permet de spécifier l'alignement des éléments dans l'UI
-import androidx.compose.ui.Modifier              // Permet d'appliquer des modifications à un composant
-import androidx.compose.ui.draw.clip             // Permet de rogner les bords d'un composant (par exemple, coins arrondis)
-import androidx.compose.ui.graphics.Color       // Permet de définir une couleur pour un composant
-import androidx.compose.ui.layout.ContentScale  // Permet de spécifier comment une image doit être mise à l'échelle
-import androidx.compose.ui.res.colorResource    // Permet d'utiliser des couleurs définies dans les ressources XML
-import androidx.compose.ui.res.painterResource  // Permet de charger une image depuis les ressources
-import androidx.compose.ui.text.font.FontWeight // Permet de spécifier le poids de la police pour le texte
-import androidx.compose.ui.unit.dp               // Permet de spécifier des dimensions (comme des marges, tailles) en dp (density-independent pixels)
-import androidx.core.content.ContextCompat      // Permet d'utiliser les ressources contextuelles comme les couleurs ou les ressources matérielles
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
 import androidx.test.core.app.ApplicationProvider
-import com.example.myapplication.ui.theme.MyApplicationTheme // Permet d'appliquer le thème personnalisé de l'application
-import com.google.gson.annotations.SerializedName // Permet d'annoter les champs d'un objet pour la sérialisation/desérialisation JSON avec Gson
-import org.json.JSONObject                    // Permet de manipuler des objets JSON
-import retrofit2.Call                         // Permet de gérer les appels réseau avec Retrofit
-import retrofit2.http.GET                     // Permet de définir des requêtes HTTP GET
-import retrofit2.http.Headers                // Permet de spécifier des en-têtes HTTP dans une requête
-import retrofit2.http.Query                  // Permet de spécifier des paramètres de requête dans une URL
-import retrofit2.Retrofit                    // Permet de créer une instance de Retrofit pour effectuer des requêtes réseau
-import retrofit2.converter.gson.GsonConverterFactory // Permet de convertir les réponses en objets Java/Kotlin à l'aide de Gson
-import retrofit2.Callback                    // Permet de gérer les réponses asynchrones des requêtes réseau
-import retrofit2.Response                    // Permet de gérer les réponses de Retrofit à une requête
+import coil.compose.AsyncImage
+import com.example.myapplication.ui.theme.MyApplicationTheme
+import com.google.gson.annotations.SerializedName
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.http.GET
 
 data class SurfSpotResponse(
     @SerializedName("data") val data: List<SurfSpotRecord> // La liste de records dans la clé "data"
@@ -115,7 +112,7 @@ interface SurfSpotApi {
 object RetrofitClient {
     val apiService: SurfSpotApi by lazy {
         Retrofit.Builder()
-            .baseUrl("http://127.0.0.1:6000") // URL de base de l'API Airtable
+            .baseUrl("http://192.168.75.183:6000") // URL de base de l'API Airtable
             //.baseUrl("http://10.0.2.2:6000") // URL pour renvoyer le localhost de android sur le localhost du PC.
             .addConverterFactory(GsonConverterFactory.create()) // Convertisseur JSON en objet Kotlin avec Gson
             .build() // Construction de l'instance Retrofit
@@ -128,10 +125,12 @@ object IdGetter {
 //déclaration de la varaible qui contiendra la valeur de l'id du spot
     var selectedSpotId: Int? = null
     fun SpotId(spotId: Int) {
+        Log.d("clickOnSpot", "event listner enable")
         //mémorisation de l'ID du spot selectionné
         selectedSpotId = spotId
-        //affiché à l'écrant la data récupéré
-        Toast.makeText(ApplicationProvider.getApplicationContext(), "Spot sélectionné: $spotId", Toast.LENGTH_SHORT).show()
+
+        Log.d("clickOnSpot", "The spotID selected is ${selectedSpotId} ")
+
     }
 }
 
@@ -141,6 +140,11 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge() // Active l'affichage sans bordures inutiles (plein écran)
+
+        // Capture globale des exceptions
+        Thread.setDefaultUncaughtExceptionHandler { thread, exception ->
+            Log.e("GlobalErrorHandler", "Erreur non interceptée : ${exception.message}", exception)
+        }
 
         // Déclaration des états réactifs pour gérer les données, le chargement et les erreurs
         val surfSpots =
@@ -180,6 +184,7 @@ class MainActivity : ComponentActivity() {
         // Configuration de l'interface utilisateur avec Jetpack Compose
         setContent {
             MyApplicationTheme { // Applique le thème de l'application
+                Log.d("connexion", "application lancée")
 
                 Scaffold(
                     modifier = Modifier.fillMaxSize(), // Utilise tout l'espace disponible pour l'interface
@@ -226,6 +231,91 @@ fun Screen(surfSpots: List<SurfSpotRecord>) {
     Column(modifier = Modifier.verticalScroll(rememberScrollState())) { DisplaySurfSpots(surfSpots) }
 }
 
+
+@Composable
+fun OneSpotHighlight(
+    spotId: Int,
+    title: String = "Default Surf Spot",
+    imageUrl: String = "https://via.placeholder.com/400x200", // Image par défaut
+    surfBreak: String = "Point Break",
+    difficulty: Int = 3, // Difficulté sur 5
+    startSeason: String = "April",
+    endSeason: String = "September",
+    address: String = "123 Surf Street, Beach City"
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.Black.copy(alpha = 0.7f))
+            .padding(16.dp)
+    ) {
+        Text(
+            text = "Spot Highlight",
+            modifier = Modifier.padding(bottom = 16.dp)
+        )
+
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clip(RoundedCornerShape(16.dp))
+                .background(Color.White.copy(alpha = 0.9f))
+                .padding(16.dp)
+        ) {
+            Text(
+                text = title,
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+
+            AsyncImage(
+                model = imageUrl,
+                contentDescription = "Spot Image",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(200.dp)
+                    .clip(RoundedCornerShape(8.dp))
+                    .background(Color.Gray)
+                    .padding(bottom = 16.dp)
+            )
+
+            Text(
+                text = "Surf Break: $surfBreak",
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(bottom = 8.dp)
+            ) {
+                Text(
+                    text = "Difficulty:",
+                    modifier = Modifier.padding(end = 8.dp)
+                )
+                for (i in 1..5) {
+                    Icon(
+                        imageVector = Icons.Default.Star,
+                        contentDescription = "Star $i",
+                        tint = if (i <= difficulty) Color.Yellow else Color.Gray,
+                        modifier = Modifier.size(20.dp)
+                    )
+                }
+            }
+
+            Text(
+                text = "Season: $startSeason - $endSeason",
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+
+            Text(
+                text = "Address: $address",
+            )
+        }
+    }
+    }
+
+
+
+
 @Composable
 
 fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>,) {
@@ -259,7 +349,7 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>,) {
                     .padding(16.dp)
                     .clip(RoundedCornerShape(80.dp))
                     .background(Color.White.copy(alpha = 0.8f))
-                    .clickable { IdGetter.SpotId(index) },
+                    .clickable { IdGetter.SpotId(index)},
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Box(
@@ -339,23 +429,25 @@ fun NavigationBarWithButtons() {
         }
     }
 }
+    @Composable
+    fun SearchBar() {
+        // État local pour stocker la valeur du champ de recherche
+        var searchText by remember { mutableStateOf("") }
 
-@Composable
-fun SearchBar() {
-    Column(
-        modifier = Modifier
-            .fillMaxWidth() // Prend toute la largeur
-            .fillMaxHeight(), // Prend toute la hauteur
-        verticalArrangement = Arrangement.Top, // Aligne tout en haut
-        horizontalAlignment = Alignment.CenterHorizontally // Centre horizontalement
-    ) {
-        TextField(
-            value = "",
-            onValueChange = {},
-            placeholder = { Text("Search...") },
+        Column(
             modifier = Modifier
-                .fillMaxWidth() // Le champ prend toute la largeur
-                .height(48.dp) // Hauteur du champ de texte
-        )
+                .fillMaxWidth() // Prend toute la largeur
+                .wrapContentHeight(), // S'ajuste à la hauteur du contenu
+            verticalArrangement = Arrangement.Top, // Aligne tout en haut
+            horizontalAlignment = Alignment.CenterHorizontally // Centre horizontalement
+        ) {
+            TextField(
+                value = searchText, // Utilise l'état local
+                onValueChange = { newValue -> searchText = newValue }, // Met à jour l'état
+                placeholder = { Text("Search...") },
+                modifier = Modifier
+                    .fillMaxWidth() // Le champ prend toute la largeur
+                    .height(48.dp) // Hauteur du champ de texte
+            )
+        }
     }
-}
