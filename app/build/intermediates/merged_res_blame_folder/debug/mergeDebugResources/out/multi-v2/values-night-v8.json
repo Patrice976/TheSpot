@@ -4,7 +4,7 @@
             "outputFile": "com.example.myapplication.app-mergeDebugResources-66:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ada Tech School\\Desktop\\TheSpot\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\Utilisateur\\Desktop\\TheSpot\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

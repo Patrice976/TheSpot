@@ -45,7 +45,6 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.test.core.app.ApplicationProvider
 import coil.compose.AsyncImage
 import com.example.myapplication.ui.theme.MyApplicationTheme
 import com.google.gson.annotations.SerializedName
@@ -112,7 +111,7 @@ interface SurfSpotApi {
 object RetrofitClient {
     val apiService: SurfSpotApi by lazy {
         Retrofit.Builder()
-            .baseUrl("http://192.168.75.183:6000") // URL de base de l'API Airtable
+            .baseUrl("http://192.168.1.17:6000") // URL de base de l'API Airtable
             //.baseUrl("http://10.0.2.2:6000") // URL pour renvoyer le localhost de android sur le localhost du PC.
             .addConverterFactory(GsonConverterFactory.create()) // Convertisseur JSON en objet Kotlin avec Gson
             .build() // Construction de l'instance Retrofit
