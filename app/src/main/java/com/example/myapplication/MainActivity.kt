@@ -450,3 +450,75 @@ fun NavigationBarWithButtons() {
             )
         }
     }
+
+@Composable
+fun OneSpot(spot: SurfSpotRecord) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp)
+            .verticalScroll(rememberScrollState())
+    ){
+        Text(
+            text = spot.fields.destination ?: "Destination inconnue",
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Image(
+            painter = painterResource(id = R.drawable.surf_spot_1),
+            contentDescription = "Image de ${spot.fields.destination}",
+            modifier = Modifier
+                .fillMaxWidth()
+                .clip(RoundedCornerShape(16.dp))
+        )
+
+        Text(
+            text = "Adresse : ${spot.fields.address ?: "Non disponible"}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        Text(
+            text = "Niveau de difficulté : ${spot.fields.difficulty}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        Text(
+            text = "Surf Break : ${spot.fields.surfBreak?.joinToString() ?: "Non disponible"}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        Text(
+            text = "Peak Begins : ${spot.fields.peakBegins}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        Text(
+            text = "Peak Ends : ${spot.fields.peakEnds}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        Text(
+            text = "Magic Seaweed Link : ${spot.fields.magicSeaweedLink}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        Text(
+            text = "Influenceurs : ${spot.fields.influencers?.joinToString() ?: "Non disponible"}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        Text(
+            text = "Voyageurs : ${spot.fields.travellers?.joinToString() ?: "Non disponible"}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+
+        Text(
+            text = "Geocode : ${spot.fields.geocode}",
+            style = MaterialTheme.typography.bodyLarge
+        )
+    }
+}
+
