@@ -88,4 +88,6 @@ dependencies {
     implementation(libs.coil.compose.v240)
 
     implementation (libs.androidx.multidex)
+
+    implementation (libs.androidx.navigation.compose)
 }
