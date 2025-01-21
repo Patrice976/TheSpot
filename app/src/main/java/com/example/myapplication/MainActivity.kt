@@ -460,7 +460,7 @@ fun OneSpot(spot: SurfSpotRecord) {
             .verticalScroll(rememberScrollState())
     ){
         Text(
-            text = spot.fields.destination ?: "Destination inconnue",
+            text = spot.destination ?: "Destination inconnue",
             style = MaterialTheme.typography.headlineMedium,
             fontWeight = FontWeight.Bold
         )
@@ -469,54 +469,49 @@ fun OneSpot(spot: SurfSpotRecord) {
 
         Image(
             painter = painterResource(id = R.drawable.surf_spot_1),
-            contentDescription = "Image de ${spot.fields.destination}",
+            contentDescription = "Image de ${spot.destination}",
             modifier = Modifier
                 .fillMaxWidth()
                 .clip(RoundedCornerShape(16.dp))
         )
 
         Text(
-            text = "Adresse : ${spot.fields.address ?: "Non disponible"}",
+            text = "Adresse : ${spot.address ?: "Non disponible"}",
             style = MaterialTheme.typography.bodyLarge
         )
 
         Text(
-            text = "Niveau de difficulté : ${spot.fields.difficulty}",
+            text = "Niveau de difficulté : ${spot.difficultyLevel}",
             style = MaterialTheme.typography.bodyLarge
         )
 
         Text(
-            text = "Surf Break : ${spot.fields.surfBreak?.joinToString() ?: "Non disponible"}",
+            text = "Surf Break : ${spot.surfBreak.joinToString() ?: "Non disponible"}",
             style = MaterialTheme.typography.bodyLarge
         )
 
         Text(
-            text = "Peak Begins : ${spot.fields.peakBegins}",
+            text = "Peak Begins : ${spot.peakBegins}",
             style = MaterialTheme.typography.bodyLarge
         )
 
         Text(
-            text = "Peak Ends : ${spot.fields.peakEnds}",
+            text = "Peak Ends : ${spot.peakEnds}",
             style = MaterialTheme.typography.bodyLarge
         )
 
         Text(
-            text = "Magic Seaweed Link : ${spot.fields.magicSeaweedLink}",
+            text = "Magic Seaweed Link : ${spot.magicSeaweedLink}",
             style = MaterialTheme.typography.bodyLarge
         )
 
         Text(
-            text = "Influenceurs : ${spot.fields.influencers?.joinToString() ?: "Non disponible"}",
+            text = "Influenceurs : ${spot.influencers.joinToString() ?: "Non disponible"}",
             style = MaterialTheme.typography.bodyLarge
         )
 
         Text(
-            text = "Voyageurs : ${spot.fields.travellers?.joinToString() ?: "Non disponible"}",
-            style = MaterialTheme.typography.bodyLarge
-        )
-
-        Text(
-            text = "Geocode : ${spot.fields.geocode}",
+            text = "Geocode : ${spot.geocode}",
             style = MaterialTheme.typography.bodyLarge
         )
     }
