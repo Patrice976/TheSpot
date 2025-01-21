@@ -1,0 +1,5 @@
+C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\java\com\example\myapplication\ui\theme\Theme.kt
+C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\java\com\example\myapplication\ui\theme\Type.kt
+C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\java\com\example\myapplication\MainActivity.kt
+C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\java\com\example\myapplication\ui\theme\Color.kt
+C:\Users\tipha\AndroidStudioProjects\TheSpot\app\src\main\java\com\example\myapplication\HomePage.kt
