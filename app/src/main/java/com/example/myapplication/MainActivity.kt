@@ -360,6 +360,7 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>,) {
                     Text(
                         text = spot.destination, // Affiche le nom de la destination
                         fontWeight = FontWeight.Bold, // Applique une graisse au texte
+                        color = Color.Black
                     )
                 }
 
@@ -376,15 +377,21 @@ fun DisplaySurfSpots(surfSpots: List<SurfSpotRecord>,) {
                 // Affichage des informations supplémentaires sur le spot
                 Text(
                     text = "adresse : ${spot.address}",
-                    modifier = Modifier.padding(top = 4.dp)
+                    modifier = Modifier.padding(top = 4.dp),
+                    color = Color.Black
+
                 )
                 Text(
                     text = "Difficulté : ${spot.difficultyLevel}",
-                    modifier = Modifier.padding(top = 4.dp)
+                    modifier = Modifier.padding(top = 4.dp),
+                    color = Color.Black
+
                 )
                 Text(
                     text = "Surf Break : ${spot.surfBreak.get(0)}",
-                    modifier = Modifier.padding(top = 4.dp, bottom = 8.dp)
+                    modifier = Modifier.padding(top = 4.dp, bottom = 8.dp),
+                    color = Color.Black
+
                 )
             }
         }
@@ -477,42 +484,58 @@ fun OneSpot(spot: SurfSpotRecord) {
 
         Text(
             text = "Adresse : ${spot.address ?: "Non disponible"}",
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyLarge,
+            color = Color.Black
+
         )
 
         Text(
             text = "Niveau de difficulté : ${spot.difficultyLevel}",
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyLarge,
+            color = Color.Black
+
         )
 
         Text(
             text = "Surf Break : ${spot.surfBreak.joinToString() ?: "Non disponible"}",
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyLarge,
+            color = Color.Black
+
         )
 
         Text(
             text = "Peak Begins : ${spot.peakBegins}",
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyLarge,
+            color = Color.Black
+
         )
 
         Text(
             text = "Peak Ends : ${spot.peakEnds}",
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyLarge,
+            color = Color.Black
+
         )
 
         Text(
             text = "Magic Seaweed Link : ${spot.magicSeaweedLink}",
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyLarge,
+            color = Color.Black
+
         )
 
         Text(
             text = "Influenceurs : ${spot.influencers.joinToString() ?: "Non disponible"}",
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyLarge,
+            color = Color.Black
+
         )
 
         Text(
             text = "Geocode : ${spot.geocode}",
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyLarge,
+            color = Color.Black
+
         )
     }
 }
